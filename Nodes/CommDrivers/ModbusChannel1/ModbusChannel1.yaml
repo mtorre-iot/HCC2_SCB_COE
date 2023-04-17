@@ -1,0 +1,41 @@
+Name: ModbusChannel1
+Id: g=9b3e1b5398b99e3233a13ad88a1ba8e8
+Type: ModbusDriver
+Children:
+- Name: Protocol
+  Id: g=d0d7214422a5e767df16d4dc653b19bb
+  Type: BaseDataVariableType
+  DataType: ModbusProtocol
+  Value: 0
+- Name: SerialPort
+  Id: g=8613a46733a51252dce5bf71b82fcfd6
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "COM1"
+- Name: Baudrate
+  Id: g=5e3fed91e25a5e0f6c38a30d14d53071
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 9600
+- Name: DataSize
+  Id: g=f1da5bec9b89c7f37bd0766d1a3ce733
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 8
+- Name: Parity
+  Id: g=6532c32e3aeafdb249ba29cb02061371
+  Type: BaseDataVariableType
+  DataType: Parity
+  Value: 0
+- Name: StopBits
+  Id: g=05daf1110a53bb8e230d3f4407195933
+  Type: BaseDataVariableType
+  DataType: StopBits
+  Value: 0
+- Name: FlowControl
+  Id: g=6f31e1ef4ec454dea5532cef62947b8a
+  Type: BaseDataVariableType
+  DataType: FlowControl
+  Value: 0
+- File: IOModule/IOModule.yaml
+- File: PICv2/PICv2.yaml

@@ -1,0 +1,66 @@
+#region Using directives
+using System;
+using UAManagedCore;
+using OpcUa = UAManagedCore.OpcUa;
+using FTOptix.HMIProject;
+using FTOptix.DataLogger;
+using FTOptix.NetLogic;
+using FTOptix.UI;
+using FTOptix.NativeUI;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.OPCUAServer;
+using FTOptix.Modbus;
+using FTOptix.Retentivity;
+using FTOptix.CoreBase;
+using FTOptix.Alarm;
+using FTOptix.CommunicationDriver;
+using FTOptix.Core;
+#endregion
+
+[ExportMethod]
+    public void SendAlarmInfoToContext(NodeId alarmNodeId, NodeId contextNodeId)
+    {
+        // get alarm object
+        var alarmObject = LogicObject.Context.GetObject(alarmNodeId); 
+        if (alarmObject == null) 
+        {
+            throw new Exception("Object with NodeId: " + alarmNodeId.ToString() + " NOT found");
+        }
+        // get context object
+        var contextObject = (AlarmActionContextType) LogicObject.Context.GetObject(contextNodeId); 
+        if (contextObject == null) 
+        {
+            throw new Exception("Object with NodeId: " + contextNodeId.ToString() + " NOT found");
+        }
+        //
+        // Put the alarm name into the context object
+        //
+        contextObject.AlarmName = alarmObject.BrowseName;
+        Log.Info("arrived here " + contextObject.AlarmName);
+        //
+        // Get the context object in a different way...
+        //
+        string contextObj2Str = "UI/Screens/AlarmManagementPanel/AlarmListPanel1/AlarmActionContext";
+        var contextObj2 = (AlarmActionContextType) Project.Current.GetObject(contextObj2Str);
+        if (contextObj2 == null) 
+        {
+            throw new Exception("Object with name: " + contextObj2Str + " NOT found");
+        }
+        contextObj2.AlarmName = alarmObject.BrowseName;
+        Log.Info("arrived here 2 " + contextObj2.AlarmName);
+        //
+        ///////////////////////////////////////////////////////////////////
+        //
+        // Let's try one more way....
+        //
+        string contextObj3Str = "AlarmManagementPanel/AlarmListPanel1/AlarmActionContext";
+        var contextObj3 = (AlarmActionContextType) Owner.GetObject(contextObj3Str);
+        if (contextObj3 == null) 
+        {
+            throw new Exception("Object with name: " + contextObj2Str + " NOT found");
+        }
+                contextObj3.AlarmName = alarmObject.BrowseName;
+        Log.Info("arrived here 2 " + contextObj2.AlarmName);
+    }   
+}

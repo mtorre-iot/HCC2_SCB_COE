@@ -1,0 +1,84 @@
+Name: HCC2_SCB_2
+Id: g=b48095aef6a686b48e99693a9e44b389
+Type: ProjectFolder
+Children:
+- Name: BranchingEnabled
+  Id: g=7db35a8f22ea2b5db6fcd57ae4ac1656
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: PasswordPolicy
+  Id: g=af7765410644bdca7130ca12bc469e65
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=a9168115e886b97a26488ca0544ee3c0
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=e15e116ee2e62d9f1a84a1e1b29fb6e3
+    Type: PropertyType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=f26cbc5baf0c56e4c0b116f6360a728b
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=f80e03df17b2ea6b7b4283cf66ac8cbe
+    Type: PropertyType
+    DataType: Byte
+    Value: 8
+- Name: Locales
+  Id: g=7dc482ea1dc5b3e6d7d86868f8c7c9ca
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["en-US"]
+- Name: LocaleFallbackList
+  Id: g=31e546191e0fdb475719d1728f58d4fd
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["en-US"]
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: DefaultUserFolder
+  Id: g=4778d1fa7bd6d9e234e8e89eba3d766b
+  Type: NodePointer
+  DataType: NodeId
+  Value: {"IdType":2,"Id":"405c538274d74852507ef303fb9b6532","Namespace":28}
+  Children:
+  - Name: Kind
+    Id: g=8e86cfc8e523dc2ff684c6d91bac8cf3
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"Id":61}
+- Name: AuthenticationMode
+  Id: g=0d7e511bda9b2441b00793818301e9e2
+  Type: PropertyType
+  DataType: AuthenticationMode
+  ReferenceType: HasComponent
+  Value: 0
+- Name: MeasurementSystemMap
+  Id: g=810bbf661f440b6b73609e821b3c16f6
+  Type: BaseDataVariableType
+  DataType: MeasurementSystemMapItem
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []

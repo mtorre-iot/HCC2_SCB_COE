@@ -1,0 +1,66 @@
+Name: NetLogic
+Id: g=e627e1502ce9fb8bba8316ab6fb1d82d
+Type: FolderType
+Children:
+- Name: ExportTableData
+  Id: g=d492dcfc2f74478834f79400ca068ad3
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: ExportCSV
+    Id: g=29660641e0058f0be79b7041d6d45fd4
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=c9edbae7dc6061d9f67902eb0637237e
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"tableNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"dtFrom","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"dtTo","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: DateTimeFromPickerChange
+    Id: g=51378a2eaac0815727f8a41029404e6c
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=fc1b73032b8b2d70fe77290221dc41de
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"datePickerNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: DateTimeToPickerChange
+    Id: g=e89d2afb4f7f5aa85cbc68391daab6f8
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=badc5a31faaeb875dc62f320fe68f661
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"datePickerNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: InitializeDBTables
+  Id: g=28c8b9043c0a740fc940735edaf7968a
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: InitializeAlarmsOperationsTable
+    Id: g=1d2bef95fd68eedb424e860b8a3a3fcf
+- Name: RealTimeClockLogic
+  Id: g=fcc98e7173c813ef8579bf459c6fc81e
+  Type: NetLogic
+- Name: DesignTimeNetLogic1
+  Id: g=6fd8771ac4aea97508b4a8b16c0c03db
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=9151337e5aa8fd963b31c2b7f4450227
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+- Name: RuntimeNetLogic1
+  Id: g=ea339a9e740fc5f88e0c0b8369f0b2ef
+  Type: NetLogic

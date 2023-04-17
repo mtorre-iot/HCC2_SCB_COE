@@ -1,0 +1,31 @@
+Name: Calibration
+Id: g=eb1f69231cfd394c97cdbb0cb098837c
+Type: FolderType
+Children:
+- Name: CALI_COEF_FOR_MULTISEN_XT
+  Id: g=47a83d2b1a20e40f27e13feb6fc2e77b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=7493b4e769d677ab7a641cb2434c000f
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=ae190b7e7592905086f09b19af954869
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 532
+- Name: CALIBRATION_DATA(CAL KEY)
+  Id: g=ec6368d555ca180a3069f0a4aa32d893
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=12ec75cd0dabc3cff194f97706df03be
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1601

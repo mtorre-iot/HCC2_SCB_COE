@@ -1,0 +1,403 @@
+Name: DataStores
+Id: g=4b8ffbdec35dc92b27ea0ddf1e574828
+Type: FolderType
+Children:
+- Name: LocalDB
+  Id: g=933777e0dfcbbdcf07c99c009a602627
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=d03604e7ec90d364af01101d0e482e68
+    Type: BaseObjectType
+    Children:
+    - Name: DHT_DataLogger
+      Id: g=935bda21de46323821c69ca15be8fb3b
+      Type: SQLiteStoreTable
+      Children:
+      - Name: Columns
+        Id: g=cf133035bb290b3b58207ae8f87b82ea
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Id: g=8cfd0c2038cc59cd22a63edfdf59dfb9
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Id: g=5f298dbe6db117324b9d91e589148ac1
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: DHT_01
+          Id: g=b87f8c877a7d248febe925e4f779a4f4
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_02
+          Id: g=1b2848c21d47a75de9f467e4d37c88ba
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_03
+          Id: g=33c18c406cd2bd7944e28512e25ccf38
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_04
+          Id: g=360e41a3e052ae2cf772498fd136e5bb
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_05
+          Id: g=0271b6eec94f51c1daf7ea7d213c7ee2
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_06
+          Id: g=4363e8724453bfc96ad2095ad23277d5
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_07
+          Id: g=afa34597285634c8e192c93d08e89b18
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_08
+          Id: g=373ae249f27e14d4ea688b1052d0f8c0
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_09
+          Id: g=8176a74cfaab9ed9d9d14b2cdaad1b28
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_10
+          Id: g=2f712457a6253bc9be967350d7fa1531
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_11
+          Id: g=fa3b3e79e40d1714d41adf6d154e94c2
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_12
+          Id: g=7169cc203d6b7ae42c879d117eaab564
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_13
+          Id: g=5ea7839bcb9ca16f9b5b5d69fcfd0469
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_14
+          Id: g=53e709d1061e19ed26a72596a2a4c2b3
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_15
+          Id: g=647eb71a20b68513000d903f6c8ff4d2
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_16
+          Id: g=2743ae1852791d0eb425c9755c11efa5
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_17
+          Id: g=a809b7b15fca64d6cad74ce952920321
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_18
+          Id: g=770511078dfc10878197416e9c55ec04
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_19
+          Id: g=b2c568ab505b3b97288ca9e47bcff01d
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_20
+          Id: g=b36cebf9d88eff2c1b45e2ef8681502a
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_21
+          Id: g=eeef119bdbab08015c7b80f12032e3fc
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_22
+          Id: g=4c61f2dc576007a18e87bdedec59cbb0
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_23
+          Id: g=79b5329a9f199ff2e7d3cd0d5c37b1ca
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: DHT_24
+          Id: g=ffdf25d30c0d1eea617e2e6b22cc9f7e
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+      - Class: Reference
+        Target: ns=17;i=20
+      - Class: Reference
+        Target: ns=17;i=21
+      - Class: Reference
+        Target: ns=17;i=15
+      - Class: Reference
+        Target: ns=17;i=12
+    - Name: DHT_EventLogger
+      Id: g=c79e57ecabefebd5381fdb1fe1269683
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=17;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=98b59030c69fb9d7c50ed960c8bee2d3
+        Type: BaseObjectType
+        Children:
+        - Name: SourceName
+          Id: g=0d1f0e98d39a655f1de5704a81b6abfe
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: 'LimitState_CurrentState_en-US'
+          Id: g=f79ac61beab3f92de6a1cc6ef8fa0938
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Time
+          Id: g=4e25c21a03d194e1e0a2936266870c47
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+  - Name: MaxColumnNameLength
+    Id: g=9c97824f8b5270989a2b70b384370e2f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=d8b631a92c7bef13e783a36f6f08cd0a
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=403e8c53d8ca6f4f8f52fe7121727a4e
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=c700c13271cba02f694b9a910225b08b
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Name: Filename
+    Id: g=8344ef45005e3377b864ecd7e26f3e1d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Class: Reference
+    Target: ns=17;i=59
+  - Class: Reference
+    Target: ns=17;i=57
+  - Class: Reference
+    Target: ns=17;i=55
+  - Class: Reference
+    Target: ns=17;i=53
+  - Class: Reference
+    Target: ns=17;i=44
+  - Class: Reference
+    Target: ns=17;i=41
+  - Class: Reference
+    Target: ns=17;i=38
+  - Class: Reference
+    Target: ns=17;i=25
+  - Class: Reference
+    Target: ns=17;i=8
+  - Class: Reference
+    Target: ns=17;i=6
+  - Class: Reference
+    Target: ns=17;i=22
+  - Class: Reference
+    Target: ns=19;i=33
+  - Class: Reference
+    Target: ns=19;i=30
+- Name: AlarmsConfig
+  Id: g=eff3a37a18ded019662adf7464aef97d
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=ab3e5d0b9fda74d259d7520fc2fda340
+    Type: BaseObjectType
+    Children:
+    - Name: AlarmsParams
+      Id: g=bee3364371236c10e7a5f1b707c1fb1c
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=17;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=9c5154299a7c2040a2a103913dcfb2f6
+        Type: BaseObjectType
+        Children:
+        - Name: AlarmName
+          Id: g=d18bded9580e2ce73d53ebda050236fa
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: AlarmType
+          Id: g=7b25c8797a05a9543dad1271ddb76aa7
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: AlarmOperation
+          Id: g=64a173f0dbf8d350985783a766450fa2
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Setpoint
+          Id: g=45de41f4debcd6100b8b232a4acc67cd
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: TripTime
+          Id: g=b77a59b20a64bb2bcfc2042e04249462
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Restarts
+          Id: g=29e6c14522ce3ef48d45f959147da79b
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: RestartDelay
+          Id: g=d7d30681828a6f3ef1cf1015b18a1a54
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: AlarmsOperations
+      Id: g=f9bd0b72200bca187ae37ed38647fecb
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=17;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=858bdb6d3a3ec8a6858594cd6fdc6a3a
+        Type: BaseObjectType
+        Children:
+        - Name: AlarmOperation
+          Id: g=a0967d7b3ee683c93236576cde831597
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+  - Class: Reference
+    Target: ns=19;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=25778e4355e7d3efa536929f0a646505
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=b7fb0dabc7a9a63d2fb539e400118904
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=2e1f131b9c9b88a69b023904ff6cdb35
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=e9c7dbeaee2663e81612afa86e7761d7
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=17;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=59
+    Direction: Forward

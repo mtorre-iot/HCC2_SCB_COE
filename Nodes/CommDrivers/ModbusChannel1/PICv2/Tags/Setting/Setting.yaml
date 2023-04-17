@@ -1,0 +1,301 @@
+Name: Setting
+Id: g=c4a13ef6bb47cd942e40252916deda91
+Type: FolderType
+Children:
+- Name: SERIAL_PORT_0_PROTOCOL
+  Id: g=2094859a93d1033abac2140af904fe80
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=48f535ccf8947418ad793d5295eaaafb
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 25
+- Name: SERIAL_PORT_0_HARDWARE
+  Id: g=319654e415e3d3b63efee3e98d899418
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=3b2372d5271084ac9663eb1afd72c2cb
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 26
+- Name: SERIAL_PORT_0_PREKEY
+  Id: g=6be3dd813d41ca05107b9cff4bd7b6d2
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=9a58accc94071a478125ab9bdc043455
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 28
+- Name: SERIAL_PORT_0_POSTKEY
+  Id: g=d72c949bba923bd713c3db6ed742878e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=75f6f532ef5eb27a21f620e771f81ea3
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 29
+- Name: SERIAL_PORT_0_SITE_ID
+  Id: g=99ccbd23eb6ce1e0e61415b55516fd51
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=f77e39cdcd1303037a018ae6fc4f8604
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 30
+- Name: SERIAL_PORT_1_PROTOCOL
+  Id: g=31321dd3f2f7c05d93ff5cfe6c868587
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=b8c92a6104c7dd2987d5daa36fa9e6d0
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 33
+- Name: SERIAL_PORT_1_HARDWARE
+  Id: g=33f5e038a2725f1e377e0497f9845888
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=d0a5d75919722c162700746d2e1a1d9b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 35
+- Name: SERIAL_PORT_0_BAUD_RATE
+  Id: g=f002dfb384e89fe1e27ed96228a4d8fb
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=76972ed625a649373581a6b8e6319640
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 27
+- Name: SERIAL_PORT_1_BAUD_RATE
+  Id: g=7c75ac495e06547a835d0ea01b2db940
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=5737eca64e9639813af8d8886f953d22
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 35
+- Name: SERIAL_PORT_1_PREKEY
+  Id: g=7d66f1ea9e8f63fc0f68b6af26e2bf31
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=00ad8a7851ff978d1957f8cf389e7026
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 36
+- Name: SERIAL_PORT_1_POSTKEY
+  Id: g=ddbf66143da69e6199c7ec45e7d448a2
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=445169d44079dbcc76a5eb8c54f28e97
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 37
+- Name: SERIAL_PORT_1_SITE_ID
+  Id: g=7224bc61c05606466dbf87965514f81a
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=b15e22c9f27136f6aa8e24d30e6449f4
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 38
+- Name: SERIAL_PORT_2_PROTOCOL
+  Id: g=8a97e141c0c48d133d86cd2496cd5ba6
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=b2baffbef94ac5687a5893bcb7677ed0
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 41
+- Name: SERIAL_PORT_2_HARDWARE
+  Id: g=5c69769ae6b28b680876cdf2cd4a4ab7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=91005ad4e031eefd41dd4e3ed9a801ce
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 42
+- Name: SERIAL_PORT_2_BAUD_RATE
+  Id: g=f9501cd5a14ced1e708d2863fca1ba3b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=f93a5fd8619bc3d7e0be36b6245e9183
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 43
+- Name: SERIAL_PORT_2_PREKEY
+  Id: g=f215308e069657124cd2dc14a0899150
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=152a7aa7fa8f7bd5da317058606950e9
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 44
+- Name: SERIAL_PORT_2_POSTKEY
+  Id: g=2269149b71540ad2867e5e3be97d3d51
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=20f846e383ccb15881685f07da2a693b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 45
+- Name: DOWNHOLE_TOOL_TYPE_SETTINGS
+  Id: g=1f42c1f86e5204dad9176a736bb86569
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=f59a5124f50b8ec3e840c7b68721011e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 49
+- Name: SERIAL_PORT_2_SITE_ID
+  Id: g=ba9b8b87ec21aadafc4b7acdbc065ed4
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=789d24fbd87ba8e523d2a8e29306f0ee
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 46
+- Name: UNITS
+  Id: g=86e056ceee30fb14ef7458b4700cb6d9
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=bc732fc3c76ea29b44561b39c6bbbd83
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 50
+- Name: SERIAL_TIME_SET_HIGH
+  Id: g=fcb1ec8ccb9435e4b1dc8a0bcfa973dd
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=9b350a14aa0c15e38a09a20de9a9d093
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 61
+- Name: SERIAL_TIME_SET_LOW
+  Id: g=e2282205f912f5c2f51ce83b69063a34
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=5f9812f39ddf16f557958d4a8a046fe9
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 62
+- Name: SWAP_REMOTE_STATUS
+  Id: g=5cf9534169e95cba14f500f510721dc7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=8c5e096e6c01bf0b98f01cada1fe37d7
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 381
+- Name: PASSIVE_CURR_LKG_CON
+  Id: g=08b0233fa88896474720210ce37ec414
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=4d083b6016551a14709dfba587b7ad81
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 513
+- Name: RSR_TIME
+  Id: g=79bf3ce5c356ab418ec787c943b4d24f
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=0b9d20856e4ac8de15434422aceada62
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 514
+- Name: RSR_CONTROL
+  Id: g=bdabb6bc8bcc350a19a153892f97703c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=d46b3e167aa40ebf332bf31ba9fe871b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 515
+- Name: REST_HW(RESET)
+  Id: g=5f828bd72c6abde3d7fd2ef5c95f6426
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=d9b6a082d3acfe336d46f1743592ede6
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 518

@@ -1,0 +1,140 @@
+Name: DigitalInputs
+Id: g=8c6b3a4afddc2820ec057716c7240065
+Type: FolderType
+Children:
+- Name: DI_01
+  Id: g=4c5f219f583bf9db90f36fa4ff23f9bb
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=e4292224d102dd6b238e83cc516a5326
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/ModbusChannel1/IOModule/Tags/Digital Inputs/DI_01"
+    Children:
+    - Name: Mode
+      Id: g=b42cb9bcb98d83399d5a56b2c00e38d9
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: DI_02
+  Id: g=86ea41ba04c29cf83e05662ae11694d9
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=b2833112c841bb9e7ef7f2e75acb6f8c
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/ModbusChannel1/IOModule/Tags/Digital Inputs/DI_02"
+    Children:
+    - Name: Mode
+      Id: g=d8d3bc0eb68d4f0f07d2b30ce22132fb
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: DI_03
+  Id: g=be34126b515b178666477a030e3c00f3
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=db251084014cfd62f534cc213ce3e490
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/ModbusChannel1/IOModule/Tags/Digital Inputs/DI_03"
+    Children:
+    - Name: Mode
+      Id: g=78b681a1d4a877779fd99923edc872b6
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: DI_04
+  Id: g=63bb36ea5d8f254783b3d8a0dac8c30e
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=ac8719cf722463e112f69e148367ce0b
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/ModbusChannel1/IOModule/Tags/Digital Inputs/DI_04"
+    Children:
+    - Name: Mode
+      Id: g=d6b37302f5da5ae610fbaa97e6effc58
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: DI_05
+  Id: g=256e9cb365bf0e2a0f1f51c9e0019348
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=b1232eeb9effe2053be15148d5eb6e93
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/ModbusChannel1/IOModule/Tags/Digital Inputs/DI_05"
+    Children:
+    - Name: Mode
+      Id: g=d45852ec6fc8bd2a2c36aa6a8ffbf6f3
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: DI_06
+  Id: g=5121323412335a49531a0c35c451c8e1
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=b119c51a6f7d4f5358a373361ec62e57
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/ModbusChannel1/IOModule/Tags/Digital Inputs/DI_06"
+    Children:
+    - Name: Mode
+      Id: g=b14c337edc39543e61e528c882d8c211
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: DI_07
+  Id: g=262d9101c50480fdd0ff9cebe69b5ba3
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=4456d4d17f893fa6eaf6e5d0409f4bec
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/ModbusChannel1/IOModule/Tags/Digital Inputs/DI_07"
+    Children:
+    - Name: Mode
+      Id: g=a6c6db533b85cd640ce7dfafb2e7e4a7
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: DI_08
+  Id: g=e81102f10ea94772dcd09b2514c4c367
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=7add9389ed8660c82596bffc4a48e1df
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/ModbusChannel1/IOModule/Tags/Digital Inputs/DI_08"
+    Children:
+    - Name: Mode
+      Id: g=73b7559ad00a1e1c6d11b3e3fdbd469a
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

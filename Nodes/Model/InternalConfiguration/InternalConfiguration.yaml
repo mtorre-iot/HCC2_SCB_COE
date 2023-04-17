@@ -1,0 +1,859 @@
+Name: InternalConfiguration
+Id: g=b32240badf071a8f91624c3367d13ac0
+Type: FolderType
+Children:
+- Name: AlarmsOperationsComboBoxOptions
+  Id: g=b5d311b8dcd33916df2764efaebc59d6
+  Type: BaseObjectType
+  Children:
+  - Name: Bypass
+    Id: g=bfaaa013f2f61c30c01de04317bd6a2e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Log
+    Id: g=b1352e02f1a3081c613926f23ee43112
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Stop
+    Id: g=c01d58d77c0c2e112a8284acdffbdec1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Stop & Log
+    Id: g=16477ca63e6ffc6aa8832ed1d163f549
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: Years
+  Id: g=5468390264a655cfa665579003372395
+  Type: BaseObjectType
+  Children:
+  - Name: 2020
+    Id: g=f8b32d228e46a465e54d7e5b2e0cc461
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2021
+    Id: g=e4715700e13a6bab603b09eed8b03093
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2022
+    Id: g=34d04629a00a98ef0e9483502074ca0d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2023
+    Id: g=1eed0bca2d82f0174ffc73c44d4bc810
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2024
+    Id: g=2632c64aa859530fbea659916bd25c78
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2025
+    Id: g=da1e930044458f0f3312fea8b1b97bb1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2026
+    Id: g=931ab4f195df27389f135e1e119bf4ee
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2027
+    Id: g=765396f8bc001111db2073bf239d163f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2028
+    Id: g=3f3beeb4f8f1bf2e58137c03badedbd1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2029
+    Id: g=bac3ed38db550d2e733a24f0cb50982c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2030
+    Id: g=ba173ac62323b1bad9b4b1b6e5c1dbcd
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2031
+    Id: g=7305ff41fb58ec41bc5549b391c23ad4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2032
+    Id: g=53dadb25c5bcf9e49b489cfd8b24943d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2033
+    Id: g=3cd4c6ae2b0b611ae8d68d9644f061ed
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2034
+    Id: g=f52562eb7439ce8c467bb356a84677e9
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2035
+    Id: g=32ca338fbba88b4a1a0600f57c5eba62
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2036
+    Id: g=29852f5b477b74e8ce7ee6b3b166b261
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2037
+    Id: g=5885273a70a564b53129a541b2ded10f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2038
+    Id: g=bf208ef9c7aaa70aeb80b6a3e408e2fd
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2039
+    Id: g=006132bcbaad3b9338b3151095772c03
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2040
+    Id: g=97bc266e346e80e82fd05a9636719c3c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: Months
+  Id: g=350411f1f42a7f345a86c27b13fff752
+  Type: BaseObjectType
+  Children:
+  - Name: 1
+    Id: g=349b43c7583a8a149dfd74c00bde41bf
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 2
+    Id: g=a1451f0be38b3609c971ec6ae2c06b1e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 3
+    Id: g=bbd4e9725b278500c01020adb218907a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 4
+    Id: g=dd9d472f840ab8207111dd37a1088cfa
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 5
+    Id: g=bb91c29dbe2bf378a3d76d3d8154874a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 6
+    Id: g=f35957dc6bde07e6fbe9326f4d65f64e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 7
+    Id: g=5fdb4d06b75d2f6982bd1e1008ae4c15
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 8
+    Id: g=8be2087ddf58e63ac782622d611310c9
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 9
+    Id: g=9c424a8c1d2f8e4488a92d301e81a385
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 10
+    Id: g=da3cb0ac88635fa92bb7a2e1bd8f899b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 11
+    Id: g=1d17f75cbdd61e54857ef298a72847b7
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: 12
+    Id: g=0df0980206259a9bd986f0bc87255088
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: Days28
+  Id: g=5e8310aa78aaec848c2a491c0dee51ac
+  Type: BaseObjectType
+  Children:
+  - Name: 1
+    Id: g=d91b53f081cb22d007cd0e0ffda73c00
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 2
+    Id: g=dde097c1f22d8256f7ca7b1ade9d69f4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 3
+    Id: g=e28c492d904a951b6edd6ab09427c2f6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 4
+    Id: g=093e3090e87e556c1eaef391aed5477b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 5
+    Id: g=7b1f432c0ab651fda8ffd3a50dd38495
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 6
+    Id: g=c03ac5076acc4e308b0747a3104f7c11
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 7
+    Id: g=bf8ebba42bc8d4bf8cae4fd50da579e1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 8
+    Id: g=8383bc9e9cf7c11d9249e9f01ca58d22
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 9
+    Id: g=ab94e7294899af7ecf891bdd85f691fd
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 10
+    Id: g=9088aeb917812a8fa4dba9e729d3b0ad
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 11
+    Id: g=594e89379e46a08df89371b5101a3e6f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 12
+    Id: g=64ae8829a713e19a2ba534ba2c937ef0
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 13
+    Id: g=9ce93b95f736c4db526affe7e7bb7cc6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 14
+    Id: g=92cd5fd37b241d017bcb6e6c563d6857
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 15
+    Id: g=3798718ffc1daaa9dec6005984f7b050
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 16
+    Id: g=6c5175496e90892ac79fbbaa0b99c8ac
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 17
+    Id: g=9d1bd8d4f93885b508ae90e08c68d984
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 18
+    Id: g=f0ba7a8119a279ee131f438ef5b6adb6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 19
+    Id: g=e074fe8a5966b7e5e91cc4d7726ca447
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 20
+    Id: g=db7ff0f59022552cdc456477f4565b63
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 21
+    Id: g=51c8973d180e30007a22f52a546202ab
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 22
+    Id: g=db0996bf7beb472b2e29239606c23307
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 23
+    Id: g=044e1cd6deb162236266759dd8087271
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 24
+    Id: g=3f3e220abbeb1fe27d282420cccc7581
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 25
+    Id: g=65255c53dfbcb7d32eaec3168f47247d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 26
+    Id: g=074e1e3c250e432bcaa620065e17185b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 27
+    Id: g=db4fef96d86e7ced89b103272a30ed72
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 28
+    Id: g=87a2f580a11e81dc1cfcafac0e7b9ca9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Days29
+  Id: g=7f3ecd76f0c63860269d9f8f15baeee6
+  Type: BaseObjectType
+  Children:
+  - Name: 1
+    Id: g=666e9269ca48cba70b8b9d4c5b809606
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 2
+    Id: g=bb012cc6874e140c4c5bfec03fb23346
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 3
+    Id: g=8f770ffa9298f752b4eb84eae441ee03
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 4
+    Id: g=76bd847933dae6ef3c983c18e1bd2a21
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 5
+    Id: g=8e81004e62014b15bc30cadfde53f662
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 6
+    Id: g=b20854e22c039848b1a876fb544b7dd8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 7
+    Id: g=995d0ee9a35d585ee66a6a36ec87b651
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 8
+    Id: g=bb4f0994d46a59d8a0af20cfe2278f1e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 9
+    Id: g=451908e4ae87a9ac9b87ba38412f75ca
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 10
+    Id: g=77167ae2cfd4a1f340a6a107eec4d1e5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 11
+    Id: g=400ba1ea8b057a746b68d73ba56af81a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 12
+    Id: g=77319a6a97d3f090bdb724d043fd9f51
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 13
+    Id: g=e4a267e5a102fe8b3a824dccf70d8416
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 14
+    Id: g=db899f9b1d2780bdd5a0c541a28eec6b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 15
+    Id: g=d9018a20f03dfefa96677ebf96210fcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 16
+    Id: g=ebb1187fcbdfca294c487c1b46696f36
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 17
+    Id: g=c666bd0a737d86bd82a343e0a91c1d8b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 18
+    Id: g=59013f55dc949430db017e1764b80c15
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 19
+    Id: g=520c7edc326ad07d1dba78c259dc4c75
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 20
+    Id: g=b9b85af5d06261a5983220168ba831b3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 21
+    Id: g=7f7c9041689950b451a6d5553b58f14d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 22
+    Id: g=8c05db71ecd2539b6916893017bb2558
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 23
+    Id: g=db463547077e0e77965f8869eef79d0c
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 24
+    Id: g=bce4839a68c5c61b9b3903a1b5d7c3fa
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 25
+    Id: g=e9504ef86a67b959aa9c1c4e9a64154d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 26
+    Id: g=e482c1a80e8bd7e70d9dc7263e0d5ed3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 27
+    Id: g=f1108039c0e5e2bd0d5d55f03bf280ef
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 28
+    Id: g=dd48d10e4b022f93a5fa1a8558682849
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 29
+    Id: g=42bfb14b35f78ff9fefe67927f3be311
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Days30
+  Id: g=46684951bfdac7cf51ab0a002c822294
+  Type: BaseObjectType
+  Children:
+  - Name: 1
+    Id: g=c80bfbdbb2f81e932fffbf1140dda2ca
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 2
+    Id: g=3dbbe3ebb3b46528ff69cd2649bd78df
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 3
+    Id: g=377f2e3d3cc371991e05c8cf2753945d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 4
+    Id: g=3a1507be4bfc7fb12728d837558c54e8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 5
+    Id: g=9787118c1c48dd9ad25a5e5df303bc2d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 6
+    Id: g=d6676e71413ce7ae8864f4cf2f506b4c
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 7
+    Id: g=38ad5b462b91a07cd717eac8887dab68
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 8
+    Id: g=c0cc3b7f1eeaf96abb0182ab435534a6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 9
+    Id: g=656b52a3457e1534c4dbaa2f267c8797
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 10
+    Id: g=3696c2497f70a6fbe4f9fe27f0ee8d8f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 11
+    Id: g=13375896c92e30fb257f7a6efdc320ee
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 12
+    Id: g=4ea45331127147a14c5077bd68b38504
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 13
+    Id: g=ab196c02bdcd0dd780379717e03bb1ae
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 14
+    Id: g=b7a18a67be40a7b1c355922cf694ef6d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 15
+    Id: g=78a392c4735103719e319e5275104ca6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 16
+    Id: g=92d276dfcba6f59611581e40b367bb9f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 17
+    Id: g=cb9b4c225190cf46507163507bf86114
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 18
+    Id: g=67c6d4b3d76b5572e8e638916e6be8f0
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 19
+    Id: g=1ce86db020fec383822a9683da501b5a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 20
+    Id: g=d721b64bb7f8e3903dff710797391b93
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 21
+    Id: g=27d5f5e6aaf23255b798ce3e6944a83e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 22
+    Id: g=1a1dc0a64d8a1e40b7c71a585b8e7625
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 23
+    Id: g=cf7f56db68a42124940051b0149648a6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 24
+    Id: g=1c4327d5c3b97dbf8df9d21f5e27fd43
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 25
+    Id: g=92f0a3546b5831cdf8048e26d630b6d2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 26
+    Id: g=70e656e9f3b4c43a401b392be055cc14
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 27
+    Id: g=f9ef9d31623a34db8e8409a98d021617
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 28
+    Id: g=ee899e4c09187bf6793c9e7b6fbbff1d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 29
+    Id: g=f64fa06510067f9b3ff3910fc09af693
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: 30
+    Id: g=e86f80b8d760f3e34fbee4b0cb77c7ed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+- Name: Days31
+  Id: g=72c12a0362d22637394226f4a3c55074
+  Type: BaseObjectType
+  Children:
+  - Name: 1
+    Id: g=652043fcb00345aab7850cc5f1f53134
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 2
+    Id: g=ae594a1e8fff8b5089c97c7895dc7398
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 3
+    Id: g=cb8ce1ce0886589f1cd01802095f23c7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 4
+    Id: g=0c805f11f598977bafd0927426fdb8b2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 5
+    Id: g=f242017501bf90b9421531337c1bc800
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 6
+    Id: g=794eaa73bedbbf3efffce62a6fc004d1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 7
+    Id: g=ff08a5072cd1833576ad99369fb3c5ff
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 8
+    Id: g=2a205565c809a3f48eafc700494b74dc
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 9
+    Id: g=0e41b1e21956ec13184cd167e0eee699
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 10
+    Id: g=749f674c42be139120bf3f4804aad19b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 11
+    Id: g=be82e4721848a0928a3e162abe6f0aad
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 12
+    Id: g=90df556dd0029c1b03e00bebd40c0a1f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 13
+    Id: g=3c06ae8fc3db24ef0c9ebc351a72aef4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 14
+    Id: g=50e5344a06615de706a4bdd6e29c738e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 15
+    Id: g=e9d2875a2afbd3af7486bb4bb9c822d3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 16
+    Id: g=4a21b3579e9f1651985e4bc54b4f2e3f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 17
+    Id: g=c19775f204b953b079afe649cba0d390
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 18
+    Id: g=32fce2a615d1b157cf68c5dfb64c0e77
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 19
+    Id: g=4c263d56790bb6a6601c22a959457b9b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 20
+    Id: g=408bc5e67ac08537a628576de09aab10
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 21
+    Id: g=682788b5154659f169dc3ae07e3a5dea
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 22
+    Id: g=da50a2610fee83b9b57366105733290d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 23
+    Id: g=6da415fb9928e803ea71a368c7dad8f3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 24
+    Id: g=0270d3daa042262a82ce0f7950511410
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 25
+    Id: g=6dedbc55f31a4d3bdfca595b1d256fb1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 26
+    Id: g=7f48400d760d2a1eac847bc907c93f94
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 27
+    Id: g=18483876f734d80852db333f7f63558f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 28
+    Id: g=892c7a3b74dd0e5cabf4deae471732c7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: 29
+    Id: g=d79ff19d7576c5530b4c769f932e8059
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: 30
+    Id: g=5f87cf8df769d32f5a949e3fd0b7a647
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+  - Name: 31
+    Id: g=347936109103df6615ed9e1351866d80
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+- Name: PICCommsComboBoxOptions
+  Id: g=a08594b394930232a90e9fc25f65940c
+  Type: BaseObjectType
+  Children:
+  - Name: Log
+    Id: g=e2e724ddebd0ff160217c77cd6eb2fb4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Stop
+    Id: g=b1d8d53eb3ec620fb3bf26da00bbc7c1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Stop & Log
+    Id: g=c56700d25e1f91280705988fdde26962
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: DHTTripClearMethodComboBoxOptions
+  Id: g=8ce6b9b128919e28d0922833bddad46d
+  Type: BaseObjectType
+  Children:
+  - Name: Auto
+    Id: g=3fb2f7abde3588068bb3d9f6c5e3fdbf
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Unlatch
+    Id: g=c4dc82ae305ea40097fc6030c09df1b7
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: ToolFaultActionComboBoxOptions
+  Id: g=056be8d3e4f964f5798c8eed43c184d2
+  Type: BaseObjectType
+  Children:
+  - Name: Log
+    Id: g=df3e59db32c8530314ce5facce3ca2de
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Stop
+    Id: g=1e14635a31c847240101b0253aa4ac90
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Stop & Log
+    Id: g=08321531fc58f89e8945e6a742b86684
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""

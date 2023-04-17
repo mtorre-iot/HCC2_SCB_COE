@@ -1,0 +1,564 @@
+Name: Information
+Id: g=04856a3dee1b43b2ae16b4c607c31316
+Type: FolderType
+Children:
+- Name: SWP_CD_USD_ID_DEV
+  Id: g=5d5e5501cdb6462bb57ec69d1761b56d
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=50a628a576c773edab3a92d6a0d1d1e5
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: BitOffset
+    Id: g=01bf3ec5d1bb8de3dd5dc16f417bc06a
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+- Name: SWP_VER_IN_HEXA
+  Id: g=b3c105b79540e02fb97df9f45cebf35e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=38bdb4276cbdd4a52d7c1a388eb09550
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=adb354a06cc7286005877c2f51e736d1
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: SWP_REL_CD
+  Id: g=f9ea7ba1686b7b8345b7ec8d67553a3c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=e247d5217e2fd167972c43f36ad1a5a1
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=70afcb97daa28404c648b86ffba0d6ef
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+- Name: MST_SIG_WRD_OF_SL_NUM
+  Id: g=57eed73e101ed36019e83704134b8541
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=59741152d70181f70761f6370b1ded1f
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=aba386878e18eef63324aeed964bc784
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: LST_SIG_WRD_SL_NUM
+  Id: g=1424206ca387fc47d6063d2f32cc0c29
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=8c0e268bb3c523b2335fe46bb2a029f8
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=6cbb6122893dbf4e4a2d578712d38c01
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+- Name: SERIAL_TIME_HIGH
+  Id: g=9c0cd4d578228d4fde795e9a5a40a401
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=ed59fdf48b7ca24ffb45c037fea23671
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=336526b1cfce699d2bb724a77742d498
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 52
+- Name: SERIAL_TIME_LOW
+  Id: g=e6309297d858c64d22c1caa0ee23627e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=f455c0db88aa040c6e0ee6a12ed87806
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=9b5c8b813180d6c3bc4a8c8381c0b6e5
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 53
+- Name: TIME_SECONDS
+  Id: g=b1427a99c7b38c3a033d7b5f9a1161ee
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=ad806d097101525218f0a0914c4e96ce
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=1c35713803b58a6b7fdd5491b08358a4
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 54
+- Name: TIME_MINUTES
+  Id: g=574151bc07981b3cc10559cd4874a08d
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=aed8e62e4fcfe3425acdc19e22a10113
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=58e6c2e1587344a9bd21f877a6830813
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 55
+- Name: TIME_HOURS
+  Id: g=07e02d27153c1032e42c0497302f1195
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=0271acf61b40223abb25c15e1aca81cc
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=15cc074b40fa6bf43825093d39eddf7a
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 56
+- Name: TIME_DATE
+  Id: g=8f68b58b5fd4564faa5c93bfd41f8b6c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=dcfda159db209ac5ed90d7514eb435ad
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=8a9f4b21148aca76d1454a8916a8bc40
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 57
+- Name: TIME_MONTH
+  Id: g=f8f7dbf292fc0f5040ae878c81961c77
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=03a4c4b6b505ec034c96269690189cb2
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=7d84e50d6d5b42bf2a6cb68a4f0eb04b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 58
+- Name: TIME_DAY
+  Id: g=0be20baaa8d37e32083e11e2edecb133
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=d9be04cb3221c7a171e24e1c1779f851
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=6f8b984b585dabe2c665e2b9dfd8c1ce
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 59
+- Name: TIME_YEAR
+  Id: g=da719be3abb7257841a6cb36d26269b8
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=a0e156d75051488f753a8b7ddd906104
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=74354b8207ea159a9677ff289373c36a
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 60
+- Name: BITMAP_OF_FAULT_STATUS
+  Id: g=c77a80266ab25890545e179dd873a1e7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=a418f6c526e30de7a82ecc5922b6cc25
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=a359fd4fcd936cab278dff39687eb330
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 256
+- Name: RMT_LNK_ERR_SYN_WRD
+  Id: g=596a9ec013a590625ce636473d51d4e9
+  Type: ModbusTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: MemoryArea
+    Id: g=7068ca2a8b4a9ab5cecbbcc461ecf9e1
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=1f4cb43e1c5fde4f8e63fa41ea79db03
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 315
+- Name: BOOT_STATUS
+  Id: g=16ec3abfc0a80e16107cf780e7f89212
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=7519577f7b7684e4e4d6660ff916da86
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=c1e2ebd2bca0d1fc3ffbaafbf2af52a8
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 383
+- Name: READ_ONLY_NDF(NEW DATA FLAGS)
+  Id: g=957d69ae8201a1a268d07c2304de1017
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=0b12e605901f3610d91276e13135998d
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=27223df445c1d132baa5f3c3ff887724
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 415
+- Name: MEMORY_FAULT
+  Id: g=6b2f2cf463354f9c09d1f2ea4c665339
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=c084eb9f243338f8af7b9e3fe606042f
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=422253c898df6da4274b80a7b948d1ac
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 512
+- Name: FAULT_STATUS
+  Id: g=360fe4a0f0f5f985011f36d9694a5aec
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=25290c11681731f5becffd3450fa41c2
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=9e80e5135690d672d05f6a03dd8c9c75
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 516
+- Name: NEW_FRAME
+  Id: g=fbc594a5569aaf9041019dc0e7aff0a4
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=af271257e746634a357d8229b63a0017
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=51da39ef19fb01cb75d7a6e71f05a705
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 517
+- Name: BOOT_STATUS1
+  Id: g=15ddcbd77a284401b6a9d7378cb0039c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=106026217f3995e9da373f52cb1b0b67
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=7b9c503402796ed548e105e9c772c0c3
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 531
+- Name: BITMAP_OF_FAULT_STATUS1
+  Id: g=bf245fe3226c94d28f545126ec774e40
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=68789656535679249cb59bbe322358a5
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=000f5176aa159aa134d70f6b70dfa54d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 320
+- Name: BITMAP_OF_FAULT_STATUS2
+  Id: g=6ef8c296084d09968b67a7fb4bb40d78
+  Type: ModbusTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: MemoryArea
+    Id: g=c61dcf3b9eefb389fb77678c4ebd9f73
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=c820198c1e660ee8af2f8467e01daa35
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 384
+- Name: READ_WRITE_NDF(NEW DATA FLAGS)
+  Id: g=9b0395cc735bea00f477a2d211fe9400
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=bf7922cd97ba10b74c1f9ebe54575c33
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 0
+  - Name: NumRegister
+    Id: g=11075f0b549b0795cfee6125dbe4e0c7
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 417
+- Name: TOOL_TYPE
+  Id: g=504e675001882ce6cbe16f6355452a07
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=5f54e24a725a0da7aaa76c1a22e0730c
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=07ce0a0eaa948f33840a18d1dba56e5c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 601
+- Name: 'DIG_TELE_BIT_RATE*1000,UN_INT'
+  Id: g=80a217176da561661447b7bfe8e80280
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=f2f210ed0d8b78b08a669e62f593b6e2
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=98ff3c97cf7b1976da1df383f6e1fb17
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 604
+- Name: DIG_TELE_BIT_RATE_FLOAT
+  Id: g=4a87aef2c48a2ea2cf92d1f95f2851f0
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=7feffb5d5d889565fe115ededf2faea2
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=82782f0bb9978c529f820c3287c44888
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 602
+- Name: 'SAPHHIRE_FLAG-START_FRA_TST'
+  Id: g=fa2c258f67f28031fdb0afc5a121dcd7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=9ae3d570f0e36c7ef3a121b0617d7edb
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 0
+  - Name: NumRegister
+    Id: g=84f5525397bec1beb5a3e695b211cd25
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 605
+- Name: VIBRATION_SPECT_IDENT
+  Id: g=bb069290f21078691ee14f6d7fef4dd7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=3fb886af2b582b45cd144cb2b423b2df
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=dcdcd388fc98bdc63ca8521a2b7839e7
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1025
+- Name: VIBRATION_SAM_FLAG
+  Id: g=c6cfcc404e6cc0c7d8a740b1290a38f7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=9348d68e44ec1797368a860a46920bf0
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=3262f6bf329cee7006fe943a44f89751
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1026
+- Name: VIBRATION_SPECT_DATA
+  Id: g=01e18b68bb64f4cbec0bf2858df5d597
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=391db6e6d8301c8d9cdf58950f132cc1
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=6aa24d44b8254e601fd77f523a9865d9
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1027
+- Name: MIN_VALLEY_FOR_CZ
+  Id: g=4dea061d90a49e013b550d98bc4e59cb
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=5cb247effac46c636dd8f7c49d0af363
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=c558ad4aa7cff42f269d2bf8b9bbc3c1
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1091
+- Name: MAX_PEAK_FOR_CZ
+  Id: g=69c55d8d49b6ae3b05b9488b540a5135
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=1ab7867f08141b45ba21c2457629a1d0
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=99618590a86d89f55eaa40b2b38b9ada
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1092
+- Name: TREND_ENABLE
+  Id: g=37d2efc6618085b31d27d03a6a4e27ef
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=02f7ca68e18920cd724ceb65933be4c6
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=5ea6322dd2d51ac123f372b0edf0e8ae
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1093

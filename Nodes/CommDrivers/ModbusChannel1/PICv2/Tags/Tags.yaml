@@ -1,0 +1,21 @@
+Name: Tags
+Id: g=550e76a5f8bf321eccc1b76f2f8ca298
+Type: BaseObjectType
+Children:
+- File: Information/Information.yaml
+- File: Engineering Data/Engineering Data.yaml
+- File: Alarming/Alarming.yaml
+- File: Daignostic/Daignostic.yaml
+- File: Calibration/Calibration.yaml
+- File: Setting/Setting.yaml
+- Name: ModbusTag1
+  Id: g=ead0a905e6894b716fcdb107f63a6c7c
+  Type: ModbusTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: MemoryArea
+    Id: g=7be46d2698aea8f19cd9abae0f887db3
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2

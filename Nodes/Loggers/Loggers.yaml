@@ -1,0 +1,958 @@
+Name: Loggers
+Id: g=f90c21e2f3882d00cf4ca5aa1166a562
+Type: FolderType
+Children:
+- Name: DHT_DataLogger
+  Id: g=2c8bc3b70d6b1593e5687e049a85b359
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Id: g=0ae71bd15bc02e320cc97fcb6ecf7ac1
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Id: g=0e5140b915202ae432441a47ba52a6ac
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"933777e0dfcbbdcf07c99c009a602627","Namespace":28}
+    Children:
+    - Name: Kind
+      Id: g=ee664be4391ebc31764185ef13f9d701
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":17}
+  - Name: VariablesToLog
+    Id: g=b0835c920bbd31a142258d0a7eef8303
+    Type: BaseObjectType
+    Children:
+    - Name: DHT_01
+      Id: g=8b41a1f21b5549a3ba227926f52c8575
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=9f44ef0fe1161b61a1dfdb330a4abbad
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=b922ab25b241fd3a4b7d05f37bed4abd
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=e8e9b655c585896145b46413734226f8
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=40f5c108f6ad82afefa39b33c92f4397
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_01"
+        Children:
+        - Name: Mode
+          Id: g=200e53808a3450f8cbc2bc2e32e3ffe4
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_02
+      Id: g=9260b1b87d70cc94605679da703e30a3
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=91ce3e1aa6e499baac6a2f0a1d2c0a89
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=73cac10593fb5da004720d9b0f875721
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=704c0a6f170f42832b4a921fdf0ae99d
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=f9b8a9c279b1f121c8bc63e389888c00
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_02"
+        Children:
+        - Name: Mode
+          Id: g=b23597f063fef4d23b2012fd8360ddf4
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_03
+      Id: g=c31298f744eaa853bca80574e6b94469
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=bcbfff52ad4035272c0e540a1beec039
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=da27736e2a41867911c1a76d5ec7d19f
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=d0fa97aca8e2b644c83d4bc2b738f538
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=d274b073e350d96c5d96b718496268c8
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_03"
+        Children:
+        - Name: Mode
+          Id: g=3a7690b7f2e85e8deddf26bfe2bf9c64
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_04
+      Id: g=5dd1862291c396f678d8b3eaada1d1fb
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=bcd78a6d44452fba56dea03a342ef73a
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=434fa30fb50aa9c8ef72e476a41df6d0
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=62df285c67dae2b8f1f142e5b73fd281
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=e1b2ab3add157fa424185fc31acc902d
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_04"
+        Children:
+        - Name: Mode
+          Id: g=e07f516d56863ec1c3cbddadbf459dcb
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_05
+      Id: g=3b7ba9ac164aaf3f475559f07f65e1bb
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=a2d9cfcd578c85d6575ab566010b37c9
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=8ed98b578a7df5791ccb84508da986c9
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=ddf8db12de4d4fd10d68b07bbc42f70c
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=dd182583be6bc63453c205a7214e0e67
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_05"
+        Children:
+        - Name: Mode
+          Id: g=a3f6c6ce9482947612c36306faf806ab
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_06
+      Id: g=c0fe6e0aa383e6b5f111691b2894fa94
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=3be97532801056373a3c7bee40a5eb48
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=ca6d7c01b17ec2bd6982f77ac5ffe26d
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=23260eec58c92f28a64cc1b6e7bc560e
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=e6bd628b6bebd920f405228c954556a6
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_06"
+        Children:
+        - Name: Mode
+          Id: g=88ebdb450279a5cbad39f7e2f2763f78
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_07
+      Id: g=b8aa2be3e21d92dacd4216de38cdac63
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=f2a81a27bc5e102cec54a5ea0e39ceac
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=c90ff686e2a861bd87091fdca88d712a
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=a973a99d347462e943347db47c37b736
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=0ad1d16b61d63d60c2a181fc05f8a10c
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_07"
+        Children:
+        - Name: Mode
+          Id: g=4d7446fc7f02074054e68caba99a5b44
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_08
+      Id: g=a872a52fac6f0e1a4d27f0fe4c0cc444
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=a13daf6eaa4dacec2da30bff8514e5ec
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=2e8ea01f28a8e1a8ea87fc6d605afa48
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=0e43be8d73b2f21fa7bc39f856f68fbb
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=579b056c0fda8879a3c12c32377c852c
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_08"
+        Children:
+        - Name: Mode
+          Id: g=0093e87ce8bd80bb998cb011f6ef4596
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_09
+      Id: g=bdeccf372f9dff07a7943c6252317b84
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=b8952b49e26bc8159b2f9ff154150c5a
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=ea6ef120364308619e7e5cdca9f6ec26
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=3809e89de143b4847ba7af207af60c8f
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=5cbb472bd7ce3db362acf54dfe68f4c8
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_09"
+        Children:
+        - Name: Mode
+          Id: g=9e7fececec4f8262cec14a316f8a4568
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_10
+      Id: g=fc50a80c550a2b648fa0582a8a8d7314
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=fbb3dff054b8924bc7fa93fb7052ed2d
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=23815ba0ad02d9c3ccd8f34ee7a06612
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=075d732d17e8129bef54387282598854
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=5eb2b7d84b97e2ac3f3adb7697b89345
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_10"
+        Children:
+        - Name: Mode
+          Id: g=b3ab87b82e26601f3962923a3c1c8d47
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_11
+      Id: g=b324e5d122f75229748013663b2dab98
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=faffbf2effc468901e8b1502c693179e
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=264899c0f533aa3d3bd86b0c4e896969
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=fcce68a8b5d3eaeb4b59455f0ec71c78
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=5a14768a99795eded56f04429530bd1d
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_11"
+        Children:
+        - Name: Mode
+          Id: g=19877802377196349c2e8d9a10c0b333
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_12
+      Id: g=9e3abb1f1f145bacec6fa04560c36dea
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=741c27d4b8750cadb288bf21488c618d
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=85c9ca112c585154ffb7bcd678c4d247
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=b8180723ff511ea91f7c9d6737050d25
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=0cf1c18848193091399455dd8cfa7374
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_12"
+        Children:
+        - Name: Mode
+          Id: g=58b246aecfc87fdb6f4547b0239ead7a
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_13
+      Id: g=855aa0e93c19d4bc37d55a3631e82fac
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=5f64e00d2ee9f99aac488d8f952b9044
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=c1a60272b222c990bb7ffb86b5195ae4
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=13ad9f2aee0bb92ca80d80f29ea5674b
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=b1efbfa65a1db9bcbc56e00ca9f6fb85
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_13"
+        Children:
+        - Name: Mode
+          Id: g=53c87a3b7253a76ba966ee8f6ddd6950
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_14
+      Id: g=af40384f6b83460b898caa7ceac00529
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=87cbd12fb509f3aebe620292ae509d30
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=05910cc1106713f2173b175cfb2fbc1d
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=c1b904267da0da7c4093c88f1ace8943
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=1a444dd7b5f38382bae0b0f45dc586ec
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_14"
+        Children:
+        - Name: Mode
+          Id: g=7fb9af341cd06916405650dc0f5ea195
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_15
+      Id: g=9ec497db6028d34610ca5b14ec6d7a97
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=b9d79048109c5609d0459debffbb23b5
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=0c4e6e589abe52c690f6abf3635b3804
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=d00ffdac8e6dcab47c43359c96e96832
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=2cd54f170e1be83400ab6cfaa20d19dc
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_15"
+        Children:
+        - Name: Mode
+          Id: g=64210ed4357d4296d5039b228647bdb0
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_16
+      Id: g=58abdd768ca51f4e06b53f952fedd37d
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=fc3c32475ad7d690c877dbd8bfaeca7f
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=7e34e865cfe300d3a5a24872727043df
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=393f6495a0a6b8ed47ac2625bc388f2b
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=47fd0afb5775ff8b621d234bd7cd099c
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_16"
+        Children:
+        - Name: Mode
+          Id: g=006a09e880ed4d09185205d5f0d48465
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_17
+      Id: g=dacbffbf850266f7f72602b0f00d7b3e
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=4d9932ef85aeb7ef9f6b10b487261352
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=9ec6894c70d5b286cf070e72f7f0dd62
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=daa6a5dd4ca40abb8bbf848178c30506
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=5230f6b928dcd7a4403df97e49d66c77
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_17"
+        Children:
+        - Name: Mode
+          Id: g=2d28ab243aa1a9f87e0705ee4617003a
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_18
+      Id: g=475f0262fd99399481ed9774f6ffa41c
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=1943b6a5273985a107f8f63bb67ff065
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=a50eefdbfd6b57292e53f41af02b1626
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=85b32eb3b937fe052fbd7544e762fe77
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=25a8c5acf185df87ed4179dc25f5e46a
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_18"
+        Children:
+        - Name: Mode
+          Id: g=485dcd11298ef59765882c309e8114c0
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_19
+      Id: g=ee68400eec1d262134c551952dfb29aa
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=3bf61e6cf686ef28bb3273def68d99e0
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=db6cbe8318177be258646403844e745f
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=af51fad18096bb32ac5eeb90ae63346d
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=367b0d01ba7f3aefd3912557dff0d3dc
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_19"
+        Children:
+        - Name: Mode
+          Id: g=7a08892a8ad30de8ba99a77b230a68a9
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_20
+      Id: g=0a8a63cfed34f8ae234a8f0114800fbb
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=c93fb71d0fd9ac4fc04769397e7d8adb
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=1c5214865d6e52a6b788712b028423eb
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=f13915cb02f3922a7721ab00171fa0f7
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=148b92f7f833a68c3e0ec23a809d8fab
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_20"
+        Children:
+        - Name: Mode
+          Id: g=47ed9815295ce904087cfa3ca99084f6
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_21
+      Id: g=5ddb8dac6e61dd210b1131f286feb567
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=d09eb767fefe6e9cbd6b40313ec48c68
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=380724790900c4995e37d6931627df31
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=ad4e5958b7f6077ea3317d4622777fc9
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=74c2ca93cbdb89ad39ff2b19558cea69
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_21"
+        Children:
+        - Name: Mode
+          Id: g=c6a2d214371d11dfb536329c66e3f460
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_22
+      Id: g=3af2c3315429c455d0253d79c082329c
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=1785f3c076f25426d3e1d4fb2e6de460
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=2677bc74e0d2b45e7306ae9da549777a
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=724c5c1fee24a4faac178d86358153b2
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=a7b40812192ba7a3ede21a0ca169ac93
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_22"
+        Children:
+        - Name: Mode
+          Id: g=11029c14ba2331e5f2ad2c4545b60ce9
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_23
+      Id: g=d59f64c0efd1571d9802b117265e7561
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=b84e429e97d9192a17caf46cef36dd43
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=24fa126b1420d4d3adb3021df696aca8
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=439d391f16e924c34107321f3a3540cb
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=e3fcb4b0e5c45ef845e8e966c68970d1
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_23"
+        Children:
+        - Name: Mode
+          Id: g=345240ca727a2f9c92408bade7bb186c
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: DHT_24
+      Id: g=1ccf5ecd52f2133a0cbef9ee8c89a41c
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=19c7b9da2219004af8c78b8872fb5122
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=02d6b3bca0064625279831e5c29769e3
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=91a1ecdf147611a5543062555634d539
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=79190773fb9638d02f6a5c55b1692421
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/DHT/DHT_24"
+        Children:
+        - Name: Mode
+          Id: g=ca484a7d09995ee652f29bb61486cdfb
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+  - Class: Reference
+    Target: ns=11;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Id: g=30ef92c228c855dfba392f345ebefdf5
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: SamplingPeriod
+    Id: g=94037e586112d294f79a0f9d81f6260b
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:10.0000000"
+- Name: DHT_EventLogger
+  Id: g=918f68063b9dca34029b57f2b86d1028
+  Type: EventLogger
+  Children:
+  - Name: Enabled
+    Id: g=42575ada7a9271e879056960f6bc573b
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: Store
+    Id: g=046c17b670aead7eb6d39b48cf2f132e
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"933777e0dfcbbdcf07c99c009a602627","Namespace":28}
+    Children:
+    - Name: Kind
+      Id: g=70e622e7273280425fb91071ca05992e
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":17}
+  - Name: EventConfigurations
+    Id: g=92f67a8bba7a97dcee062f0837f0a1e2
+    Type: BaseObjectType
+    Children:
+    - Name: EventConfiguration1
+      Id: g=b761c8832a560c4a8994f063f0b8681c
+      Type: EventConfiguration
+      Children:
+      - Name: EventType
+        Id: g=1f7571eca3cdd0481374bd640cc1f13b
+        Type: NodePointer
+        DataType: NodeId
+        ReferenceType: HasProperty
+        Value: {"Id":2915}
+        Children:
+        - Name: Kind
+          Id: g=03e4f9e20fa5b369b2052dca49962299
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":2041}
+      - Name: MonitorSubtree
+        Id: g=80eaef124e6c1d514a6c4d47444d1553
+        Type: PropertyType
+        DataType: Boolean
+        Value: true
+  - Name: EventFieldPaths
+    Id: g=4755dff6085efba1213412af324de8e9
+    Type: BaseObjectType
+    Children:
+    - Name: SourceName
+      Id: g=286fae83eab5ae7697f66bf0dc1e9683
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:SourceName"
+    - Name: LimitState_CurrentState
+      Id: g=58459d1e60c76cfadc46fd0f89c6c80f
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:LimitState/0:CurrentState"
+    - Name: Time
+      Id: g=18323698c3e5728343ef4df4e7162404
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:Time"
+  - Name: EventArguments
+    Id: g=cb45c9902c71050c4993838e402b8126
+    Type: BaseObjectType
+    Children:
+    - Name: EventTypeId
+      Id: g=387d65612830cd3d5ec048cd7b8e84a1
+      Type: BaseDataVariableType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: SourceName
+      Id: g=49778f608b8ebd796c047e422f83b667
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: LimitState_CurrentState
+      Id: g=35121ec5a400be76c357c10708cc5f30
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Time
+      Id: g=bf711501ca5f672afacfc53f2328afaf
+      Type: BaseDataVariableType
+      DataType: UtcTime
+      Value: "1601-01-01T00:00:00.0000000"
+  - Name: EventFieldsToLog
+    Id: g=010733a33497540ec5cb22734f965524
+    Type: BaseObjectType
+    Children:
+    - Name: SourceName
+      Id: g=723dac0c42d05818371a55d84488df4e
+      Type: EventFieldToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Id: g=dbd9e5fa5580510660220ff1310a3374
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/SourceName"
+    - Name: LimitState_CurrentState
+      Id: g=5efa7a8943a0bf60786e7fa57032856d
+      Type: EventFieldToLog
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Id: g=79b85439d506d67d98138efb3f1a1665
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/LimitState_CurrentState"
+    - Name: Time
+      Id: g=69be252369035f982f5a8b1540726a97
+      Type: EventFieldToLog
+      DataType: UtcTime
+      Value: "1601-01-01T00:00:00.0000000"
+      Children:
+      - Name: DynamicLink
+        Id: g=c0d7ef6d98788893df84db8cd6554759
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/Time"

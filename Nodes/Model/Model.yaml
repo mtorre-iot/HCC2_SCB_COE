@@ -1,0 +1,9 @@
+Name: Model
+Id: g=8b9000c2977d98661b8b3d7a41a5fbca
+Type: FolderType
+Children:
+- File: DHT/DHT.yaml
+- File: DigitalInputs/DigitalInputs.yaml
+- File: DigitalOutputs/DigitalOutputs.yaml
+- File: InternalConfiguration/InternalConfiguration.yaml
+- File: Alarms Variable/Alarms Variable.yaml

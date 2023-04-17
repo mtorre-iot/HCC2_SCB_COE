@@ -1,0 +1,1595 @@
+Name: DHT
+Id: g=8dd6079a67fee75f7744d6e9572931a1
+Type: FolderType
+Children:
+- Name: DHT_IntakePressure
+  Id: g=bcf9527562d8a45cf97bf82f1f0bbcdd
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Intake Pressure"}
+  Children:
+  - Name: InputValue
+    Id: g=c3481184c45ca6cb9a830dcee4f2eed3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=36f53403b848fba999d8214875baca7d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_01"
+      Children:
+      - Name: Mode
+        Id: g=751ed9da933dbea15d2e41de2c795cc3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=93393d19e24b20df308693ab9e55a2a1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=95cf4757b97544be56d0008b7e5a7c7f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoAcknowledge
+    Id: g=8d4fc29e2bd998574d7c8e6408ace766
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=7ec2a6730a4dccd0c5ef2c4b412dbc05
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: HighHighLimit
+    Id: g=b3879f52dd535ed08ad1ad7ef4c720dd
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65536.0
+    Children:
+    - Name: DynamicLink
+      Id: g=01c11196b6414d048cfe4615c6488fda
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "65537"
+      Children:
+      - Name: Mode
+        Id: g=2fddab433f17848f1866a7779fc17486
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LowLowLimit
+    Id: g=635e936a624ad442748d759d57e036d3
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65536.0
+  - Name: HighLimit
+    Id: g=7db46d7445c30342c5e47b7822a4616d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 60.0
+- Name: DHT_DischargePressure
+  Id: g=69830387a18bdb48201029f49ac7b846
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Discharge Pressure"}
+  Children:
+  - Name: InputValue
+    Id: g=5a9ff07a9f3518ddc26acc2433a7496c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=b760b92e89e233e12fc22f9296954d8c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_02"
+      Children:
+      - Name: Mode
+        Id: g=415df9b45a321027f54d5c16733a0cda
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=56b92d841df02e11e5eb31a91ec5d118
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=1711d0440609154ea15f9d4af37a1866
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=9ad7b0c9f8a0e53351cb71647a106e53
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=b88e19ee2ada2f55d04ce6f34fa3bc19
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=c98bde92e1008bedbdc556261b0c149d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=45731ef86c62456af0d06671f5a5210d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=b8e9a3c31cdf9d686ea10a9dc3eef826
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=52421f6bc66ad97e5113be71148cc141
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_IntakeTemperature
+  Id: g=c8c033b6e0141761f708b0172e1f93d9
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Intake Temperature"}
+  Children:
+  - Name: InputValue
+    Id: g=26f3ec5fe4b2b074339e618015ad0cb1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8cc59955d4753ec7fd4c93732edca7a6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_03"
+      Children:
+      - Name: Mode
+        Id: g=ea8e593e767d55c2db5f64390e00a7fe
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=828c6bec4833eefed7359d7e661869db
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=253430bbc314a8f7e08c1945806c613b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=bb7913f658a884b7e3ec68db95834c8a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=35d73326e9053c85c9de46a24684bfcf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=d469a2af20643ceb61b6fec63ac7d841
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=5e4964f0e8b961f9060d7fbb1d82a990
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=32e4057315acfb6839ca150f4fbb2903
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=c13aca7dc1d8a484c3510e63add876f2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_DischargeTemperature
+  Id: g=9893b27b8061c32d50a6e44ec3c53861
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Discharge Temperature"}
+  Children:
+  - Name: InputValue
+    Id: g=a9b4f8af6319dade019843b976307f4e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=7f9e65ad9ec6c508cd149979c6695df2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_04"
+      Children:
+      - Name: Mode
+        Id: g=c88a1ad348f11d2e5d9f7c23457550f6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=bb47a8a77bd36a1692a3039247e4bc4a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=0b8f9e8827e61bf9a5ab40dc6ddb4250
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=28394779a2ec8ba7f8252accac183fc5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=1984c63d0479916058b13ae558581a04
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=6bafeff86a2829f62be0c5f09f6f95ee
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=ad093558351b0ff53236bbf05c51a6ee
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=440256ebf61a926a929f16106e1a9569
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=b01e1e6988eed8adfe72d8d38cdfa2b5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_MotorTemperature
+  Id: g=8bd609b6345a70ccdb0025b732caa6b5
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Motor Temperature"}
+  Children:
+  - Name: InputValue
+    Id: g=b310c177173a7bec378e1480c59bbbd0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=df1326ea3898c8183e44a6b5e2e96002
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_05"
+      Children:
+      - Name: Mode
+        Id: g=3a3b55b8f89a38eacd63b5985e94f8de
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=27ff6e098cd21caee8175f4aded1ca23
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=ca6ca733e7dacb60ae07dd0cd3b7390a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=f8928bcc6717f03e61ac87efc95db133
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=691345bd3e2b1f8d2c337584a6c4ad1d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=200922333cdbcd3b24823331eaa9dc00
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=302994bed458bd1939c77ed66be68ec4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=8df8736c6144fae39d92be841ecc9e6d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=109be9d37fd9d66e998daea367e5617c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_X_Vibration
+  Id: g=365e2db3318714b8bf066adb8cf1f3f1
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"X Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=1bbec58b3d3f5752b10171c1b1282683
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=2012e147250d6a8edc4b2449771c51ee
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_06"
+      Children:
+      - Name: Mode
+        Id: g=644e0238b4cbb5eff24e8dd3ac996d29
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f11b3b54f9845615e99b9a1ad16a23d8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=2d70f4026c9ae563e6c79b315c695331
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=8f9680f150f91507d916084737eb544a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=5265cb6b69f798aa92fde27729f540aa
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=5634994278c8b993bd13b72d565658e4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=bf0dda72c3f6521a59832a5a41d097b4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=a4ff80438cd287c49c6774dcdb6ba319
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=48eb677a80f78e53f8072c056591dd8d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Y_Vibration
+  Id: g=773b31dce39e3dd310ce0ae232b5f7e6
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Y Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=9cab1f18b3923a65c86e637c7dc639e7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d5e17080b4fcdef1ab5fdac00622c1cb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_07"
+      Children:
+      - Name: Mode
+        Id: g=078b78743f681299303239b39eda3c8a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2e0f84427a43a780a8655c12ec4e0849
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=2b8c8e1997734c3635ab088340a5abcf
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=c469339ca3c340232993dd0665d4cafb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=b1126507bf832ab0996aa4ea9fbf0c77
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=c488639b548c451663c245b1ebc37c4e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=f81ec4c8b2a3e9f87e2b7542c565712e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=c6812828a87770ac81c7dcc1e0084490
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=f15bd14800875fff142a8add80fbc70f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Z_Vibration
+  Id: g=21a2f670fbb3cdefe667ca5034360932
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Z Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=518fe4565698db8d464ea292c02329c8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=02ec70acaa44147ab99d6876441be4b0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_08"
+      Children:
+      - Name: Mode
+        Id: g=3b6c9b7eec42493efe2cf2ef858417c6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5effdea3a1ceff5e15d39c767d188c64
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=aecbea8584210ebbc8d9e3e824257261
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=34a77763dcd572480fc24c8238a6f7fa
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=24895729c77ff0e1f1b38e0c118003e5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=5e85f09bb853be134b3fd844392a78e4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=b51f641d38d4f91a84d5ce83ca906c39
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=478c7d489196132e14fbecbb433751be
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=e77b3bbc60902470b2356a6278aaefd7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Rem_X_Vibration
+  Id: g=6591f9810a9c5b7f06e8ed0373c234b1
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Rem X Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=dcd1bd0976d4e4439171e46785bbc239
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=aef3bc780096867c07c6359c154cf28d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_09"
+      Children:
+      - Name: Mode
+        Id: g=d5892ecc10d21ff66bafc3fb71b74944
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=20f2caf4a2496fd1c1b58417382d97b2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=5729ddf9c34af5190f03b6932ec67a20
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=0b44bdf5f4e9d9170ca292cad14c8f77
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=f10ce04b90613af976ab07fdeb7dbe13
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=7f3b5c5b5499fb8c5eb0756b3da1c49b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=1efa24263397709c6d938275d514ade0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=9283c7166a5eff8078bc0aacecf84fa6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=231d1baa6686c46209b9b38faa1a3352
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Rem_Y_Vibration
+  Id: g=3f55c57125fd4c98d7b88464ec1cc7cd
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Rem Y Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=654314b4c27cf4f6b09eaacade826068
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=4971996c2d2da12a86f09e77b19aff65
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_10"
+      Children:
+      - Name: Mode
+        Id: g=5793fb5ecdd7f45749c7fd9e38083c6f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=bc6e18db5527fa9d9c3cd7f3efbbeeff
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=e6e3f2bc67b236943a53c17d03f9bfb8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=fe2ea10e6daf3985ba42af378f337dfd
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=e5450fd53256441435a3bc11b5ce2907
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=17469d3bb4e2386e9edfdb2986ec50a0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=afd4570fd909a36f09c51089f391d399
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=4ec7b21acd55348797f90de4d3ef729f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=5d281f3c10bb4ac5737d8df88ee6594b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Rem_Z_Vibration
+  Id: g=f5add9c2226a1848cb8f2b177a5fe20d
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Rem Z Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=43f57a890f45f5eee2ea0f237f9faba5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1c37e4e2ddfc4492ed7c92c2404f5f9d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_11"
+      Children:
+      - Name: Mode
+        Id: g=d9545aeaee82d8715d67368a4e13ae78
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=146d3d53ecda43007228db5fb05120c2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=69edcc3205a16795de27e92a2e7301ca
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=78948025760b346a63120a45b82bc164
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=fc8e508f68dd6399e1a5b0027c94a5ea
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=628c45ef0db5fa65b5622f8432e7d251
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=001a1ab3a03a53bc5ee27db3e5031587
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=5bb646be83d768007a511e2552176767
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=7318cd19a73df51710dc24b24f809e48
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Diff_Pressure
+  Id: g=c2375f798a1d348ef86c38c33742cf5a
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Differential Pressure"}
+  Children:
+  - Name: InputValue
+    Id: g=7dff8b2e99736adc93a15e622f4781d8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8c3584868f4a54757419dbee89d525a2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_12"
+      Children:
+      - Name: Mode
+        Id: g=a659371768020f77cf71d82693b6080e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3743bf82df7a0195281bd6adb2e54012
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=f3862f90c5f2e07cfc42933df8d04ddd
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=f5da04acccff60171e7ad6df08df761e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=dfd7ac17c8f5cdee00419c59a638a210
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=9780fa5e20dcb6bf599712cb109a8714
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=ebd71784ba93a801ccf0703cf616d97c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=bc187c102cb497260b15bee528d266b1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=8b7d30a20ccdbde2690a5f55b5af3132
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Flow
+  Id: g=e4a6329b1a1aa75667448fb4758ac4d7
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Flow"}
+  Children:
+  - Name: InputValue
+    Id: g=973b2b0d2c439271790dab2b0e1614c6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=80bdf05f20d4ac662bd0bf8d77c0ea5c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_13"
+      Children:
+      - Name: Mode
+        Id: g=f608d1a2edd582745f61c904be189e6e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e2037064f6b3fbe0f3adb1d27461ac6e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=b63ca8666ad3faf90fc96c0071af870f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=e6ec3f73fefa15d014cb1a17897e296e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=f12190c1c44f71099bd34c220b6d6ead
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=df0c0b4c501400b2290bab77f19d2ac2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=01ed8f43c292b6b3c452e18d3c1544fe
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=e8a1e16510ae3b0b585646ab0090aace
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=5fde91a20d8a84bccbd548b0e7a5ac20
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Setpoint_Voltage
+  Id: g=d2837176707140cabf16aadb8d340f30
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Setpoint Voltage"}
+  Children:
+  - Name: InputValue
+    Id: g=6b6d54515371940e265c0081205f6956
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=45c442f6eb9b2191467116f1c72e5851
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_14"
+      Children:
+      - Name: Mode
+        Id: g=16843a98f3233ebaac34289048f21d03
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7e01d561ed7e556a851ff8cd59adc09b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=c2fbf17aeb5230774696c0a04b771730
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=acaf709bfe8e3b0c8f249ce995eb2795
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=5caa364c35432bfc230a394d8bcb60c7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=7611b7d9f2d0dfa5ab99080b48422c04
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=d08fd8a76be76a07a5cca844c7349434
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=bc5c8e9709377cd433b12413d2fb2e05
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=5df2e6d32cecb76504dd8d1dd98fa002
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Active_Leakage
+  Id: g=b108b85a4ac633a728ae1a0c65b63bef
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Active Leakage"}
+  Children:
+  - Name: InputValue
+    Id: g=8a629fc1a90c3c6a1a5c33da7211aa03
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=28f32af7ece67e56204edb54b45c695c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_15"
+      Children:
+      - Name: Mode
+        Id: g=f057f7295ef552d916a5752c98c916b7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c06dd305f62c08ecc171ed0fb44e1101
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=ad49152d983cfc535c85973372e86d8c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=36e535347b0c785f6edeaad369d0fd50
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=8f3d7d31f187a78b5741a4fe79fd9b5b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=465d9147c113cddbb46bc5d4b4e2b34d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=8a443025c4e2f445ad73660df2d571d8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=1892d538f9ccd08548fe99f5e15493e0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=99a037e6ee245a0447bd7830b3250afe
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Passive_Leakage
+  Id: g=0b5e77a38b07a83c8ceb28ec96a33962
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Active Leakage"}
+  Children:
+  - Name: InputValue
+    Id: g=ad0db07f5b9d2f7d06155eee0431e4cc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=e0bf0999ac7fc00846fc891222e0e4c1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_16"
+      Children:
+      - Name: Mode
+        Id: g=67cbb94c30179c5638552224cbc7bd36
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=382152bd156ebeb85642fd035c2fca1b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=610f8c4f540bfd121ac4aacc90c39a3b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=45ea6adfd7fea71e850726f0be419e49
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=ef1a073cea3c54bf5ad424c3b2e211ad
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=96401f66e308721d65ab2af186468bf8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=a51375e04ae0e659abe3edd922de62ae
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=70797f92198a58d92480798d5bd5fa2f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=4e74a373ff5be959ed047e2a5f96a61a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Imbalance
+  Id: g=b3f2623c8d4268baba465ab8dba665b7
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Imbalance"}
+  Children:
+  - Name: InputValue
+    Id: g=0c68fbd6de5d32fd85cc9904f41ae007
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=44c51c3dbad0eb663bb2a775fa629682
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_17"
+      Children:
+      - Name: Mode
+        Id: g=d4f832c4ff7ae8b42750f7d3d0fd7e59
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a02a9cf01f496f8bdfab06931950ebde
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=3283f2e8ed277e1428c256fb003123ae
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=3eb1d1ab7cb71febc780b0f590b27473
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=6cbd9794203280b84ded54304deb7856
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=254139be77a581e826f10cc181dba1c1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=57c0c1b0d944e0ad7f078bd682b999c2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=eab56b79dabf83ecc642c0c9eaa0c77c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=e11984611af6c78148c92bf4cc730b96
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Rem2_X_Vibration
+  Id: g=09070643777ea4d990df3257afe3660a
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Rem2 X Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=b363989d6d15f7011c70d7545b6453f0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=248d1f92115948d3be05bce8da962284
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_18"
+      Children:
+      - Name: Mode
+        Id: g=aac25c5e7dbc731c2f1e54b983a71517
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=8fe0ab034d21b7e3a3e420df2be6d015
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=dcf722d8d1b1c6bee0917d1bcfa51af2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=b7227ce6764a84a5e416ea14f47b7884
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=cee16ca6fc156c67bfe32870ac7f8c88
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=b860daa7d24473a84b677de56dd0b32d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=4054501a880f189e4be53ac36db66b32
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=64c161f33544cb302820e42ea7bbf149
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=75bef053cb765b9edf4d64381e9bbaaa
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Rem2_Y_Vibration
+  Id: g=04cb4529cec539a6e01ca15628c8c3a2
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Rem2 Y Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=87e8cf248c0972c84202234832e4cd50
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=0d7c0752e4fd39b0dd5fdd52c030161a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_19"
+      Children:
+      - Name: Mode
+        Id: g=e24cef3d48db53e5af50849f571cda14
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ffbecb1d6ad12d0afe831dd356332b71
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=a5a05f0d9d51cf0dfd0d8c93a00e2cc4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=b0f723bebb16eda8789bfc205294e8db
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=34d1f59336bdf959050e74f8de330fce
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=bf082aa4a31d7a01f19e5f28f20ff4e5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=2f3bffad73c85d1ea7a084ba48c01ac8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=df5df0479494e2c8a36f308a86ab34d7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=3f47a19ef29f3717d4f1285be0e5adef
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Rem2_Z_Vibration
+  Id: g=9313a3e804675865e3d30a41095c622b
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Rem2 Z Vibration"}
+  Children:
+  - Name: InputValue
+    Id: g=a7a6e27ba250ce284f9bdb074c839c1f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=faba2a0e80b4ce4c14da29f29fe46a27
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_20"
+      Children:
+      - Name: Mode
+        Id: g=d5c03219bd82a78a7b11f815d5cc4119
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=45e2ec4183c1de9cde878d1c2869b5a9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=592580f88553a81e2a5b3ab40f02f7d0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=8b22cdbf4ae3fa031013202838719513
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=5dad8bec70b5fb649d111f3e29759748
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=d12bfb1bb31db65f37c125a5d2cddd52
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=fd62cf322078e0c092870ed1343bea02
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=2fd4eb96c22a6337470ff14c031c3dab
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=5260a17fee1d56bd14b2e60e57b4b583
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Rem2_Pressure
+  Id: g=2019793d6d1d0f0fe3de97083591b20a
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Rem2 Pressure"}
+  Children:
+  - Name: InputValue
+    Id: g=dcc136853f8c2ae7f97406c1ec21781c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=3af73b513a71d0d00f77e6efe9adf112
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_21"
+      Children:
+      - Name: Mode
+        Id: g=c21ff496b1d2aa8422d487d9ff14e01b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4612ab3070da4c57059ec09d6538f286
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=8b9a71782a72c77f254d368d75230170
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=dcfd7a450a2a1c46c1339b6906f800a0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=0894077cf396087134f5f755e2f32d59
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=608344762c0a32718eb752f1110423ab
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=2ba137713f270a4956f1c9cffed7094e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoAcknowledge
+    Id: g=f28bb2d995baeeb79f2eb8fc851842f9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=75428116809fc49d1b28d053d52f9a83
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DHT_Rem2_Temperature
+  Id: g=c704fec9fd3db5e90e1617818bbf6a85
+  Type: ExclusiveLevelAlarmController
+  Description: {"LocaleId":"en-US","Text":"Rem2 Temperature"}
+  Children:
+  - Name: InputValue
+    Id: g=8237596ccc4620e8266c785327a36576
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8de6439d5057560e677f180a469c3887
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/DHT/DHT_22"
+      Children:
+      - Name: Mode
+        Id: g=4bed5c09dceb1c8b3b5e02d474210089
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2e67b1703a0b30011fd39b3c8a4a472f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=e676aced59ce2f6c5b02864c38a39630
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: HighHighLimit
+    Id: g=e217f6262b4c257f15ea80200c70dd6a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: HighLimit
+    Id: g=9e28b133886da5b4b83ee3c9c9f44c34
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65535.0
+  - Name: LowLimit
+    Id: g=71eb1e8d52ba2f4652c696d9d74ae715
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: LowLowLimit
+    Id: g=500c24f6ade0c73b06cde25aad361211
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: -65535.0
+  - Name: AutoConfirm
+    Id: g=bc1af61216171e46f8e01b36e7bbc243
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoAcknowledge
+    Id: g=2925648a4e75352d0cc9bf5209eb393a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

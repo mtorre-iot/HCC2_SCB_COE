@@ -1,0 +1,1067 @@
+Name: Alarms Variable
+Id: g=8decaf40619791ca836a5262c9239870
+Type: FolderType
+Children:
+- Name: Alarm bits
+  Id: g=bc2c7748a8ea669ab3ff3f291f3f93ae
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Pressure Intake Low
+  Id: g=8eb5c2f29b37c04728c3fe0338fcc497
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=92ac471c77a3b245d2be91da6a26c1cd
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=94c93f81163ddf61e1b7c705aff93b61
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&1)==1"
+    - Name: ns=5;Source0
+      Id: g=067c3ce3cf70b027d4db814c26e2f039
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=69e284616e266234aed2ba7bd834b5eb
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=e4727375b3ab144a196cb7be6e166e06
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=afef7dbb0452f59f70375a23e4b08ad1
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Pressure Intake High
+  Id: g=6608d769f66b0ea778197db3e0976ed4
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=64ebda19cf0841fe73ec468c3fe54a85
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=a5f266ef2295adf87111d2e485c76e82
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&2)==2"
+    - Name: ns=5;Source0
+      Id: g=7f2885b4ea01c1f3876e8f500cda9236
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=649d17bd63e1e6bae717aa1779c44831
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=520f149f53b12d6adfc6a3d70772f7e1
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=cb748d6810a788a30fc7fc4066f3a793
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Pressure Discharge Low
+  Id: g=e3fddeb1c788cc9f5324e074d1313c89
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=ded074b8124293f1e47dae71d8e11e19
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=b614f3e5226d3cb8a4c5fbc8556b60c7
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&4)==4"
+    - Name: ns=5;Source0
+      Id: g=1120785df5c73553c523ca3d57bec6fa
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=a8e297a91fccb4f19d4006a7b396de1b
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=e7552f267392909f7250616cddb1903c
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=56b3b7220fee5584f46b5675b5b1990a
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Pressure Discharge High
+  Id: g=0340b4ecdf5381330c255c4d21732b4b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=1b75d9b480f2681ffeaa43adcf3039a0
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=135fd2e624414433d09705dd71ae218f
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&8)==8"
+    - Name: ns=5;Source0
+      Id: g=9a8e79b768124de033d8aae40d894d43
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=cedbadeb43105830dcf5bdf35f90fc45
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=b6df86c904921e383f5d53ecbfd3a830
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=59ffaf5f1583dc00dc88e752de337cf7
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Differential Pressure Low
+  Id: g=36de8572bddd56dbca7715d293dc722c
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=019c413dfbdfaeae2aca9dfcd02313be
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=6486b4989c52348ac1cf8197c40784b6
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&16)==16"
+    - Name: ns=5;Source0
+      Id: g=bf53f3746109359439d4738210e1f1fa
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=46c41cba050f2c1b9c0031f3365011dd
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=a11bb1088fd25302e57d3e313869fde4
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=176b1ca04cf61c5438a548111557ef12
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Differential Pressure High
+  Id: g=9df49818f34799875374072f5e27c4f9
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=b73c54010df1eaaafa4c9859cf712620
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=55602636dbdf3ea30ab7e1b888226b3d
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&32)==32"
+    - Name: ns=5;Source0
+      Id: g=dd0f6e2b6ff67036f86ab307cb04e3e9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=8b599753f3405d1999d4ac24d9289390
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=a1e358f2eb52c69c78c504847f1851ab
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=9cf447669dfe013bf6633fe8321f4bd1
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Intake Temperature High
+  Id: g=01c3fa9525f08eb57327ca027595d424
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=5f31e7c556ca78cf202602ee8c1fef53
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=ef9491bbfad492620ba79de230934d9c
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&64)==64"
+    - Name: ns=5;Source0
+      Id: g=e76678e1e4e75b2f016859e810475e67
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=616d2135c9d253cdd586be557a6bb2c5
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=1644767549c145c0d7b2f7800b65dcde
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=ea88c861638f0b2a32106ad19946b0fd
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Motor Temperature High
+  Id: g=4cf008876460ac32fa8ea248d88ce590
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=b677cfa7ef32d83e6691027826c4e8b0
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=0b665cbf23b42477dc64a3a11c05d6bb
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&128)==128"
+    - Name: ns=5;Source0
+      Id: g=0f0b936dbce35af4b62aadf76c5299b0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=e75b1f18a8e32829338db424d913e101
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=f3020b09167d039767245aee94a07c2b
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=b284568eee10820c01ca773dd11a7f78
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: 'Flow Low '
+  Id: g=f21c2e5cab03210707839ce6f4ee059d
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=aab5e98df2d98c3cca05da95e66c16a9
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=3ec2a5b560f017a28185ee1525d70b64
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&256)==256"
+    - Name: ns=5;Source0
+      Id: g=86fcebef1aaf3b046cac4f8e6ac820d9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=b71b85144f7d11a22a78449f0f75a11d
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=0b71c92355708ae32cc0ef9541dd776b
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=04ba222c5005d5b6df1b47a6d95f2465
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Flow High
+  Id: g=cc2ce58c909e97980dc60831512fcbd0
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=2e4a3a289fb313e062b85586f4c4adef
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=f849b73d4d72c0d3c403396a6f0b2ddc
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&512)==512"
+    - Name: ns=5;Source0
+      Id: g=c556fac16bc674fe46c8366fe0b0f37b
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=3ccdc95b1e0e85d32deb58e471023849
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=3bd4c024cd6cdb228cd4375216f01e5a
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=51f4fb6e8a123066e30a8db2ba2f0a94
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration X High
+  Id: g=84909ca1590190dbde43b4a02ff2fdb4
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=5112f836f6a50d0060e4c0c8a49191c7
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=29853a0aef04eefb922ef62da7940bf7
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&1024)==1024"
+    - Name: ns=5;Source0
+      Id: g=5dbb5437572e52fc96eaa3dcece98401
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=768c47ac88efc3d8c37fca1a4c79bbd7
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=d7641b4868a70d1f205800888a232208
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=435499eece6261210dd813236b0965e3
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Active Leakage Current High
+  Id: g=0d3f975c721a2274c2368f88d9104318
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=7e1c8d6074b9467390a3330dc940c01d
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=b25731e0c8c7dae29f730d5c654a00b1
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&2048)==2048"
+    - Name: ns=5;Source0
+      Id: g=d955faf78e3af7c386f5560ae4625c43
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=a5952e79be2d063e5e05b9ebc6f26fc6
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=41f4b01ccfb8ca1e61ce371526e3e031
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=4c82d8785b93c169da3819bd2e0ae134
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Passive Leakage Current High
+  Id: g=9ea5be7869e3507ce642901527a785bb
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=1aa77fc20d5c106e2afa310895f0490e
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=4eaae9672554cdb6123144bcbf825c23
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&4096)==4096"
+    - Name: ns=5;Source0
+      Id: g=6635aae9aa8476be7bf50bc1790385be
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=6c8933ff8f05c86db7cdea1ca0d9992e
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=da7c7633ed4957506be21e13186094ca
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=887d8401dc416b471fc72a747361d688
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Discharge Temperature High
+  Id: g=fb49049c74a6ef702edbe130ae92287d
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=fb7ce288d1309c571c0a0a5c19fdf56f
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=e2de967c8164c7807db456e78a16bfad
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&8192)==8192"
+    - Name: ns=5;Source0
+      Id: g=958f6171af46db4f337a12942511500a
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=e10615d3fa45647ff0c277a0fee890f4
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=6a3d0d7b2e3a58e2e815f8c67b5b48f0
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=5931d898b5b74ceed2b222cec48775e0
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Point Voltage Low
+  Id: g=2d53e4d206118c6da222b032f2d24fe6
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=3bb11f1cb1172d8fa0f3f9d2e116e6c7
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=edd72b54b1772870c038cb520bc190c3
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&16384)==16384"
+    - Name: ns=5;Source0
+      Id: g=76a4af9792ce3e2d29a377ac642705e5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=d477a54ba0c6e4ac0206ac277ac70c10
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=30fa7b415cd097d3e4ad6776b2182021
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=4283c23bcd353cfc0abef3ba087ff047
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Star Point Voltage High
+  Id: g=6494aabde5f2f5b136f25c9d956ac98c
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=405291a59d0ca8297bef64ef823d9aee
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=31569c8853d9e226570c287a764071e1
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&32768)==32768"
+    - Name: ns=5;Source0
+      Id: g=37e8b49d40406987cfd89ca9859a58d6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=c416d4f037ddfea99a4301b610060906
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=5c1b2ef90123531beae07da55ba7dc30
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=cec9ed0e34ecd4400ae85de6394fcf2a
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration Y High
+  Id: g=1314b64d7c26628f6b97ed4e154ba779
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=480a11e00259447228bc4888034e6bf3
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=71bd89e972a6997a359889f5c7f237bf
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&65536)==65536"
+    - Name: ns=5;Source0
+      Id: g=7e46def8d27d0a2f2ea12ad760786d2f
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=5ba292502c4de2623c57c1e1abc85c34
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=6b1d79766bda153ff702f0fed3205700
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=d96af8eafc67f7abe1223fd170de9fc0
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration Z High
+  Id: g=3e20bc0657f3c48a6cfe0b213304c352
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=d03eefd5e82524c6211adc32c4dba602
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=38cd8a42bf6f80d5630f211ab670b03c
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&131072)==131072"
+    - Name: ns=5;Source0
+      Id: g=9224b8c91ad9db88aa7389241bb166dd
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=81ab22984340bd86922f7b9538716471
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=c8d998f52bcc6ad3161585732933e16e
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=87e7dcba40c5809c27e07603fb224dcd
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration X remote 1 High
+  Id: g=7e89bdb72fd97544dc75e3dbadec8744
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=71c4426388d37915ebbc1cc09bcf0efb
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=447e398481feab0a04a47902e84330d9
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&262144)==262144"
+    - Name: ns=5;Source0
+      Id: g=0e6f52ce77284cfc7a4d80f25bd3ea41
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=23d0d09153de1427c4373071286bf97a
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=ca7ad0d37da6b4f8b20bff671fd6b62d
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=ff110f2b969036cd7ea4b10731c20a4f
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration Y remote 1 High
+  Id: g=dd281b91eff06d8437b245904d05b17b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=240d7db2ad83bdce60b95d1c8e19992f
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=ec55b3db6ce897c73b172cc6e7a61e18
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&524288)==524288"
+    - Name: ns=5;Source0
+      Id: g=3593433f53c788683c6be2d48fa23886
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=b2c658ceaa974578432fceacd5f7fd3d
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=bc5de9731a8aae0d024f815d16f62c74
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=7931ebcf9ae1b961a4d2d8dae71e2cf1
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration Z remote 1 High
+  Id: g=245bccc7ce0e476666a51eb99a404ea0
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=b48cefb5a63b2879555c8d1a0d2cb1a4
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=e40473cef758321569e2e2715fc52455
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&1048576)==1048576"
+    - Name: ns=5;Source0
+      Id: g=39d2136de7e81e55f9287b5aa1a5d25a
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=a3bf36a13308dd38e2342d7a7430eb4b
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=49ffc8008fadec0831f6bd675884ff47
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=b9ad1dc5ea19d969167ec1c293de1efd
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Intake Pressure Remote 2 Low
+  Id: g=58b63ad963160fd53e0b2480596ac857
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=8f25f766403aab063c73706f620291c4
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=ff4bc6268a81e8020e87669b78ad5ba6
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&2097152)==2097152"
+    - Name: ns=5;Source0
+      Id: g=847520a78bd7efb5dc005f2eaa9f6089
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=8aecc961ebc03f08f87803fd8c609fd7
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=19ac7c792a83708d9b5323c3daae4d05
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=8b73387feb95954cd8c261f3805b11a0
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Intake Pressure Remote 2 High
+  Id: g=4eeaa62677c75c414a850d6a5d968a82
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=a59c7a7bbf63e2c04b66643df2cd8915
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=f9bdd70deb637272f844cf52cc712e50
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&4194304)==4194304"
+    - Name: ns=5;Source0
+      Id: g=18ec0a147844de0c051878be93f10bbe
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=02be739394c0166349ba32fecef1dcb5
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=bd9bf3b13b667bf2427fd8e97821c172
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=3e7d0b131a79528d0772f61057f41a96
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Intake Temperature Remote 2 High
+  Id: g=240af889c1ce1329535cd9916993fe92
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=ec5f5a0aaf7edeab87bc8f8f6b03aec0
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=760d8f43b14d35cae0bdc44bbe1eacbb
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&8388608)==8388608"
+    - Name: ns=5;Source0
+      Id: g=444c593a34516a2b865e4a8d82f469e0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=c9e41629caf97fb9668db4e359d4461f
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=6e494c65d18cff75076d936b1aa6e4fc
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=17be159a322729f7fdedd471ab446892
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration X remote 2 High
+  Id: g=0d13efdf1a629303c19293ee9814c18c
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=3ba0169d88e90c59bb88037980fc831c
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=71cf183d8866a5e4464e32da1302017b
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&16777216)==16777216"
+    - Name: ns=5;Source0
+      Id: g=c1a47f33823723f7795178527b0f6eec
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=cb38cb78059d85854cdf62f946167181
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=b2a8f14fe2f73f0aafa78b116c5d66bd
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=4b0623f2cc8abea0b9d3880bc982b7b6
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration Y remote 2 High
+  Id: g=b030cd448caf6f534561a891f7875c85
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=a4b19b4c570dc0af9abbd38c589d3392
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=621e1114015c6fd207521f88a1395b72
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&33554432)==33554432"
+    - Name: ns=5;Source0
+      Id: g=62d7d8b7397fbfea347e6030facc55e3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=f35aac4a67100cc1273164f2c8a43459
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=6e82d264c50404158f2dfacc26e36a60
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=2b762f9a06f9cb155d4745ada7573f2a
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Vibration Z remote 2 High
+  Id: g=ccdc6490086abe10d3a76c041b7c8fc5
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: ExpressionEvaluator1
+    Id: g=11880df1187ee044ca5fc5907ddef5f7
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Id: g=0ab2b47917702e7977a3ab6bb79dc307
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0}&67108864)==67108864"
+    - Name: ns=5;Source0
+      Id: g=ba53454e301d4f4160c6afc9b3f248de
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=b60aad90b7ee81d0f6e09ca3983e5bc6
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Alarm bits"
+        Children:
+        - Name: Mode
+          Id: g=24f879844df1752b86d4b0084fc5613d
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=794df2c83292c1255f627ffcaee23b02
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: ScreenName
+  Id: g=d89477a4472cc249d1b546a838fc9f77
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Summary"

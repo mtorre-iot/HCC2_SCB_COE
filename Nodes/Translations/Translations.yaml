@@ -1,0 +1,55 @@
+Name: Translations
+Id: g=0b62989f3451b9b122fef749a4dac1c0
+Type: FolderType
+Children:
+- Name: LocalizationDictionary1
+  Id: g=0a8e1ddebc9f724c061547c6185e1d0b
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [38,2],
+    "Body": [
+     "","en-US",
+     "Confirmation Dialog","Confirmation Dialog",
+     "Acknowledge","Acknowledge",
+     "Acknowledge All","Acknowledge All",
+     "Confirm","Confirm",
+     "High State","High",
+     "Confirm All","Confirm All",
+     "High-high State","High-high",
+     "SourceName","Source Variable",
+     "Timestamp","Timestamp",
+     "Message","Message",
+     "Name","Name",
+     "Active","Active",
+     "Acked","Acked",
+     "Confirmed","Confirmed",
+     "Severity","Severity",
+     "Current State","Current State",
+     "Low-low State","Low-low",
+     "Low State","Low",
+     "Password","Password",
+     "Login","Login",
+     "Old password","Old password",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation",
+     "New password","New password",
+     "Confirm password","Confirm password",
+     "Change password","Change password",
+     "Current User:","Current User:",
+     "Logout","Logout",
+     "Your password is expired. Please enter a new one","Your password is expired. Please enter a new one",
+     "LoginFormLoginSuccessful","Login successful",
+     "LoginFormPasswordExpired","Password expired",
+     "LoginFormAuthenticationFailed","Authentication failed",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently",
+     "LoginChangePasswordFormPasswordTooShort","Password too short",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match",
+     "LoginChangePasswordFormUserNotFound","User not found"
+    ]
+   }

@@ -1,0 +1,89 @@
+#region Using directives
+using System;
+using UAManagedCore;
+using OpcUa = UAManagedCore.OpcUa;
+using FTOptix.HMIProject;
+using FTOptix.DataLogger;
+using FTOptix.NetLogic;
+using FTOptix.UI;
+using FTOptix.NativeUI;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.OPCUAServer;
+using FTOptix.Modbus;
+using FTOptix.Retentivity;
+using FTOptix.CoreBase;
+using FTOptix.Alarm;
+using FTOptix.CommunicationDriver;
+using FTOptix.Core;
+#endregion
+
+public class LogTrendExportLogic : BaseNetLogic
+{
+    private string sep;
+    private string usbPath;
+    private string lblMessageStr, dtFromStr, dtToStr;
+    private  Label lblMessage;
+    private DateTimePicker dtFrom, dtTo;
+    private DateTime dtValueFrom, dtValueTo;
+    private DelayedTask GenerateDelayedTask;
+    private int delay;
+    private string dateFormat;
+    
+    public override void Start()
+    {
+        sep = ",";
+        usbPath = "D:\\";
+        lblMessageStr = "UI/Screens/DownloadLogsPanel/DownloadMessage";
+        dtFromStr = "UI/Screens/DownloadLogsPanel/DownloadFrom"; 
+        dtToStr = "UI/Screens/DownloadLogsPanel/DownloadTo"; 
+        delay = 5000;
+        dateFormat = "yyyy-MM-ddTHH:mm:ss";}
+
+    public override void Stop()
+    {
+        // Insert code to be executed when the user-defined logic is stopped
+    }
+
+    [ExportMethod]
+    public void Query(NodeId dataGridId, NodeId dtFrom, NodeId dtTo, NodeId dataLoggerId)
+    {
+        var dataGridObj = LogicObject.Context.GetObject(dataGridId);
+        if (dataGridObj == null)
+        {
+            throw new Exception("Selected DataGrid Object is invalid or not found");
+        }
+        var dataGridBrowseName = dataGridObj.BrowseName;
+        var dtFromObj = LogicObject.Context.GetObject(dtFrom);
+        if (dtFromObj == null)
+        {
+            throw new Exception("'From' DatePicker object is invalid or not found");
+        }
+        DateTime dtFromValue = dtFromObj.GetVariable("Value").Value;
+         var dtToObj = LogicObject.Context.GetObject(dtTo);
+        if (dtTo == null)
+        {
+            throw new Exception("'To' DatePicker object is invalid or not found");
+        }
+        DateTime dtToValue = dtToObj.GetVariable("Value").Value;
+        var dataLoggerObj = LogicObject.Context.GetObject(dataLoggerId);
+        if (dataLoggerObj == null)
+        {
+            throw new Exception("Selected Datalogger object is invalid or not found");
+        }
+        var dataLoggerBrowseName = dataLoggerObj.BrowseName;
+        //
+        // Create the SQL query string
+        //
+        string queryStr = GenerateQueryString(dataLoggerBrowseName, dtFromValue, dtToValue);
+        dataGridObj.GetVariable("Query").Value = queryStr;
+        return;
+    }
+
+    private string GenerateQueryString(string browseName, DateTime dtFromValue, DateTime dtToValue)
+    {
+        string rtn = "SELECT * FROM \"" + browseName + "\"";
+        rtn += " WHERE LocalTimestamp >= \"" + dtFromValue.ToString(dateFormat) + "\" AND LocalTimestamp <= \"" + dtToValue.ToString(dateFormat) + "\"";
+        return rtn;
+    }
+}

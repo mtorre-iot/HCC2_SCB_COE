@@ -1,0 +1,938 @@
+Name: Alarming
+Id: g=a63b3dff082388aa59bc83bd53d47fae
+Type: FolderType
+Children:
+- Name: 'ALARM_BITS_CN0C1D_AS_LST_SIG(MSW-LSW)'
+  Id: g=c10d1292453e7f45ed72cdfbf1953388
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=53805b54bb7d9e8ac18c8f83a6c16705
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=10e4f8c655fef2364b499e19a3c1952e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3101
+- Name: ALARM_TRIP STATUS
+  Id: g=0b84395d32745e3afcc5f3b0261a40b2
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=565d04a5a6036ec1cd101d11ab8aa1d4
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3001
+- Name: ALARM_ENABLE
+  Id: g=ce33b486d9abdb24563b8dfbf220c13b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=36f0d8123e953de50b2ea66103ec73fb
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3002
+- Name: LOW_ALARM_ACTION_FOR_PI
+  Id: g=1f499e0d5ef9409dc6f0c2b5b0e75cd7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=aab0a13cfc8d2ec598364d45c5614776
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3003
+- Name: LOW_ALARM_SET_POINT_FOR_PI
+  Id: g=663f6c7f0ce145c7f018f45853c24814
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=68964216f6ae6804c80754fc7f3af83f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3004
+- Name: LOW_ALARM_HOLD_DW_PER_FOR_PI
+  Id: g=8742ffa99a9f38950e76acac7fa71d06
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=9eb5f2ead654c1cd26c9ae19f30cb18f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3005
+  - Name: MemoryArea
+    Id: g=6cac594b742318de27af9334bd90c42c
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 0
+- Name: HIGH_ALARM_ACTION_FOR_PI
+  Id: g=4efd5b98d7ca21c41da60fb076a637a9
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=58f852a79d0034bf9a6ba325fc6738d1
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3006
+- Name: HIGH_ALARM_SET_POINT_FOR_PI
+  Id: g=514283fa88cecf54a060d31fb81fc6a7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=5647d6b0fce37d93eb6e6ac0b772255b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3007
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_PI
+  Id: g=f7af1b0acaad518bbe09620a35b96afc
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=2bafa1f3aafaec44a4ae674d8aeb3bd2
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3008
+- Name: LOW_ALARM_ACTION_FOR_PD
+  Id: g=ac5db228bb989483337d8ea0d26ff3c7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=6e007a4dc5133368c52b29fe48600e13
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3009
+- Name: LOW_ALARM_SET_POINT_FOR_PD
+  Id: g=d6318afabc171b4d914722c02ba2046f
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=80435833c450ea76e6db9e5cbccaaaea
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3010
+- Name: LOW_ALARM_HOLD_DW_PERIOD_FOR_PD
+  Id: g=b092b947dd5718d22f7c995570eb9aac
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=9bd9385ed3b16e08a1aa7f640576bac9
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3011
+- Name: HIGH_ALARM_ACTION_FOR_PD
+  Id: g=176e246c7c6928b46de2e138c8b2cafb
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=114c1e03e04df16eabb14a282bb6633d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3012
+- Name: HIGH_ALARM_SET_POINT_FOR_PD
+  Id: g=c46fe821534aa34c0aa226092b9afee8
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=bc4d4085e318cf1aa88e2cc60e6f86bc
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3013
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_PD
+  Id: g=e97cb969f1a4e13be7be85838b767ff3
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=fc34e0924ce1b7089ed1566099d1537f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3014
+- Name: LOW_ALARM_ACTION_FOR_DP
+  Id: g=1da291a3e7046c80ab72a365764ae3d4
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=b6fbf27b8e76faf84cd96fadba21dfcc
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3015
+- Name: LOW_ALARM_SET_POINT_FOR_DP
+  Id: g=fff217e762e42613df3ef658d2a150b2
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=280c28483eeb650ff29d559ba22f2ac9
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3016
+- Name: LOW_ALARM_HOLD_DW_PERIOD_FOR_DP
+  Id: g=0a33925ce3b1824568264ff8cfc98e78
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=252692d6a37043410b0292b5ca40fe43
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3017
+- Name: HIGH_ALARM_ACTION_FOR_DP
+  Id: g=4cc81b27c32d186d8634fc28174ef5c7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=a8a94b1d68620863c10a4fefc7bcca35
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3018
+- Name: HIGH_ALARM_SET_POINT_FOR_DP
+  Id: g=e82400cce554e9b87e13f1e1b73be4ff
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=3b67896d845baa4e3937a13d6afbb414
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3019
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_DP
+  Id: g=d965d931f18e01f50d98a55c81359e7d
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=b4dcb474022238965d62742752c64c6a
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 320
+- Name: HIGH_ALARM_ACTION_FOR_TI
+  Id: g=d084c2b01394cfe981fedc691b20d197
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=abfdb207ca7e92a037198f749776b9c5
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3021
+- Name: HIGH_ALARM_SET_POINT_FOR_TI
+  Id: g=872077b61f869149bb4ecf71c921d80f
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=cc5040d23c98ebd2abb758b4ca0481c3
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3022
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_TI
+  Id: g=bc871c12621755a5ea71aa912b0bf5d1
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=05b4ea525b958dfbf6845010114d5b88
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3023
+- Name: HIGH_ALARM_SET_POINT_FOR_TM
+  Id: g=14eefbae3a03244357f264e95fef3c38
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=47936ec6c0667da3e390ef406a5bae3e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3025
+- Name: HIGH_ALARM_ACTION_FOR_TM
+  Id: g=c1d132228c3d232cf0079ea6d6c4e590
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=0a69ed8329be7252b1fabc2f7e65d691
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3024
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_TM
+  Id: g=50fbc13d58308165b75d030674bb3842
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=c6903bfef91ab288a2b447b6831f4ad4
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3026
+- Name: LOW_ALARM_SET_POINT_FOR_Q
+  Id: g=9c7de0d6c003a3af8c4b9e193c452e15
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=b5974b908a8a070e9aae3f3f728d980d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3028
+- Name: LOW_ALARM_ACTION_FOR_Q
+  Id: g=0e6f721ac198301f44927746d2b40f2d
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=9b0bfb99539f5b028fdf00fa1a52d7cb
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3027
+- Name: LOW_ALARM_HOLD_DW_PERIOD_FOR_Q
+  Id: g=ad39fcbe11443393104bd43d6a633c21
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=4974d6c65eb095dfebb11de3433aea6c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3029
+- Name: HIGH_ALARM_ACTION_FOR_Q
+  Id: g=f88c61119dde4066545ef2cd8c216dff
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=070e21fa40290397ca2f6649dc20f53f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3030
+- Name: HIGH_ALARM_SET_POINT_FOR_Q
+  Id: g=63d84386321d8c9e0047ceb2bd5d3368
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=71da28a574b66b9572792632b8e1a251
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3031
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_Q
+  Id: g=67efe2c64c3ba2d91b135287433f384a
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=eea1b55a669d51695b8348191807eafd
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3032
+- Name: HIGH_ALARM_ACTION_FOR_VIBRATION
+  Id: g=c8847069084332a108f7ed0bb2653550
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=a515e6656cbcdca3633b23d4c1014ca5
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3033
+- Name: HIGH_ALARM_SET_POINT_FOR_VIBRATION
+  Id: g=476b2134541e7bb5b7ec5cc1477a8512
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=9e05ed4a81fa6ccf09961499eb123a93
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3034
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_VIBRATION
+  Id: g=b1c435fb7f12f560d4840ed752971007
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=7c379313e43eb6b9c4e47d0fa30e30df
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3035
+- Name: HIGH_ALARM_ACTION_FOR_CLA
+  Id: g=fbceb228aa7cf9e47d9f773214358b3f
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=59ca5fa84731049c60c34463bbf5398d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3036
+- Name: HIGH_ALARM_SET_POINT_FOR_CLA
+  Id: g=dd16ef72691907ef4df6d2fed1bf79d8
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=81def73f8d53c057da82ef00fbe33ae8
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3037
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_CLA
+  Id: g=06cead5c8922d565959db4250bdc30ee
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=bc0db97ca21c07f47b9e388e39be5138
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3038
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_CLP
+  Id: g=4d21604d1c1ea4ce5f2d9103acd42b88
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=4e173ca471754b94867f003af93146ac
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3039
+- Name: HIGH_ALARM_ACTION_FOR_CLP
+  Id: g=192e5a196870340104ae423df6cc3f6d
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=dff8bb44b602039a2af9a6d6ea3f1160
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3040
+- Name: HIGH_ALARM_SET_POINT_FOR_CLP
+  Id: g=46afea9ae7eee324cca809628fdd806c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=0595e2a85b99845a837a62730d43490c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3041
+- Name: HIGH_ALARM_ACTION_FOR_TD
+  Id: g=20b6396dd3f43d97285dadc065781bd8
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=769a244ca29eace9aca0dbb8f88cc98e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3042
+- Name: HIGH_ALARM_SET_POINT_FOR_TD
+  Id: g=f2b54c065540df5e9eb274557663d80e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=8957ecc80a4f8aea06ff0506836239f6
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3043
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_TD
+  Id: g=28019ebbc089b9519d44f141d8ca29f6
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=adc0874649382ab4c2dee3b9cc460523
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3044
+- Name: LOW_ALARM_ACTION_FOR_VS
+  Id: g=27eb6e93f1821071b11344e0c4343079
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=60e616d813397afbbf8aa608a1566016
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3045
+- Name: LOW_ALARM_SET_POINT_FOR_VS
+  Id: g=d4c98c66458baf1629d8c3443750e3cf
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=31da04e6c909f1368bc6a4b0ca9e6c64
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3046
+- Name: LOW_ALARM_HOLD_DW_PERIOD_FOR_VS
+  Id: g=56339a0211ebc56b8e69cd023607e16b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=e154f7add0df0a1e365b254410a26090
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3047
+- Name: HIGH_ALARM_ACTION_FOR_VS
+  Id: g=74b41fb91f7621eafc25916437c3ab0b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=fb18da3d140ee39d63825be29b083f82
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3048
+- Name: HIGH_ALARM_SET_POINT_FOR_VS
+  Id: g=c98e70a749b0403c3f763307ef74651e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=be1a89d0201cf9f95f1b0790f2b9754c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3049
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_VS
+  Id: g=0ba0c6815351a18eb42966a2bb9f8115
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=76f7513f2182702c71f54ab884ff72ee
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3050
+- Name: HIGH_ALARM_ACTION_FOR_AY
+  Id: g=ebdbabb9123583fb08c60594cda370bc
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=4871ac6262bae6f7a422d6ce23601845
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3051
+- Name: HIGH_ALARM_SET_POINT_FOR_AY
+  Id: g=62a48b99688c9b25ede1f9c24c4e4558
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=8ffd61a3d74dd86e83b01ded11dd4c8e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3052
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_AY
+  Id: g=b21493241a76138358826f1b5b28c675
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=2e448ab5d87eaf8febd912aca588dfb8
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3053
+- Name: HIGH_ALARM_ACTION_FOR_AZ
+  Id: g=8c78b76ede9b01ae3b7004b66577b7f8
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=fddf82a6a4de92d26243e7733bbdc6d5
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3054
+- Name: HIGH_ALARM_SET_POINT_FOR_AZ
+  Id: g=9a7a42bb1644eb227ef3403c03cb0345
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=0c94e0029c2343f24362747839762a5e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3055
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_AZ
+  Id: g=fbb09379565cd63d8ba63f7e2c58b071
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=9bd038bf5817694bc99be9e53b810c62
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3056
+- Name: HIGH_ALARM_ACTION_FOR_AX1
+  Id: g=84ed3a668505a40acb4888ba69c37afd
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=2a9f6b7a2d4b2a68d0ac0f69d3a9578b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3057
+- Name: HIGH_ALARM_SET_POINT_FOR_AX1
+  Id: g=a532becb9a2dd6ee5b12cb04b913be53
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=dc2aebb7422e5aaaef3734c56d72ff68
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3058
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_AX1
+  Id: g=aa185e1d8874e3a712b26fa7ea7a1748
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=5ccb38f2082a440e9ef8c9fc960e192a
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3059
+- Name: HIGH_ALARM_ACTION_FOR_AY1
+  Id: g=1177b0f3f11b330bacf80c55d5aabeaf
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=51afd76b32dca8a290d466758d4bcc47
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3060
+- Name: HIGH_ALARM_SET_POINT_FOR_AY1
+  Id: g=a96606a5c2a212de4ea59bdae51ecf6c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=1321251ade8b3006e4a08c3e909b5ca0
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3061
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_AY1
+  Id: g=e5cd99b455359b38e937bfd139e8701e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=074e12061232f161335f1e9eee001e81
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3062
+- Name: HIGH_ALARM_ACTION_FOR_AZ1
+  Id: g=3eaee0a665ceeec15e6c2a522b0c5282
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=f40b015a331c964551251b77348ad37c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3063
+- Name: HIGH_ALARM_SET_POINT_FOR_AZ1
+  Id: g=5cf542c90e1187240cabae1a936018ee
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=1e1a3e927bb23b5b822fe0cdf87a1e8c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3064
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_AZ1
+  Id: g=8c396ee2c837b151e227e49fa946d132
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=592dc29e6858f3f15fa62056155612fc
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3065
+- Name: LOW_ALARM_ACTION_FOR_PR2
+  Id: g=66754f31cacc41e835ca216c67aa1a95
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=fbe7d7a1a8808998cb5bba28a8b32e33
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3066
+- Name: LOW_ALARM_SET_POINT_FOR_PR2
+  Id: g=1f513b20cdcbc3b72b307df22f60c3f7
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=45495c69c51d0f928c5af7006bc13b50
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3067
+- Name: LOW_ALARM_HOLD_DW_PERIOD_FOR_PR2
+  Id: g=0ef4ce058a896e2f9653f4f2a0024c31
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=986b3c57d45d9488d0e14f2cbdff37f7
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3068
+- Name: HIGH_ALARM_ACTION_FOR_PR2
+  Id: g=0518c4ac788ce262ec512b094b77fc69
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=0d7662435ed8629c5b5a95428f549cd7
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3069
+- Name: HIGH_ALARM_SET_POINT_FOR_PR2
+  Id: g=f239337adbcd745eb871f268886e6576
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=ad50138e68b2a4ba4a12d24c105db677
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3070
+- Name: HIGH_ALARM_ACTION_FOR_TR2
+  Id: g=f5bf596177f7aacd69793813cc2dd805
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=945e0eca1f7bd862b0d0ff5e537a9fb3
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3072
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_PR2
+  Id: g=62abc24519ceb626ff30024cc15af5fe
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=66781bbce5705f7e39a01d1af981bb9c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3071
+- Name: HIGH_ALARM_SET_POINT_FOR_TR2
+  Id: g=b4d4852e69c08739a9c54a6c244665bf
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=2959b97ade054a1880c1528e60f5efdf
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3073
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_TR2
+  Id: g=eec95d1f49f22a91045d59ce6f152479
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=e9e12a65060d622fcd6468d52e9ddf9f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3074
+- Name: HIGH_ALARM_ACTION_FOR_AX2
+  Id: g=50abe1b7fe0bdae63b6fc452fe76e4c2
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=2a8cf5863f99be5f5aa8c02d063691cf
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3075
+- Name: HIGH_ALARM_SET_POINT_FOR_AX2
+  Id: g=dd64c90c87864d59a82924ca991d4c96
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=e12d25e5dd5a15e9da2a9c1d3c2d46ec
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3076
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_AX2
+  Id: g=f3afcdd07ac774720a32b530ba7d9252
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=71408cd0b9c499d3a6f6afde74b6d867
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3077
+- Name: HIGH_ALARM_ACTION_FOR_AY2
+  Id: g=09ae88b8d0d3216590d2e57610b8d266
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=6985eb3c6b912cd0e692314230d8f50e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3078
+- Name: HIGH_ALARM_SET_POINT_FOR_AY2
+  Id: g=4718d45be890c10c5d4082c639306243
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=a11357b48d42d454308f5623f0ba80e6
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3079
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_AY2
+  Id: g=d79e5a363c03f32281ddff135e29ae73
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=3f70463814ba07ad74a865557f6466fc
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3080
+- Name: HIGH_ALARM_ACTION_FOR_AZ2
+  Id: g=acb21fceaa81bbbe7b7f842518cba02b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=350f19a5af80ed8eab98bed2c5c68e86
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3081
+- Name: HIGH_ALARM_SET_POINT_FOR_AZ2
+  Id: g=a37acbd4eaa1e5f43971778a45cc9e05
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=f33f79e21193927149051479c2e73d35
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3082
+- Name: HIGH_ALARM_HOLD_DW_PERIOD_FOR_AZ3
+  Id: g=a4ac862fca949cd9c3c3e7013af15d9c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=495ff868b5b9642e1676934e6f2b6ea6
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3083
