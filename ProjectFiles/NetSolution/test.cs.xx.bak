@@ -1,5 +1,4 @@
 #region Using directives
-//Mario
 using System;
 using UAManagedCore;
 using OpcUa = UAManagedCore.OpcUa;
