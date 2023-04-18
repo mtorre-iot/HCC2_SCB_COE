@@ -299,3 +299,186 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 518
+- Name: TOOL_0UTPUT_VOLTAGE
+  Id: g=13a98e56066a4cfabff88eacccfa83c4
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=7b6946b58ce28e257b6bb1e5eeafce9a
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 606
+- Name: VIBRATION_AVERAGE
+  Id: g=349a3499fb7c3af2896182dea807fbbd
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=0b7e4801e760416b1cb716ef15399abd
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 607
+- Name: 'SWAP_RMT_STS,FOR_SLTADV_ONLY'
+  Id: g=a9a7aea895feffbd530de7d0351da852
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=1a16766df5841b9b2c54d45022aa95c8
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 608
+- Name: QUICK_BAUD_CHANGE_VALUE
+  Id: g=5858e4ce6229e010ae9cfd17e74c641d
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=73788231eadf0c63f1e805608ba6ba00
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3321
+- Name: QUICK_BAUD_CHANGE_CONTROL
+  Id: g=ff13106735c5e69f1c27df1cc0d5aefe
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Id: g=b1a5f98363bcdd4251225584c5765263
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3322
+- Name: SERIAL_PORT 0 WATCHDOG
+  Id: g=7288bc836afbae64801b041a5b83eb42
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=d4035f3c470b807c23c4b0de152861f7
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=dd13fba3404a67d9d89f4b0df8bca679
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 31
+- Name: SERIAL_PORT 0 ACCESS
+  Id: g=f88883584011f03f561dda2af47cd70c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=b3f59b300ba4ceefdd4e2c9f85802f6f
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=1b19ad1a6094c52218f8b8de7f710f5b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 32
+- Name: SERIAL_PORT 1 WATCHDOG
+  Id: g=e0fae0fb72017997fc6541dfb8a36ac5
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=15692bfebc7553d9f11ab159c44ae0e9
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=898d668c46987a9ad62a942cc9685110
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 39
+- Name: SERIAL_PORT1 ACCESS
+  Id: g=402c59222bd911651b2154730cb89949
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=b3802a0e866d21f946395ae4457ab818
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=ea28ca08a0e1f285ce5c13545801c6b4
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 40
+- Name: SERIAL_PORT 2 WATCHDOG
+  Id: g=18459b997b0b43a76b252a87974c1341
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=d0b980c7a37d0c6440a82e727fc88953
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=0525db4c3844f65a72944a48d1016bab
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 47
+- Name: SERIAL_PORT 2 ACCESS
+  Id: g=96358c3adf0c3d1157630285975ace6e
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=94e2a098e2cdeb4d8aacaf26a46a8a00
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=0d44f30d0cbbc94973ba1671e27fa766
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 31
+- Name: PRODUCT_MODE
+  Id: g=311625720b8129afb17bced94af4df14
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=7c2f8ce4502a155f0ef94af2b88068df
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=86573b791e8b790e5dc1041e72524c94
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 51
+- Name: TOOL_TYPE
+  Id: g=6f68bc5347cea370a9dc5d2bb2b32879
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=140acef12559ca35354671c8335497df
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=4a71bd1c60acca54a524b7c927a7a803
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 382

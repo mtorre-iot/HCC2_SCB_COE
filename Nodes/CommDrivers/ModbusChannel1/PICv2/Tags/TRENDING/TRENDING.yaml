@@ -1,0 +1,57 @@
+Name: TRENDING
+Id: g=4189caca68edf0cd2c4134db4198e4d2
+Type: FolderType
+Children:
+- Name: FLASH_PAGE_SIZE
+  Id: g=729c36de9b638ee50a205a7785d046ef
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=728a96fc71628a53a68764dba503d070
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=869df1badc7a2de3c2770c8d2b61dd44
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1315
+- Name: FLASH_STATUS 1
+  Id: g=5e13b332d7a2adcc500d5fb2bf54b0dd
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=7311885eb8146f5055d44bd91544671f
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=7f967386cf12c56053385b9cf5189437
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1316
+- Name: FLASH_STATUS 2
+  Id: g=c304366ec93484f8a854ec10cc46be66
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=6f2b66409c9cf4b8525874c32d1377b3
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 2
+  - Name: NumRegister
+    Id: g=0151d344b197f5b7e0ea5cc77c861140
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1317
+  - Name: BitOffset
+    Id: g=e35846ccd3dde34cb9a3e11c9f67ae07
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0

@@ -613,7 +613,7 @@ Children:
     Value: 300.0
   - Name: Background
     Id: g=82248be8602b487ff19fc9f5d0add4e6
-    Type: Rectangle
+    Type: ns=7;Rectangle
     Children:
     - Name: Width
       Id: g=39c0ba0dd4762a9756293d5c99931dde
@@ -1877,7 +1877,7 @@ Children:
               Id: g=6a3f29c1f2a40883193098f44c9f3643
               Type: DynamicLink
               DataType: NodePath
-              Value: "{PanelLoader1}@NodeId"
+              Value: "{MainPanelLoader}@NodeId"
               Children:
               - Name: Mode
                 Id: g=64a290b859c1342f30f7ea3ad02e59e0

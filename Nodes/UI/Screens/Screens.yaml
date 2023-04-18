@@ -825,7 +825,7 @@ Children:
       Value: 195.0
     - Name: GbxPressuresRect
       Id: g=3aa023d5494ed69b60e540f2879c4ea0
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=f926acdc0c1a2db0c88eaa84b1774118
@@ -1153,7 +1153,7 @@ Children:
             Id: g=baaf5856d117273951b1aa2b6209111e
             Type: DynamicLink
             DataType: NodePath
-            Value: "{Session}/Groups/Administrator"
+            Value: "{Session}/Groups/Operator"
       - Name: AlarmActionContext
         Id: g=1a4993c27f34dbff998b2c77a8a759bb
         Type: AlarmActionContextType
@@ -3402,7 +3402,7 @@ Children:
         Value: 159.0
     - Name: LblTitleRect
       Id: g=e61a3fdd9251d6bc8a585aab74656f2f
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=618560a5faf545230bb53100293811fc
@@ -3492,6 +3492,17 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 0.0
+    - Name: Enabled
+      Id: g=7fd230f1bab71badd8c99b6e2cf47b8a
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+      Children:
+      - Name: DynamicLink
+        Id: g=6d86013c8af643495c1ffeea6d4b38f4
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=28;g=43180420-28bd-846d-f6b4-16812dadb865}"
   - Name: AlarmUnitPanel_Vibration
     Id: g=6e425b574082b27814edea4e30e3611a
     Type: Panel
@@ -3510,7 +3521,7 @@ Children:
       Value: 102.0
     - Name: GbxPressuresRect
       Id: g=d1752f6b09e573413a2d15e90ff83e48
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=386c3cc936ab554b187575e24df7ae8a
@@ -4642,7 +4653,7 @@ Children:
         Value: 63.0
     - Name: LblTitleRect
       Id: g=eebbdbede38e932a92d5802b966e5974
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=a0f9a0065493631d2882063363eb75d7
@@ -4750,7 +4761,7 @@ Children:
       Value: 102.0
     - Name: GbxPressuresRect
       Id: g=74e86792e4f2cd71f0ee2ccf89990ff5
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=e48158d7afbff8e14e123f9536ef7b52
@@ -5882,7 +5893,7 @@ Children:
         Value: 63.0
     - Name: LblTitleRect
       Id: g=ea30aed0d846f2ca671158d3088972ed
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=f5704326e7bc1a799d92f0186abd5a16
@@ -5990,7 +6001,7 @@ Children:
       Value: 234.0
     - Name: GbxPressuresRect
       Id: g=98850ed211f19e516b6f85eeb02559c5
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=e7a139fb46e9e2447758196a30674daa
@@ -9270,7 +9281,7 @@ Children:
         Value: 201.0
     - Name: LblTitleRect
       Id: g=d1966eb113bfef31d23dc7af78f8171e
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=0cc4d424f2884e3ac1ded58b9e91250d
@@ -9378,7 +9389,7 @@ Children:
       Value: 160.0
     - Name: GbxPressuresRect
       Id: g=09c3183f880a07d390265ed937a7846a
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=476d598913b14fec09a41391ba5e4242
@@ -11584,7 +11595,7 @@ Children:
         Value: 132.0
     - Name: LblTitleRect
       Id: g=7f365d610779d84ba494252e5b16287c
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=e3b42d05b7f6bf27c99f2a27495a9bca
@@ -11804,7 +11815,7 @@ Children:
         Value: 0
     - Name: ValueRectangle
       Id: g=2daffdacaf3b610d505c58de8438a5ef
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=e75278efb16efac184f63772aae9b461
       Type: Label
@@ -11940,7 +11951,7 @@ Children:
           Id: g=a5ac62ed4ff4273ff0535de40a768b3e
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_02"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Discharge Pressure"
       - Name: MinValue
         Id: g=612b47fb063991b462e7e700686e16eb
         Type: BaseDataVariableType
@@ -12014,7 +12025,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=0163214c4627e19732e8708b654e808d
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=9587a29f0138fe92fdf99a77d45849ad
       Type: Label
@@ -12029,7 +12040,7 @@ Children:
           Id: g=b717e5078f86dacac1e57fcf9bba9d06
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_02"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Discharge Pressure"
     - Name: LblDescription
       Id: g=195ab89e8081e45e835f4ebdabe8f233
       Type: Label
@@ -12084,7 +12095,7 @@ Children:
           Id: g=a3bd122a794e245c46bb17ad7bcfcab6
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_03"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Intake Temperature"
       - Name: MinValue
         Id: g=2a765f4f1c3c39644a615da36e6fd2fa
         Type: BaseDataVariableType
@@ -12158,7 +12169,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=729007e2bd09bb4a6880cdd582f5abc7
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=262db27e9dacfb825808631e8d7f03f0
       Type: Label
@@ -12173,7 +12184,7 @@ Children:
           Id: g=e457b0bde041a4a355e0055f529eddfb
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_03"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Intake Temperature"
     - Name: LblDescription
       Id: g=461a8c80e7e5637d70b392cd88a818f7
       Type: Label
@@ -12228,7 +12239,7 @@ Children:
           Id: g=a5c03faa025ef67a0d0d42b409347967
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_04"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Motor Temperature"
       - Name: MinValue
         Id: g=d6a0c9ba81bf028833f50a3239f0730f
         Type: BaseDataVariableType
@@ -12302,7 +12313,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=69ab060196bccf985253a876695bf4e7
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=798627e0b74a417fad3e0184ad81d08d
       Type: Label
@@ -12317,7 +12328,7 @@ Children:
           Id: g=45ad9fef046e5fd900fbac60a5cd6142
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_04"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Motor Temperature"
     - Name: LblDescription
       Id: g=03e15763be5cfb58d90d6cd28bf9f96d
       Type: Label
@@ -12372,7 +12383,7 @@ Children:
           Id: g=6d4c4d3e7a685b703ebaee391d8da38e
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_05"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Flow"
       - Name: MinValue
         Id: g=ca238e16b3a342ed03d3cbbb347be45c
         Type: BaseDataVariableType
@@ -12446,7 +12457,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=65328da3e1896eb6e976274a5fd2068b
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=993b0388da5df30c82b7217a345d0d5d
       Type: Label
@@ -12461,7 +12472,7 @@ Children:
           Id: g=14ffba194f68de2656542e1f0951a5dc
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_05"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Flow"
     - Name: LblDescription
       Id: g=f1f2b25f8f59bd48727081786b041c4d
       Type: Label
@@ -12516,7 +12527,7 @@ Children:
           Id: g=2bf9082dfc459804b677103365a15e56
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_06"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Vibration"
       - Name: MinValue
         Id: g=d140d3dac0bb0d4ea5ce2adf8ec6c231
         Type: BaseDataVariableType
@@ -12590,7 +12601,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=c5e35e69ebfa04d40bf0bf6c6104f155
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=a66f343a867a78329446ae05a8d3a32e
       Type: Label
@@ -12605,7 +12616,7 @@ Children:
           Id: g=b00b7af1408444492853471f2a3525e9
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_06"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Vibration"
     - Name: LblDescription
       Id: g=37e26efec993f0811f9ffb955d1799db
       Type: Label
@@ -12660,7 +12671,7 @@ Children:
           Id: g=7e225b4e9310bcf04ab1fad657117150
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_07"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Active current leakage"
       - Name: MinValue
         Id: g=892984eec0474d96f91afb0530eef2f7
         Type: BaseDataVariableType
@@ -12734,7 +12745,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=4f88466f0b6d8d504bd86a0e7e2cd8a9
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=076d78491d42e21c0c42f3acbece2529
       Type: Label
@@ -12749,7 +12760,7 @@ Children:
           Id: g=fbd08e75670a3965b84c9a75952db2fc
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_07"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Active current leakage"
     - Name: LblDescription
       Id: g=5ac54ad96dba1da59222a7e640cddee2
       Type: Label
@@ -12804,7 +12815,7 @@ Children:
           Id: g=9a3f4daac572d8f0e3f00917ac980ca5
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_08"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Passive current leakage"
       - Name: MinValue
         Id: g=0ab46b4aa7af1ea1cbb45b567a7480c8
         Type: BaseDataVariableType
@@ -12878,7 +12889,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=26f9daf9b522b22a43133885b938f319
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=98d28f770bc365dd323ded43c4a535e7
       Type: Label
@@ -12893,7 +12904,7 @@ Children:
           Id: g=58ec33f634f2e75b7f741a1073d580b5
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_08"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Passive current leakage"
     - Name: LblDescription
       Id: g=da041d0ae2b1800ffde5a0e13563fbe1
       Type: Label
@@ -12948,7 +12959,7 @@ Children:
           Id: g=569140331176844b34b61c8462cb1dc3
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_09"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Cz"
       - Name: MinValue
         Id: g=153721addadfb2b0d348b2af8cd1c1a3
         Type: BaseDataVariableType
@@ -13022,7 +13033,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=a9727f3e12734b541ad51a0309651e95
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=957f86632ba72cae7bca5aa949082e19
       Type: Label
@@ -13037,7 +13048,7 @@ Children:
           Id: g=ca970cf02e8079ab1a718e32697be74c
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_09"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Cz"
     - Name: LblDescription
       Id: g=43c9bef7f72939c41d9fe2c806daa746
       Type: Label
@@ -13092,7 +13103,7 @@ Children:
           Id: g=32180f9428ff4063c692b3bace785c18
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_10"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Cf"
       - Name: MinValue
         Id: g=d9fa2a8b4f34280a1a2261585cb16aec
         Type: BaseDataVariableType
@@ -13166,7 +13177,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=772c95f1a497ac3f932324cf5abf20a5
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=2365c4fb7699e07d76f8848bef8a9355
       Type: Label
@@ -13181,7 +13192,7 @@ Children:
           Id: g=430f87d4e246e411e11cbd4468df0195
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_10"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Cf"
     - Name: LblDescription
       Id: g=76d851aa975324b3fdc6731380a8b25e
       Type: Label
@@ -13236,7 +13247,7 @@ Children:
           Id: g=833b89c3306a89724b10c35ce946d888
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_11"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Td"
       - Name: MinValue
         Id: g=84f595ced75abcd4894fba8893d2c0ae
         Type: BaseDataVariableType
@@ -13310,7 +13321,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=e1624eabd3f8513ccc54cb82e5b98254
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=d14d5560f3235a9164a0a826695615e6
       Type: Label
@@ -13325,7 +13336,7 @@ Children:
           Id: g=7e8a1a9491ae0c8940bcd6e3adb70ccf
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_11"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Td"
     - Name: LblDescription
       Id: g=1176d6e2ceef6fd955fe81c2244d1880
       Type: Label
@@ -13380,7 +13391,7 @@ Children:
           Id: g=d637f736fca77c94b886e64f59c52eee
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_12"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Vs"
       - Name: MinValue
         Id: g=4c01ef5debae721b8e637cef9d155285
         Type: BaseDataVariableType
@@ -13454,7 +13465,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=1aef344e49f7a92b57e262ccc8747cfb
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=36230ca411971aaf52a910774d6358c3
       Type: Label
@@ -13469,7 +13480,7 @@ Children:
           Id: g=40e7094cc356a5e3a8784f19c1efe39d
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_12"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Vs"
     - Name: LblDescription
       Id: g=f91c9975e9e8f6709f4b237c68e518ab
       Type: Label
@@ -13524,7 +13535,7 @@ Children:
           Id: g=3fc0f041cdad87ebfa03eefab97d5bc7
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_13"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ay"
       - Name: MinValue
         Id: g=6881d1c73f40c6b2c3c4fdf627c46bb3
         Type: BaseDataVariableType
@@ -13598,7 +13609,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=b47892db4f3ad7a66008b72cdecabb14
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=e5409bde61bea8feb681393a903542b5
       Type: Label
@@ -13613,7 +13624,7 @@ Children:
           Id: g=b3026be0dd5c42a611be4a6a7cb07671
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_13"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ay"
     - Name: LblDescription
       Id: g=4cd217beced98c890a3cb9b9c3662651
       Type: Label
@@ -13668,7 +13679,7 @@ Children:
           Id: g=570619e8743382e13714a278f2eafc57
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_14"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Az"
       - Name: MinValue
         Id: g=9f79c7dd3ef2952bb13a93ed2832abff
         Type: BaseDataVariableType
@@ -13742,7 +13753,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=eb141d76a2cb804bc2b7dd9a4085bef4
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=778873c516d3d1f6a2ed5302f1b65f4a
       Type: Label
@@ -13757,7 +13768,7 @@ Children:
           Id: g=c4ed3a59ff9151d5806c0d543cf61953
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_14"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Az"
     - Name: LblDescription
       Id: g=7992b27938de0e3c3ee68a96a16e6b66
       Type: Label
@@ -13812,7 +13823,7 @@ Children:
           Id: g=066172e4af3868d844849337f79ca79a
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_15"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ax1"
       - Name: MinValue
         Id: g=197a23eeb964fa988cd00cb1365735ff
         Type: BaseDataVariableType
@@ -13886,7 +13897,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=17efdf2cda13f519330eb7672b2d7780
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=66180ba2ec0508c0bf266e5a0f456048
       Type: Label
@@ -13901,7 +13912,7 @@ Children:
           Id: g=f0840cf4f132c7915f877120d3053463
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_15"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ax1"
     - Name: LblDescription
       Id: g=dc783f6510c7e310116cbafe66588221
       Type: Label
@@ -13956,7 +13967,7 @@ Children:
           Id: g=637e02bf20c742a7990416652873f925
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_16"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ay1"
       - Name: MinValue
         Id: g=ca35fe3dae8185608450e63fdc9e0da5
         Type: BaseDataVariableType
@@ -14030,7 +14041,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=b00be5b8728ff9fd8a6be3a0fb5a9cc6
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=29a215c7630f0bf909c70e3da4cf4f04
       Type: Label
@@ -14045,7 +14056,7 @@ Children:
           Id: g=3243c0bc3907ee1f4603da81d7290a07
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_16"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ay1"
     - Name: LblDescription
       Id: g=e2a897c5fdeb4c4db001cc8c4578d50b
       Type: Label
@@ -14100,7 +14111,7 @@ Children:
           Id: g=0658f1c60b3b8030ef9efb6fe688882f
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_17"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Az1"
       - Name: MinValue
         Id: g=0fb75a52e3ea117c32943bce96eabc32
         Type: BaseDataVariableType
@@ -14174,7 +14185,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=b1e4c2e520d7c5937a509ee5c0144e42
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=27aaa6796150f73d1472b96b502c0a2b
       Type: Label
@@ -14189,7 +14200,7 @@ Children:
           Id: g=e72b19702925e8c2f2ab426c0fcf1552
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_17"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Az1"
     - Name: LblDescription
       Id: g=ed1fe64d333f2baeeda81ddd4853f1bd
       Type: Label
@@ -14244,7 +14255,7 @@ Children:
           Id: g=c6f229c1a080d448d5ceae9cb96c0213
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_18"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Pr2"
       - Name: MinValue
         Id: g=faa16a4f224e78ccc1dde7043e6361f4
         Type: BaseDataVariableType
@@ -14318,7 +14329,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=477969796bdd8f593f9857e5edde75a4
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=8cb7803183ee7ce0d51203cde4f32d95
       Type: Label
@@ -14333,7 +14344,7 @@ Children:
           Id: g=1298c5e601c5af2a8e3ba3a5d1b186de
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_18"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Pr2"
     - Name: LblDescription
       Id: g=59827bea742a41ae8eaba2ca97e4717b
       Type: Label
@@ -14388,7 +14399,7 @@ Children:
           Id: g=f4184e7a9a5372f59f4b797cab9fbf62
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_19"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Tr2"
       - Name: MinValue
         Id: g=4ef8b119936755bdeb56cb97a5fe98af
         Type: BaseDataVariableType
@@ -14462,7 +14473,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=4bd807611e7109e8bbe348b96787f4eb
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=9da74e2e8257692c3a8805fc1971dda4
       Type: Label
@@ -14477,7 +14488,7 @@ Children:
           Id: g=360e64f0f7d3484a6a0007308c357094
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_19"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Tr2"
     - Name: LblDescription
       Id: g=2c0ef73a45539ece98f3c72d4bee3cc1
       Type: Label
@@ -14532,7 +14543,7 @@ Children:
           Id: g=bc6dc442cb56d5ab9245d393b818d9c7
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_20"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ax2"
       - Name: MinValue
         Id: g=5437a790b428e582c6215773d6077fe5
         Type: BaseDataVariableType
@@ -14606,7 +14617,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=16f1390a0cc79e989db308428e2cd653
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=caac2afff1c0d232dbf3bf2511004c24
       Type: Label
@@ -14621,7 +14632,7 @@ Children:
           Id: g=5aacae4cb50eba4c7e30bee4839b9f6e
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_20"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ax2"
     - Name: LblDescription
       Id: g=a7420d9f6a751825626eb64a450e9d99
       Type: Label
@@ -14676,7 +14687,7 @@ Children:
           Id: g=ef62c9e2f640a4616fefe41417d31c54
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_21"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ay2"
       - Name: MinValue
         Id: g=673983f82bd54c2eebffced3fb81c00c
         Type: BaseDataVariableType
@@ -14750,7 +14761,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=fc226cb11fc9d3ad3bf840341a4b0c62
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=c2ef4e9d6fb37761d12036888a5eeab9
       Type: Label
@@ -14765,7 +14776,7 @@ Children:
           Id: g=a6706ff4937fdf67fa9c9ce46d471ef0
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_21"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Ay2"
     - Name: LblDescription
       Id: g=9706e9d17a5576e499eb2b3347b0286b
       Type: Label
@@ -14820,7 +14831,7 @@ Children:
           Id: g=ac1bc1749df3782aff4cf16f2ac7677a
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_22"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Az2"
       - Name: MinValue
         Id: g=cded20ae5e41c84e18159fe6a646cf85
         Type: BaseDataVariableType
@@ -14894,7 +14905,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=bd06cafbd729f968272c66360d9ff91d
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=ede65a36133be8614fd73968c60ba987
       Type: Label
@@ -14909,7 +14920,7 @@ Children:
           Id: g=53117c1f98b0106700cb9aaea010bbec
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_22"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Az2"
     - Name: LblDescription
       Id: g=0ecd739601051f17e2642553681feb8a
       Type: Label
@@ -14964,7 +14975,7 @@ Children:
           Id: g=419cc2c82556e47f55b0afcd8e9c2db8
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_23"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Vdl"
       - Name: MinValue
         Id: g=e1a3180146078785d65a4176a99e9f6f
         Type: BaseDataVariableType
@@ -15038,7 +15049,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=81d4eac059235ee392feebcbe957bd51
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=56dfa22f9b2545bc6a716b9c2e5603ba
       Type: Label
@@ -15053,7 +15064,7 @@ Children:
           Id: g=8f1ed23ebff6e8f393256e42e6df2289
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_23"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Vdl"
     - Name: LblDescription
       Id: g=a8d6c536c5ba50a523a749f21dad5309
       Type: Label
@@ -15108,7 +15119,7 @@ Children:
           Id: g=86851671003285957cc87cab9a9fbd23
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_24"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Vbu"
       - Name: MinValue
         Id: g=7d129a09779e23a81d0babdad72c27c4
         Type: BaseDataVariableType
@@ -15182,7 +15193,7 @@ Children:
             Value: "#f70101"
     - Name: ValueRectangle
       Id: g=f6a8dd752852ad96f919f0540dcf2ad4
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: LblValue
       Id: g=3847a5724b1731b62068bf0f4c5ed011
       Type: Label
@@ -15197,7 +15208,7 @@ Children:
           Id: g=e347ae444ff99ef8df109935b943af70
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/HCC2_SCB_2/Model/DHT/DHT_24"
+          Value: "/Objects/HCC2_SCB_2/Model/DHT/Vbu"
     - Name: LblDescription
       Id: g=fc04585073302d76c32ae9f62b19882f
       Type: Label
@@ -15930,7 +15941,7 @@ Children:
       Children:
       - Name: GbxRectangle
         Id: g=7dca6f5bd0590cd3f73fcd95138553f5
-        Type: Rectangle
+        Type: ns=7;Rectangle
         Children:
         - Name: RightMargin
           Id: g=a9018f859d64dcfd9b0d9f60e25672cb
@@ -15982,7 +15993,7 @@ Children:
           Value: 300.0
       - Name: GbxTitleRect
         Id: g=32334707fce1d22a0c8bb6ff5e2dab81
-        Type: Rectangle
+        Type: ns=7;Rectangle
         Children:
         - Name: LeftMargin
           Id: g=41f7ce5466a9b7d169b56109afd4ad7f
@@ -16183,6 +16194,12 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 172.0
+      - Name: Text
+        Id: g=f6e291c2992e0681d5172ca64d0963ba
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Export Logs and Trends to USB"}
     - Name: LblsEstimatedExportTime
       Id: g=11268921dea614819e58e96d42cb9195
       Type: Label
@@ -16198,7 +16215,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 205.0
+        Value: 234.0
       - Name: Text
         Id: g=8dd56629d9eeca1d95f2c19891b1909a
         Type: BaseDataVariableType
@@ -16226,7 +16243,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 204.0
+        Value: 236.0
     - Name: LblsExportProgress
       Id: g=198643f040c79993941da5badace692e
       Type: Label
@@ -16242,7 +16259,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 261.0
+        Value: 271.0
       - Name: Text
         Id: g=be34163a9a39b773089d0f0d5e6946c9
         Type: BaseDataVariableType
@@ -16270,7 +16287,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 261.0
+        Value: 270.0
     - Name: SetDialogUnitPanelFrom
       Id: g=34d0e428563eb8fc51673558de29d96d
       Type: SetDialogUnitPanel
@@ -16897,7 +16914,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -599.0
+        Value: -1.0
       - Name: RightMargin
         Id: g=9a0919c79aa1e195a6a58572b951690f
         Type: BaseVariableType
@@ -16909,13 +16926,13 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 203.0
+        Value: 200.0
       - Name: Width
         Id: g=4e5381e05297f721e5e0ddeb65192a66
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 179.0
+        Value: 300.0
       - Name: Text
         Id: g=f14da3e3579614b135a20207858cacba
         Type: BaseDataVariableType
@@ -17087,7 +17104,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 231.0
+        Value: 252.0
       - Name: Width
         Id: g=99ffa01bdf2259df6864d3579def35b7
         Type: BaseVariableType
@@ -17151,7 +17168,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 233.0
+        Value: 253.0
     - Name: Height
       Id: g=841b38858929f58ba88ca8c2062dc5d2
       Type: BaseVariableType
@@ -17168,7 +17185,7 @@ Children:
       Children:
       - Name: GbxRectangle
         Id: g=57c953476345be5342533662e2ce0111
-        Type: Rectangle
+        Type: ns=7;Rectangle
         Children:
         - Name: HorizontalAlignment
           Id: g=1163945d8e2575eb345bf84f14f02090
@@ -17202,7 +17219,7 @@ Children:
           Value: 5.0
       - Name: GbxTitleRect
         Id: g=cb0866c7762c1c35e84f56b3a40fa4e4
-        Type: Rectangle
+        Type: ns=7;Rectangle
         Children:
         - Name: Height
           Id: g=8d96db066184f725c7a7c5045235bcdb
@@ -17302,6 +17319,12 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 27.0
+      - Name: Text
+        Id: g=678f5e717f8d9b6fc8843fd1b7e3cec0
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Last Export Date: "}
     - Name: LblsOldestLogEntry
       Id: g=17b0e3e58ba6e7b56f7e914c2eba53b6
       Type: Label
@@ -17318,6 +17341,12 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 48.0
+      - Name: Text
+        Id: g=d35d40dd20675cbb4f7ca7d5e0829c8f
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Oldest Log Entry:"}
     - Name: LblsOldestTrendRec
       Id: g=56fbe8adb473aaa1c97a2b640df753f2
       Type: Label
@@ -17334,6 +17363,12 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 66.0
+      - Name: Text
+        Id: g=4f0246111e8d12f017e708af53bfee1a
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Oldest Trend Record:"}
     - Name: LblsTrendRecHistory
       Id: g=898c0b5ae52bbc164ba09ac4b9ec3b4d
       Type: Label
@@ -17350,6 +17385,12 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 85.0
+      - Name: Text
+        Id: g=24439659e7a2e9cdda67cd1673057bda
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Trend Record History (days):"}
     - Name: LblsInternalDBSize
       Id: g=5d8945ebd198e3e2f8ce946e32730ab3
       Type: Label
@@ -17398,6 +17439,12 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 27.0
+      - Name: Text
+        Id: g=ba576f792468bba3d8a50177a047330d
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"2023-02-23"}
     - Name: LblOldestLogEntry
       Id: g=6d40a00b8509e60f11c317f2d1af94d3
       Type: Label
@@ -17554,10 +17601,10 @@ Children:
       Children:
       - Name: GbxRectangle
         Id: g=c8a9baf61d6e09ebf2166794a7e9661e
-        Type: Rectangle
+        Type: ns=7;Rectangle
       - Name: GbxTitleRect
         Id: g=65c32d812677b950cca28d9185eee423
-        Type: Rectangle
+        Type: ns=7;Rectangle
         Children:
         - Name: Width
           Id: g=46a34fafc9bd4b9f70e74b74716f7d8b
@@ -17645,46 +17692,6 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 0
-  - Name: TextBox1
-    Id: g=783ca8bc36efc671da7196b9a2d62fc8
-    Type: TextBox
-    Children:
-    - Name: Text
-      Id: g=e602afa0df77d1e632a1cc168ba7c0b3
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Id: g=71b0c01610bc813756718b6ee97aaead
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "{NodeId:ns=28;g=f946a425-903b-6b94-4b90-28a56ea0974d}"
-        Children:
-        - Name: Mode
-          Id: g=61552f2eee102a177fa72ad78966d12c
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Id: g=2aec4229498cd269f6a7f6f1ceab02cf
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 110.0
-    - Name: LeftMargin
-      Id: g=c572afb0eb15435dbb77e511c4c4ac95
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
-    - Name: TopMargin
-      Id: g=fc3c70ec4379df69c8b3f67b44d112bb
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 337.0
 - Name: ExpertPanel
   Id: g=e9a6e0aabf48a2330ca2c8ba7a4108c2
   Supertype: Panel
@@ -17712,10 +17719,10 @@ Children:
       Children:
       - Name: GbxRectangle
         Id: g=ccbb652a64b174c78bb9d39a584a8c28
-        Type: Rectangle
+        Type: ns=7;Rectangle
       - Name: GbxTitleRect
         Id: g=9da659e5b680a6420efdc55626d44797
-        Type: Rectangle
+        Type: ns=7;Rectangle
         Children:
         - Name: Width
           Id: g=2ab643e4ab95da8c2dbd9080d1cb8a88
@@ -17783,6 +17790,12 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 206.0
+      - Name: Text
+        Id: g=ca8128eb8940b63e5475d7d184a10f6f
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"PIC Comms:"}
     - Name: LblsToolFaultAction
       Id: g=d808de19a42288d445cd04a92d7fd4b5
       Type: Label
@@ -17799,12 +17812,32 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 106.0
+      - Name: Text
+        Id: g=0a4218029cb2d863b2a96fae366fa59d
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Tool Fault Action:"}
     - Name: LblsToolFaultTimeLimit
       Id: g=8e4dbf412d2e5f0db51c778771dc0eeb
       Type: Label
+      Children:
+      - Name: Text
+        Id: g=52fd50787b45e24c70759e58d238bce0
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Tool Fault Time Limit (s):"}
     - Name: BtnClarRemoteAlarm
       Id: g=7fe5104cf15dd020fa763032675bead7
       Type: Button
+      Children:
+      - Name: Text
+        Id: g=ddcfa628b91f08454df596a4d397e770
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Clear Remote Alarm"}
     - Name: LblClearRemoteAlarmlMessage
       Id: g=190dddce04dfa731ded6d19b5befd757
       Type: Label
@@ -17818,6 +17851,13 @@ Children:
     - Name: LblsIgnorePICAlarmsOnFault
       Id: g=9189e5a6a77a4613877bd2bb02806807
       Type: Label
+      Children:
+      - Name: Text
+        Id: g=a0f0ebe36df642390b11a73a13bfc3ed
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Ignore PIC alarms during fault:"}
     - Name: LblsDHTTripClearMethod
       Id: g=f199ec944c11483915c5b3d02b07cba3
       Type: Label
@@ -17834,6 +17874,12 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 242.0
+      - Name: Text
+        Id: g=a9bdea4fc0185dbe1bd628824b6563ab
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"DHT Trip Clear Method:"}
     - Name: CbxPICComms
       Id: g=1777905b9a500fa177a2a4b847192b0c
       Type: ComboBox
@@ -18147,10 +18193,10 @@ Children:
       Children:
       - Name: GbxRectangle
         Id: g=76fe5762a92b4dd1bb9b6654e6646bfc
-        Type: Rectangle
+        Type: ns=7;Rectangle
       - Name: GbxTitleRect
         Id: g=e892ec969bb97736f0709e4dea8c4384
-        Type: Rectangle
+        Type: ns=7;Rectangle
         Children:
         - Name: Height
           Id: g=0a039d27df0a90a3b6b57ce8e8ea68ca
@@ -18195,21 +18241,69 @@ Children:
       - Name: LblToolStatus
         Id: g=8abc684201bdcc3bad507d9395ad0a82
         Type: Label
+        Children:
+        - Name: RightMargin
+          Id: g=c5bea1a08dfc211c4f4dd6ef6afa7ed7
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 130.0
+        - Name: TopMargin
+          Id: g=63a6748c85ee7682180196789f45c94b
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 145.0
       - Name: LblsPICToolType
         Id: g=2d3dac4d92b226cc962ec4b4753498e3
         Type: Label
+        Children:
+        - Name: Text
+          Id: g=c5a59e1581194c17799df59df45fe415
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"PIC Tool Type:"}
       - Name: LblsFirmwareVersion
         Id: g=a030ca680100614d325aa65883997242
         Type: Label
+        Children:
+        - Name: Text
+          Id: g=bacb09e31232560e9a0ae404b8dbdb05
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Firmware Version:"}
       - Name: LblsToolStatus
         Id: g=b4c1e1bcd421ea412a519c49d569c285
         Type: Label
+        Children:
+        - Name: Text
+          Id: g=45b0d503bd9c42b30a5f4b69f60d0463
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Tool Status:"}
       - Name: BtnResetTool
         Id: g=dcb0749c95b5b11c31da137149d00076
         Type: Button
+        Children:
+        - Name: Text
+          Id: g=6e707e41800b1c24987f4464115da6db
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Reset Tool"}
       - Name: BtnSetCLP
         Id: g=e0d0bb057ae79ead8e6fb240cfec9ac5
         Type: Button
+        Children:
+        - Name: Text
+          Id: g=4f82a31460ec6e530ac8200d91dc7086
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Set CLP"}
       - Name: LblResetToolMessage
         Id: g=64e62f4a3503ad93c1cd67e9a4d6bbc0
         Type: Label
@@ -18223,6 +18317,19 @@ Children:
       - Name: LblFirmwareVersion
         Id: g=1f9ecb4961cfeb11f45fe31f03f02bac
         Type: Label
+        Children:
+        - Name: RightMargin
+          Id: g=a85fbb8225fe9800706a06a736cbe7d5
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 136.0
+        - Name: TopMargin
+          Id: g=d640a5c8bbfff33fa1f7742c897be421
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 121.0
       - Name: LblSetCLPMessage
         Id: g=16337d205865360dee5f800dcfeb6d16
         Type: Label
@@ -18269,6 +18376,50 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 5.0
+      - Name: LblsCLPLastSet
+        Id: g=0d6abd65a83f8d54e6ee7d5221933e40
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=234e4c39f283c1f74b2aabb9c9d7ec19
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"CLP Last Set:"}
+        - Name: LeftMargin
+          Id: g=faaebc1e46e923c59a58160d33a17c81
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 75.0
+        - Name: TopMargin
+          Id: g=d63298e26e25bd0327574bc40e5eca4d
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 270.0
+      - Name: LblCLPLastSet
+        Id: g=0171737f4e3b49c6f3ea938651fa1da5
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=a3bb938d9b50205c6766a196c2f8e00c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"9 Aug 2019 04:51:59"}
+        - Name: LeftMargin
+          Id: g=b244d3fd195b2c873b5a7812bd8942ad
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 149.0
+        - Name: TopMargin
+          Id: g=4988067deec8805c271d01eb8b166224
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 270.0
     - Name: HorizontalAlignment
       Id: g=dd21f6ce52012f55193350943a446ff0
       Type: BaseVariableType
@@ -18281,50 +18432,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 5.0
-    - Name: Label1
-      Id: g=0d6abd65a83f8d54e6ee7d5221933e40
-      Type: Label
-      Children:
-      - Name: Text
-        Id: g=234e4c39f283c1f74b2aabb9c9d7ec19
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"CLP Last Set:"}
-      - Name: LeftMargin
-        Id: g=faaebc1e46e923c59a58160d33a17c81
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 75.0
-      - Name: TopMargin
-        Id: g=d63298e26e25bd0327574bc40e5eca4d
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 270.0
-    - Name: Label2
-      Id: g=0171737f4e3b49c6f3ea938651fa1da5
-      Type: Label
-      Children:
-      - Name: Text
-        Id: g=a3bb938d9b50205c6766a196c2f8e00c
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"9 Aug 2019 04:51:59"}
-      - Name: LeftMargin
-        Id: g=b244d3fd195b2c873b5a7812bd8942ad
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 149.0
-      - Name: TopMargin
-        Id: g=4988067deec8805c271d01eb8b166224
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 270.0
     - Name: VerticalAlignment
       Id: g=169f9cbe1337c3f0fed4b135dd82d6d6
       Type: BaseVariableType
@@ -19478,7 +19585,7 @@ Children:
     Children:
     - Name: GbxRectangle
       Id: g=fefc54db6852097eb420f98913abeb90
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: RightMargin
         Id: g=88b88468197e704b67686537bf1b1b78
@@ -19512,7 +19619,7 @@ Children:
         Value: 5.0
     - Name: GbxTitleRect
       Id: g=75e06a1a2f6cdea803686292f764ccb6
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=f4754675346fb14275e397d5ccc4d1ca
@@ -19954,7 +20061,7 @@ Children:
     Children:
     - Name: GbxRectangle
       Id: g=07cb285c8fac2e09fee1a9d4a185ef70
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: BorderColor
         Id: g=75117ca3f25ed0c123f4d4fa350f25ae
@@ -19964,7 +20071,7 @@ Children:
         Value: "#000000e9"
     - Name: GbxTitleRect
       Id: g=19e0f61c89e5e662f982b8e10e97698e
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: LeftMargin
         Id: g=675d9a9d7eb68aacbf12681c82552e8f
@@ -20099,10 +20206,10 @@ Children:
     Children:
     - Name: GbxRectangle
       Id: g=4e03e987733f049b419697763d749637
-      Type: Rectangle
+      Type: ns=7;Rectangle
     - Name: GbxTitleRect
       Id: g=f47862ba74fad6af9894b894171b09ce
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=0ec0e3afbeb263a73d41ff73e65134fd
@@ -20334,7 +20441,7 @@ Children:
     Children:
     - Name: GbxRectangle
       Id: g=a13c8d8fd6736ccf876d9af842c7b824
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: ComboBox1
         Id: g=e830484bfb40140d3c19da5d241cf708
@@ -20510,7 +20617,7 @@ Children:
         Value: 5.0
     - Name: GbxTitleRect
       Id: g=17c66184c823ad26682b880e9367f1cc
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=924412274ae6fb7a204b573f6911a110
@@ -20798,7 +20905,7 @@ Children:
     Children:
     - Name: GbxRectangle
       Id: g=b3f150e4989c4b5999b2de3f50253bc7
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: ComboBox1
         Id: g=bc6c1a469a29ea75097fa981836e8aba
@@ -21256,7 +21363,7 @@ Children:
           Value: 191.0
     - Name: GbxTitleRect
       Id: g=fd4ea8737d49490a8dc3cf523c14ba36
-      Type: Rectangle
+      Type: ns=7;Rectangle
       Children:
       - Name: Width
         Id: g=d578879ba6cb06dfcfeedeffe8a4f63e
@@ -21422,3 +21529,672 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 0.0
+- Name: Trends
+  Id: g=9f8172ee3a9a87e13b447ac65b6372ec
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=d7946ef6381c5b374ec20a57c27a245d
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 800.0
+  - Name: Height
+    Id: g=21a16e2ba04c493cec650eb58f54585d
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: PressureTrends
+    Id: g=7e81a3eecc6fd88145fae0f27596627f
+    Type: Panel
+    Children:
+    - Name: Width
+      Id: g=035e56ffdd30e185d4dc80e4649e90f5
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: Height
+      Id: g=2a415786a523cda07ff9a6e003989910
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: LeftMargin
+      Id: g=a8eee10db2bc54c601689b914a32913c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: TopMargin
+      Id: g=2c829c99e55387f84b663fd338db1b77
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: PressureRectangle
+      Id: g=004b17f7b134aeda3d83ee1b9844f1bc
+      Type: ns=28;Rectangle
+      Children:
+      - Name: LeftMargin
+        Id: g=4ae5b821a6d4d286470184e922e4fc61
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: TopMargin
+        Id: g=0537b01580f3c251cf9abc3f9d01eee9
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: Width
+        Id: g=030c1221782c1e0312ed6fc680a8e571
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 390.0
+      - Name: PressureTrend
+        Id: g=b815bd1fbae0d8af4542fdc6fd8dd7a7
+        Type: Trend
+        Children:
+        - Name: Pens
+          Id: g=07dde7e8242e57fdf0b4e4279fe20efd
+          Type: BaseObjectType
+          Children:
+          - Name: Intake Pressure
+            Id: g=35ff8b4ec55ecc403b22e65546a93b32
+            Type: TrendPen
+            DataType: BaseDataType
+            Children:
+            - Name: Thickness
+              Id: g=3f014654b3dd67793659ba92d3aa7cbd
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: Enabled
+              Id: g=f866a9ec4cefe8b7454495a1dd2eb2cf
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Color
+              Id: g=62229f31fb5acc6902a5e463402370cc
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ff0000"
+            - Name: DynamicLink
+              Id: g=bbd2c3976211f462bbe979e64a2b4415
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=28;g=aefe633b-e1aa-d313-8d3d-7503b90be67f}"
+              Children:
+              - Name: Mode
+                Id: g=792396f69aefefa0e5207b4f956a4b54
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Discharge Pressure
+            Id: g=e8f667ef6f97d41eb3fa9a31648c4459
+            Type: TrendPen
+            DataType: BaseDataType
+            Children:
+            - Name: Thickness
+              Id: g=15d5e7826afe63ec20edb7fdbcb2125c
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: Enabled
+              Id: g=6c03244e91e031d0e439a77f3c35012a
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Color
+              Id: g=ad19176be123b28cb48610439fc5a4b2
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#00ff00"
+            - Name: DynamicLink
+              Id: g=25b6e5d34da75dab55c649d4d90471b9
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=28;g=6936b7d6-2caa-e34e-e3b8-758ab679f607}"
+              Children:
+              - Name: Mode
+                Id: g=81d628a8399d22655e4f480d4ae1602b
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+        - Class: Reference
+          Target: ns=7;i=1129
+          Direction: Forward
+        - Name: XAxis
+          Id: g=7fed0d51a6c9b415468a5a794982ba44
+          Type: DateTimeAxis
+          Children:
+          - Name: Follow
+            Id: g=08d15a46103b342130ec333f1d0dd910
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Window
+            Id: g=12e4d22bf52e1d222ef363ade47b3794
+            Type: BaseDataVariableType
+            DataType: Duration
+            Value: "0:00:00:30.0000000"
+          - Name: Interactive
+            Id: g=949b7aefe2aed52af993f6df8e2142e6
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Time
+            Id: g=c4a891da347422c37eb9deb8fe97529c
+            Type: BaseDataVariableType
+            DataType: DateTime
+            Value: "1601-01-01T00:00:00.0000000"
+        - Name: YAxis
+          Id: g=fbb82baebdedf839a56faf0267998925
+          Type: ValueAxis
+          Children:
+          - Name: MinValue
+            Id: g=3cbf4113f973cb9edfc6acc8603a48de
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: 0.0
+          - Name: MaxValue
+            Id: g=fc4541cdfe6d78f52ddc905666455719
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: 100.0
+          - Name: AutoScale
+            Id: g=1516f9d36ed036ace42a720e8f1a6285
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Interactive
+            Id: g=40848a888adb702b700f030bf0b6bccb
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+        - Name: LegendVisible
+          Id: g=8ca17daf43906a2b09e40658ec0e375f
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Width
+          Id: g=b424b1fea1ea0714fec448e7364122bd
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 339.0
+        - Name: Height
+          Id: g=8f0dab125b00ceff95f23d121e1f91f0
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 320.0
+        - Name: ReferenceTimeZone
+          Id: g=c76ebf61574f708eaab79a1455a5932b
+          Type: BaseDataVariableType
+          DataType: ReferenceTimeZone
+          ModellingRule: Optional
+          Value: 1
+        - Name: TopMargin
+          Id: g=d1b9be86ef9371b89661ef8d02e78cee
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+        - Name: LeftMargin
+          Id: g=45d9237952bd0f56cfb48bfaaac7d0fa
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 31.0
+      - Name: Height
+        Id: g=bc4626246c106c012f68234c4565971f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 380.0
+      - Name: HorizontalAlignment
+        Id: g=f0e2981321e66c5167114572c6e1da6e
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=7823067a09ae9b5ee8475aef2d96142a
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: BottomMargin
+        Id: g=79a4c6fcb2657a525db5e0fd4bc59efb
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: RightMargin
+        Id: g=ab56f812a1fb7d8b14c6b365b55e0b01
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+  - Name: TemperatureTrends
+    Id: g=3f3f40b20dea19dfd4f564e6c0ad77b7
+    Type: Panel
+    Children:
+    - Name: Width
+      Id: g=5851a63fd4026dbcd038d46419c37b3b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: Height
+      Id: g=a68ff0afddebb998af945a65a7b11767
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: LeftMargin
+      Id: g=a8da812f78404b4c1ce7890fa1d24a6b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 405.0
+    - Name: TopMargin
+      Id: g=f4a5098d0e23f4aecd6c37bb69f87403
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: TemperatureRectangle
+      Id: g=c5a1b6100ab65b1ab6cef6a01c0876d9
+      Type: ns=28;Rectangle
+      Children:
+      - Name: LeftMargin
+        Id: g=c32c2eeffba307cd464ac570be2718aa
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: TopMargin
+        Id: g=7449cfc5aee5f71b97feea01f04b57a4
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: Width
+        Id: g=d0063c0cbcf3c27216c1f60d4512b124
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 390.0
+      - Name: TemperatureTrend
+        Id: g=dbf055b81ec96e0069fc4d830a5010f1
+        Type: Trend
+        Children:
+        - Name: Pens
+          Id: g=059eb67184667863096866a1745eb10e
+          Type: BaseObjectType
+          Children:
+          - Name: Intake Temperature
+            Id: g=7d5b91a4abcaedecef280ce43b723e31
+            Type: TrendPen
+            DataType: BaseDataType
+            Children:
+            - Name: Thickness
+              Id: g=5fedb1ff300e785eb085e1160fa1f582
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: Enabled
+              Id: g=cfbf9476dae6c293e332aac7550f02f8
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Color
+              Id: g=c937268cc4cbc8a910b25c520438ce21
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ff0000"
+            - Name: DynamicLink
+              Id: g=781ed38662d4227b44a57266cedcd6f3
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=28;g=3ecd79f8-2b6f-ae0b-aff6-9771d5544f1a}"
+              Children:
+              - Name: Mode
+                Id: g=a6a92a0e9a8e16d69aa174a4f0833d3b
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Motor Temperature
+            Id: g=bbb8b165df39b7a68608ec239e84661a
+            Type: TrendPen
+            DataType: BaseDataType
+            Children:
+            - Name: Thickness
+              Id: g=637bfa54ebe59a556d006df132fa22ef
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: Enabled
+              Id: g=5c53e885ac28204a73ad9d69d5d24dca
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Color
+              Id: g=3a1dab78b71f761fd69698096ac088b4
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#00ff00"
+            - Name: DynamicLink
+              Id: g=61a7ed581602d42ebbe695320dd20a04
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=28;g=041f64f0-10fd-a865-b7c8-6926461f89ad}"
+              Children:
+              - Name: Mode
+                Id: g=456e2e0edd2131ca556daa5eeb5a3d9b
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+        - Class: Reference
+          Target: ns=7;i=1129
+          Direction: Forward
+        - Name: XAxis
+          Id: g=e1d46381bd51a8f6ac72b3910fef22ff
+          Type: DateTimeAxis
+          Children:
+          - Name: Follow
+            Id: g=2e7f3df49f40f7127532931d7a719544
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Window
+            Id: g=e656825a02604c3db0156892785b889c
+            Type: BaseDataVariableType
+            DataType: Duration
+            Value: "0:00:00:5.0000000"
+          - Name: Interactive
+            Id: g=be99a4843ad249f0d3e9547461ed215f
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Time
+            Id: g=0aea23c4ec03b58838e027979e5f1d31
+            Type: BaseDataVariableType
+            DataType: DateTime
+            Value: "1601-01-01T00:00:00.0000000"
+        - Name: YAxis
+          Id: g=62bdabb226f987a4c1345ac68a5945ab
+          Type: ValueAxis
+          Children:
+          - Name: MinValue
+            Id: g=4932163e512fc2059dd286223aeb944d
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: 0.0
+          - Name: MaxValue
+            Id: g=850167729ee487ac032998d241a1ddfb
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: 100.0
+          - Name: AutoScale
+            Id: g=95ed60f0834713f34670b214813b7501
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+          - Name: Interactive
+            Id: g=4c6b65d5f42eb883b3faf5ac2f04c050
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+        - Name: LegendVisible
+          Id: g=f9e2a6908be33387aeefeb513d68eb9d
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Width
+          Id: g=dd99c4ad405a711e834a04c9c0d1318f
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 329.0
+        - Name: Height
+          Id: g=541211da2df9a32bb62e34ce273d7559
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 320.0
+        - Name: ReferenceTimeZone
+          Id: g=ed91cae5d268d686e5b159ab0cf64fd7
+          Type: BaseDataVariableType
+          DataType: ReferenceTimeZone
+          ModellingRule: Optional
+          Value: 1
+        - Name: TopMargin
+          Id: g=0cd005fe2dba720b853c7105448d8676
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+        - Name: LeftMargin
+          Id: g=ad59decd10b75539fca447f60e1372c7
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 31.0
+      - Name: Height
+        Id: g=e0cd450ea6bfcd23277a6e2963d13472
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 380.0
+      - Name: HorizontalAlignment
+        Id: g=600c61d0edd76cba611e7f42ba9b0de1
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=31ee29693368fdc4871369856d900c6e
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: RightMargin
+        Id: g=3b3277aab16b8bfa69ca1ecc39272031
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: BottomMargin
+        Id: g=8e8c261f5baeb557bc551e11985be886
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+    - Name: HorizontalAlignment
+      Id: g=1b2c9817eb41ce136ff5da8ab90e5508
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Id: g=5b066787290fd9c995172bbdaf9e966b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+  - Name: TextBox1
+    Id: g=18de5479bfad03063fd55c02dae40ed5
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=7e4df9782ea387cf10e3f79e3773b24c
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Id: g=d3127967cd4368468b382c55506653e0
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=28;g=aefe633b-e1aa-d313-8d3d-7503b90be67f}"
+        Children:
+        - Name: Mode
+          Id: g=67e1bb1cce43b31e342b0b68304ad7d5
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Id: g=5aff6da7a95fc5224225f51e27574961
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=7f5602903f73b00d14af4e6323420c4a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TopMargin
+      Id: g=6c0dfc65df56290fedf0a77e98934a9e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 408.0
+  - Name: TextBox2
+    Id: g=b9d47201964ebf548a1aa987cf6da025
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=908d1ee1e1c39b97af18e8fb3ae1a579
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Id: g=4717508bdb79768453a0334142e06554
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=28;g=6936b7d6-2caa-e34e-e3b8-758ab679f607}"
+        Children:
+        - Name: Mode
+          Id: g=113736624b324735885c3e8fe6533e8c
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Id: g=4ab1b9f7c04cc4137211b2f10930ff22
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=88141d366c30274e3f4db5ab073f8298
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 240.0
+    - Name: TopMargin
+      Id: g=4668a3d3aec62c5461f941d2cd70a17a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 410.0
+  - Name: TextBox3
+    Id: g=e983ca20213b6aae138b9e011e6a6d47
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=c093cd4a921d2fb000c8faf63335eb7e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Id: g=4981ca673df91f014014aa6c5710bb45
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=28;g=3ecd79f8-2b6f-ae0b-aff6-9771d5544f1a}"
+        Children:
+        - Name: Mode
+          Id: g=75ccc5e8c116e18c21237e7cc9164d8c
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Id: g=e763eaf79553f8d107fe0077fe5556ab
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=e32d29bedb46751564189bf418eacf18
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 430.0
+    - Name: TopMargin
+      Id: g=e44c3d649dce925b4df1aad255aacec7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 408.0
+  - Name: TextBox4
+    Id: g=4fe4aaadc3ba7f910045e4b50eb124ff
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=7bc4235009d82b6d309bc7716af806c5
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Id: g=fcbd6ce132d701d117edc46c47fe30a6
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=28;g=041f64f0-10fd-a865-b7c8-6926461f89ad}"
+        Children:
+        - Name: Mode
+          Id: g=82a23aacf0264cb249897dc641a0bf69
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Id: g=4523ff0ce6114d4cf35ce8dbdce0f401
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=a9270b0b764de09d0e5e2c1e89347bd9
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 590.0
+    - Name: TopMargin
+      Id: g=c303def3199f0409d9c290f4b1675e8f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 410.0

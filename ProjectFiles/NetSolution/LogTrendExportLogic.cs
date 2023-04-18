@@ -25,7 +25,7 @@ public class LogTrendExportLogic : BaseNetLogic
 {
     private string sep;
     private string[] usbPaths;
-    private  Label lblExportMessage, lblFromDate, lblToDate, lblEstimatedExportTime, lblExportProgress;
+    private  Label lblExportMessage, lblFromDate, lblToDate, lblEstimatedExportTime, lblExportProgress, lblLastExportDateStr;
     private DelayedTask GenerateDelayedTask;
     private int delay;
     //private string lblExportMessageStr = "LblExportMessage";
@@ -53,14 +53,16 @@ public class LogTrendExportLogic : BaseNetLogic
         lblExportMessage = funcs.GetLblObjectFromName(Owner, Constants.lblExportMessageStr);
         lblEstimatedExportTime = funcs.GetLblObjectFromName(Owner, Constants.lblEstimatedExportTimeStr);
         lblExportProgress = funcs.GetLblObjectFromName(Owner, Constants.lblExportProgressStr);
+		lblLastExportDateStr = funcs.GetLblObjectFromName(Project.Current, Constants.lblLastExportDateStr);
 
-        GenerateDelayedTask = new DelayedTask(CleanMessage, delay, LogicObject);
+		GenerateDelayedTask = new DelayedTask(CleanMessage, delay, LogicObject);
         //
         // Set default From / To Dates to today!
         //
         lblFromDate.Text = ConcatenateDateToString(DateTime.Now);
         lblToDate.Text = ConcatenateDateToString(DateTime.Now);
-    }
+		
+	}
     public override void Stop()
     {
         // Insert code to be executed when the user-defined logic is stopped
@@ -70,8 +72,9 @@ public class LogTrendExportLogic : BaseNetLogic
     public void QueryLogger(NodeId dataLoggerNodeId)
     {
         string selectedUsbPath = "";
-        
-        bool found = false;
+
+		lblLastExportDateStr.Text = ConcatenateDateToString(DateTime.Now);
+		bool found = false;
         foreach (string usbPath in usbPaths)
         {
             if (Directory.Exists(usbPath) == true)

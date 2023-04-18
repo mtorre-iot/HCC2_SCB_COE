@@ -17,7 +17,7 @@ Children:
       Id: g=36f53403b848fba999d8214875baca7d
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_01"
+      Value: "../../../../Model/DHT/Intake Pressure"
       Children:
       - Name: Mode
         Id: g=751ed9da933dbea15d2e41de2c795cc3
@@ -96,7 +96,7 @@ Children:
       Id: g=b760b92e89e233e12fc22f9296954d8c
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_02"
+      Value: "../../../../Model/DHT/Discharge Pressure"
       Children:
       - Name: Mode
         Id: g=415df9b45a321027f54d5c16733a0cda
@@ -168,7 +168,7 @@ Children:
       Id: g=8cc59955d4753ec7fd4c93732edca7a6
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_03"
+      Value: "../../../../Model/DHT/Intake Temperature"
       Children:
       - Name: Mode
         Id: g=ea8e593e767d55c2db5f64390e00a7fe
@@ -240,7 +240,7 @@ Children:
       Id: g=7f9e65ad9ec6c508cd149979c6695df2
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_04"
+      Value: "../../../../Model/DHT/Motor Temperature"
       Children:
       - Name: Mode
         Id: g=c88a1ad348f11d2e5d9f7c23457550f6
@@ -312,7 +312,7 @@ Children:
       Id: g=df1326ea3898c8183e44a6b5e2e96002
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_05"
+      Value: "../../../../Model/DHT/Flow"
       Children:
       - Name: Mode
         Id: g=3a3b55b8f89a38eacd63b5985e94f8de
@@ -384,7 +384,7 @@ Children:
       Id: g=2012e147250d6a8edc4b2449771c51ee
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_06"
+      Value: "../../../../Model/DHT/Vibration"
       Children:
       - Name: Mode
         Id: g=644e0238b4cbb5eff24e8dd3ac996d29
@@ -456,7 +456,7 @@ Children:
       Id: g=d5e17080b4fcdef1ab5fdac00622c1cb
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_07"
+      Value: "../../../../Model/DHT/Active current leakage"
       Children:
       - Name: Mode
         Id: g=078b78743f681299303239b39eda3c8a
@@ -528,7 +528,7 @@ Children:
       Id: g=02ec70acaa44147ab99d6876441be4b0
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_08"
+      Value: "../../../../Model/DHT/Passive current leakage"
       Children:
       - Name: Mode
         Id: g=3b6c9b7eec42493efe2cf2ef858417c6
@@ -600,7 +600,7 @@ Children:
       Id: g=aef3bc780096867c07c6359c154cf28d
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_09"
+      Value: "../../../../Model/DHT/Cz"
       Children:
       - Name: Mode
         Id: g=d5892ecc10d21ff66bafc3fb71b74944
@@ -672,7 +672,7 @@ Children:
       Id: g=4971996c2d2da12a86f09e77b19aff65
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_10"
+      Value: "../../../../Model/DHT/Cf"
       Children:
       - Name: Mode
         Id: g=5793fb5ecdd7f45749c7fd9e38083c6f
@@ -744,7 +744,7 @@ Children:
       Id: g=1c37e4e2ddfc4492ed7c92c2404f5f9d
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_11"
+      Value: "../../../../Model/DHT/Td"
       Children:
       - Name: Mode
         Id: g=d9545aeaee82d8715d67368a4e13ae78
@@ -816,7 +816,7 @@ Children:
       Id: g=8c3584868f4a54757419dbee89d525a2
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_12"
+      Value: "../../../../Model/DHT/Vs"
       Children:
       - Name: Mode
         Id: g=a659371768020f77cf71d82693b6080e
@@ -888,7 +888,7 @@ Children:
       Id: g=80bdf05f20d4ac662bd0bf8d77c0ea5c
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_13"
+      Value: "../../../../Model/DHT/Ay"
       Children:
       - Name: Mode
         Id: g=f608d1a2edd582745f61c904be189e6e
@@ -960,7 +960,7 @@ Children:
       Id: g=45c442f6eb9b2191467116f1c72e5851
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_14"
+      Value: "../../../../Model/DHT/Az"
       Children:
       - Name: Mode
         Id: g=16843a98f3233ebaac34289048f21d03
@@ -1032,7 +1032,7 @@ Children:
       Id: g=28f32af7ece67e56204edb54b45c695c
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_15"
+      Value: "../../../../Model/DHT/Ax1"
       Children:
       - Name: Mode
         Id: g=f057f7295ef552d916a5752c98c916b7
@@ -1104,7 +1104,7 @@ Children:
       Id: g=e0bf0999ac7fc00846fc891222e0e4c1
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_16"
+      Value: "../../../../Model/DHT/Ay1"
       Children:
       - Name: Mode
         Id: g=67cbb94c30179c5638552224cbc7bd36
@@ -1176,7 +1176,7 @@ Children:
       Id: g=44c51c3dbad0eb663bb2a775fa629682
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_17"
+      Value: "../../../../Model/DHT/Az1"
       Children:
       - Name: Mode
         Id: g=d4f832c4ff7ae8b42750f7d3d0fd7e59
@@ -1248,7 +1248,7 @@ Children:
       Id: g=248d1f92115948d3be05bce8da962284
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_18"
+      Value: "../../../../Model/DHT/Pr2"
       Children:
       - Name: Mode
         Id: g=aac25c5e7dbc731c2f1e54b983a71517
@@ -1320,7 +1320,7 @@ Children:
       Id: g=0d7c0752e4fd39b0dd5fdd52c030161a
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_19"
+      Value: "../../../../Model/DHT/Tr2"
       Children:
       - Name: Mode
         Id: g=e24cef3d48db53e5af50849f571cda14
@@ -1392,7 +1392,7 @@ Children:
       Id: g=faba2a0e80b4ce4c14da29f29fe46a27
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_20"
+      Value: "../../../../Model/DHT/Ax2"
       Children:
       - Name: Mode
         Id: g=d5c03219bd82a78a7b11f815d5cc4119
@@ -1464,7 +1464,7 @@ Children:
       Id: g=3af73b513a71d0d00f77e6efe9adf112
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_21"
+      Value: "../../../../Model/DHT/Ay2"
       Children:
       - Name: Mode
         Id: g=c21ff496b1d2aa8422d487d9ff14e01b
@@ -1536,7 +1536,7 @@ Children:
       Id: g=8de6439d5057560e677f180a469c3887
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Model/DHT/DHT_22"
+      Value: "../../../../Model/DHT/Az2"
       Children:
       - Name: Mode
         Id: g=4bed5c09dceb1c8b3b5e02d474210089

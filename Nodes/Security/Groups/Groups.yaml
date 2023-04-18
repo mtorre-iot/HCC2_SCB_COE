@@ -1,3 +1,13 @@
 Name: Groups
 Id: g=2e675445f401ea05babd30a415093b0c
 Type: FolderType
+Children:
+- Name: Admin
+  Id: g=4318042028bd846df6b416812dadb865
+  Type: GroupType
+- Name: Operator
+  Id: g=87b6d73a937e78da17caf7e7670148f9
+  Type: GroupType
+- Name: ViewOnly
+  Id: g=7f638ea727b7a1fb77743784e8ce5e4d
+  Type: GroupType

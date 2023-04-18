@@ -1,0 +1,9 @@
+Name: Variables
+Id: g=9e536cc033254c93821ec269e975627e
+Type: FolderType
+Children:
+- Name: ScreenName
+  Id: g=57c2a90ea411c8a07dc7bff78573ed6f
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Summary"

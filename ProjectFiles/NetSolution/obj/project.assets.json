@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HChauhan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\KKrishna1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HChauhan\\source\\repos\\FTOptix\\HCC2_SCB_COE\\ProjectFiles\\NetSolution\\HCC2_SCB_2.csproj",
+      "projectUniqueName": "C:\\Clone\\HCC2_SCB_COE\\ProjectFiles\\NetSolution\\HCC2_SCB_2.csproj",
       "projectName": "HCC2_SCB_2",
-      "projectPath": "C:\\Users\\HChauhan\\source\\repos\\FTOptix\\HCC2_SCB_COE\\ProjectFiles\\NetSolution\\HCC2_SCB_2.csproj",
-      "packagesPath": "C:\\Users\\HChauhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HChauhan\\source\\repos\\FTOptix\\HCC2_SCB_COE\\ProjectFiles\\NetSolution\\obj\\",
+      "projectPath": "C:\\Clone\\HCC2_SCB_COE\\ProjectFiles\\NetSolution\\HCC2_SCB_2.csproj",
+      "packagesPath": "C:\\Users\\KKrishna1\\.nuget\\packages\\",
+      "outputPath": "C:\\Clone\\HCC2_SCB_COE\\ProjectFiles\\NetSolution\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HChauhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\KKrishna1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

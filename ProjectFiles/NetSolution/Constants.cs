@@ -26,6 +26,7 @@ namespace HCC2_SCB_2
 		public static string btnAlarmFunctionButtonStr = "AlarmFunctionButton";
 		public static string alarmInformationStr = "AlarmInformation";
 		public static string lblExportMessageStr = "LblExportMessage";
+		public static string lblLastExportDateStr = "UI/Screens/LogExportPanel/LogExportTrendInfoPanel/LblLastExportDate";
 		public static string lblFromDateStr = "SetDialogUnitPanelFrom/LblDate";
 		public static string lblToDateStr = "SetDialogUnitPanelTo/LblDate";
 		public static string dialogContextBaseStr = "UI/Screens/LogExportPanel/LogTrendDatedExport1/SetDialogUnitPanelFrom/";
@@ -35,7 +36,9 @@ namespace HCC2_SCB_2
 		public static string varNewFromDateStr = "NewFromDate";
 		public static string varNewToDateStr = "NewToDate";
 		public static string lblRealTimeClockStr = "UI/MainWindow/Main/TopBar/LblRealTimeClock";
-		public static string dateFormat = "yyyy-MM-dd HH:mm:ss";
+		public static string lblRealTimeDateStr = "UI/MainWindow/Main/TopBar/LblRealTimeDate";
+		public static string dateFormat = "yyyy-MM-dd";
+		public static string TimeFormat = "HH:mm:ss";
 		public static string cbxYearStr = "CbxYear";
 		public static string cbxMonthStr = "CbxMonth";
 		public static string cbxDayStr = "CbxDay";

@@ -2,7 +2,7 @@ Name: DHT
 Id: g=972bd08266da3c103e10135edd228fcb
 Type: FolderType
 Children:
-- Name: DHT_01
+- Name: Intake Pressure
   Id: g=e4f77241f61f9c5ce4b5b5e096d046d4
   Type: AnalogItemType
   DataType: Float
@@ -26,7 +26,7 @@ Children:
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
-      Value: 0.0
+      Value: 100.0
   - Name: EngineeringUnits
     Id: g=2d316f3b75fe45df51ee57be957e341f
     Type: EUInformationType
@@ -62,7 +62,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_02
+- Name: Discharge Pressure
   Id: g=222e6fbb4b63f919fd077891f9517e5c
   Type: AnalogItemType
   DataType: Float
@@ -86,7 +86,7 @@ Children:
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
-      Value: 0.0
+      Value: 100.0
   - Name: EngineeringUnits
     Id: g=aeb2dd12fbec6ac8f342cd4fad6b477f
     Type: EUInformationType
@@ -122,7 +122,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_03
+- Name: Intake Temperature
   Id: g=3ecd79f82b6fae0baff69771d5544f1a
   Type: AnalogItemType
   DataType: Float
@@ -182,7 +182,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_04
+- Name: Motor Temperature
   Id: g=041f64f010fda865b7c86926461f89ad
   Type: AnalogItemType
   DataType: Float
@@ -242,7 +242,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_05
+- Name: Flow
   Id: g=b826f9f54bad1c2cffdd8e9d96426f43
   Type: AnalogItemType
   DataType: Float
@@ -302,7 +302,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_06
+- Name: Vibration
   Id: g=d5578236553e1c73c08974419455f87c
   Type: AnalogItemType
   DataType: Float
@@ -362,7 +362,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_07
+- Name: Active current leakage
   Id: g=949023a96336051ca5f5fb3a947f4e9b
   Type: AnalogItemType
   DataType: Float
@@ -422,7 +422,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_08
+- Name: Passive current leakage
   Id: g=d7f67764d9c5403b9e6cd8042c448f21
   Type: AnalogItemType
   DataType: Float
@@ -482,7 +482,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_09
+- Name: Cz
   Id: g=9f9aaf6c5946aa78b886c58cc07b416b
   Type: AnalogItemType
   DataType: Float
@@ -542,7 +542,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_10
+- Name: Cf
   Id: g=611bb19bee9607b5f74b1e7835fa3a47
   Type: AnalogItemType
   DataType: Float
@@ -602,7 +602,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_11
+- Name: Td
   Id: g=d13db57c696487ef24802ec1052236d6
   Type: AnalogItemType
   DataType: Float
@@ -662,7 +662,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_12
+- Name: Vs
   Id: g=c9a1d965007957177aca3d00479e6d12
   Type: AnalogItemType
   DataType: Float
@@ -722,7 +722,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_13
+- Name: Ay
   Id: g=544b96255f549e4398b7a5e39f280252
   Type: AnalogItemType
   DataType: Float
@@ -782,7 +782,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_14
+- Name: Az
   Id: g=b331c7489415de18dd507b7be71fed14
   Type: AnalogItemType
   DataType: Float
@@ -842,7 +842,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_15
+- Name: Ax1
   Id: g=5a445d4e106f08eb49c11540e374ff6c
   Type: AnalogItemType
   DataType: Float
@@ -902,7 +902,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_16
+- Name: Ay1
   Id: g=e383116164e908ecab563b04c0b52a5c
   Type: AnalogItemType
   DataType: Float
@@ -962,7 +962,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_17
+- Name: Az1
   Id: g=33fe51285847b4b75cd0431f937ca4b6
   Type: AnalogItemType
   DataType: Float
@@ -1022,7 +1022,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_18
+- Name: Pr2
   Id: g=46c44a94eac45c179ab6eecbb97a594b
   Type: AnalogItemType
   DataType: Float
@@ -1082,7 +1082,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_19
+- Name: Tr2
   Id: g=3066ddbd198ecd173ad5a71b2f6a2ba7
   Type: AnalogItemType
   DataType: Float
@@ -1142,7 +1142,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_20
+- Name: Ax2
   Id: g=991ada2d92c3bbf0d92b2957c4f4f5dd
   Type: AnalogItemType
   DataType: Float
@@ -1202,7 +1202,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_21
+- Name: Ay2
   Id: g=423e0f97003d17fb1c5f8c4e2b0ad92c
   Type: AnalogItemType
   DataType: Float
@@ -1262,7 +1262,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_22
+- Name: Az2
   Id: g=d358ef721f42926f8bb0357d9b7723e0
   Type: AnalogItemType
   DataType: Float
@@ -1322,7 +1322,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_23
+- Name: Vdl
   Id: g=17f70a8e44546471ccc8938b29c50be7
   Type: AnalogItemType
   DataType: Float
@@ -1382,7 +1382,7 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: DHT_24
+- Name: Vbu
   Id: g=ff32a32150ff49bb5945d9eff9b5e7fa
   Type: AnalogItemType
   DataType: Float

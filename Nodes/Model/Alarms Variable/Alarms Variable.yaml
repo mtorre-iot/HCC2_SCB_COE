@@ -1060,8 +1060,3 @@ Children:
       DataType: DynamicLinkMode
       ReferenceType: HasComponent
       Value: 2
-- Name: ScreenName
-  Id: g=d89477a4472cc249d1b546a838fc9f77
-  Type: BaseDataVariableType
-  DataType: String
-  Value: "Summary"

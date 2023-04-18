@@ -8,14 +8,4 @@ Children:
 - File: Daignostic/Daignostic.yaml
 - File: Calibration/Calibration.yaml
 - File: Setting/Setting.yaml
-- Name: ModbusTag1
-  Id: g=ead0a905e6894b716fcdb107f63a6c7c
-  Type: ModbusTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: MemoryArea
-    Id: g=7be46d2698aea8f19cd9abae0f887db3
-    Type: BaseDataVariableType
-    DataType: ModbusMemoryArea
-    Value: 2
+- File: TRENDING/TRENDING.yaml

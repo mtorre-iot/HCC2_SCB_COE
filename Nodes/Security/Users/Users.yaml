@@ -5,9 +5,27 @@ Children:
 - Name: User1
   Id: g=921094668ba57e061e48f6eb479deec0
   Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=4318042028bd846df6b416812dadb865
+  - Class: Reference
+    Type: HasGroup
+    Target: g=87b6d73a937e78da17caf7e7670148f9
+  - Class: Reference
+    Type: HasGroup
+    Target: g=7f638ea727b7a1fb77743784e8ce5e4d
 - Name: User2
   Id: g=41314ccaabf998f3d9c3fd2fd979e51c
   Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=87b6d73a937e78da17caf7e7670148f9
 - Name: User3
   Id: g=75790573ab30122bd2d39da95c022db3
   Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=7f638ea727b7a1fb77743784e8ce5e4d

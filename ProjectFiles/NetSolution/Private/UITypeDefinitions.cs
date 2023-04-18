@@ -5,11 +5,6 @@ using UAManagedCore;
 // WARNING: AUTO-GENERATED CODE, DO NOT EDIT!
 //-------------------------------------------
 
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "93af8ea2e56e336c1f06b318aea6cad1")]
-public class AlarmsDatabasePanel : FTOptix.UI.Panel
-{
-}
-
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "2eebfd3def044e747aa57952fc13c70d")]
 public class Logout : FTOptix.UI.Panel
 {
@@ -17,11 +12,6 @@ public class Logout : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "fc0d46c3cf6fc6f7faace8fa13bde2b5")]
 public class LoginChangePasswordForm : FTOptix.UI.Panel
-{
-}
-
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "e39db2ea49e26541762c18c6b006d12d")]
-public class Trends : FTOptix.UI.Panel
 {
 }
 
@@ -50,6 +40,11 @@ public class AlarmManagementPanel : FTOptix.UI.Panel
 {
 }
 
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "ea9b61ae519fb0bb047433e9f3ee5504")]
+public class Window1 : FTOptix.UI.Window
+{
+}
+
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "fcea63c4c212ec86187048b00706a47c")]
 public class LogTrendDatedExport : FTOptix.UI.Panel
 {
@@ -67,6 +62,11 @@ public class SummaryPanel : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "28ae898a63369cb343c7e8642dffe89d")]
 public class DownloadLogsPanel : FTOptix.UI.Panel
+{
+}
+
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "93af8ea2e56e336c1f06b318aea6cad1")]
+public class AlarmsDatabasePanel : FTOptix.UI.Panel
 {
 }
 
@@ -97,6 +97,11 @@ public class Diagnostics : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "d3a6b90e17d6022d0a4c5647f38ed45c")]
 public class Slot1 : FTOptix.UI.Panel
+{
+}
+
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "9f8172ee3a9a87e13b447ac65b6372ec")]
+public class Trends : FTOptix.UI.Panel
 {
 }
 
@@ -166,7 +171,17 @@ public class LoginDailog : FTOptix.UI.Dialog
 }
 
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "eb01f70d1d347b51c13f95f9a99ad60d")]
-public class Popup1 : FTOptix.UI.Popup
+public class ChangePassword : FTOptix.UI.Popup
+{
+}
+
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "c2344c60421a7528bda9994ee5ccc730")]
+public class Rectangle : FTOptix.UI.Rectangle
+{
+}
+
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "dc242bb297be44da35499d8e61b4aa19")]
+public class LogoutDialogBox : FTOptix.UI.Dialog
 {
 }
 

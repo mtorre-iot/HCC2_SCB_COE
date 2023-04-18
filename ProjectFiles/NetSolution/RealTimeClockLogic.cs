@@ -24,6 +24,7 @@ public class RealTimeClockLogic : BaseNetLogic
 {
     public OptixMiscFunctions funcs;
     private Label lblRealTimeClock;
+    private Label lblRealTimeDate;
     //private string lblRealTimeClockStr = "UI/MainWindow/Main/TopBar/LblRealTimeClock";
     //private string dateFormat = "yyyy-MM-dd HH:mm:ss";
     public override void Start()
@@ -31,6 +32,7 @@ public class RealTimeClockLogic : BaseNetLogic
         funcs = new OptixMiscFunctions();
         // Get the label object
         lblRealTimeClock = funcs.GetLblObjectFromName(Project.Current, Constants.lblRealTimeClockStr);
+        lblRealTimeDate=funcs.GetLblObjectFromName(Project.Current,Constants.lblRealTimeDateStr);
         // Start the clock periodical task
         var clockTask = new PeriodicTask(RefreshClock, 1000, LogicObject);
         clockTask.Start();
@@ -50,6 +52,8 @@ public class RealTimeClockLogic : BaseNetLogic
         //
         // Update this label with the current time.
         //
-        lblRealTimeClock.Text = dt.ToString(Constants.dateFormat);
-    }
+        lblRealTimeClock.Text = dt.ToString(Constants.TimeFormat);
+		lblRealTimeDate.Text = dt.ToString(Constants.dateFormat);
+
+	}
 }
