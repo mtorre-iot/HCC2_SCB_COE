@@ -10,11 +10,6 @@ public class AlarmsDatabasePanel : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "e39db2ea49e26541762c18c6b006d12d")]
-public class Trends : FTOptix.UI.Panel
-{
-}
-
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "2eebfd3def044e747aa57952fc13c70d")]
 public class Logout : FTOptix.UI.Panel
 {
@@ -22,6 +17,11 @@ public class Logout : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "fc0d46c3cf6fc6f7faace8fa13bde2b5")]
 public class LoginChangePasswordForm : FTOptix.UI.Panel
+{
+}
+
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "e39db2ea49e26541762c18c6b006d12d")]
+public class Trends : FTOptix.UI.Panel
 {
 }
 
@@ -160,16 +160,6 @@ public class EventsGridPanel : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "d0fba00ff93f064d6e1cb546eea27209")]
-public class LoginForm : FTOptix.UI.PanelLoader
-{
-}
-
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "53b1bd1b17b4de66926108a7dfdf143e")]
-public class LoginPasswordExpiredDialog : FTOptix.UI.Dialog
-{
-}
-
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "939564b8c61badca082d25bfa993e71d")]
 public class LoginDailog : FTOptix.UI.Dialog
 {
@@ -177,5 +167,15 @@ public class LoginDailog : FTOptix.UI.Dialog
 
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "eb01f70d1d347b51c13f95f9a99ad60d")]
 public class Popup1 : FTOptix.UI.Popup
+{
+}
+
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "d0fba00ff93f064d6e1cb546eea27209")]
+public class LoginForm : FTOptix.UI.PanelLoader
+{
+}
+
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "53b1bd1b17b4de66926108a7dfdf143e")]
+public class LoginPasswordExpiredDialog : FTOptix.UI.Dialog
 {
 }

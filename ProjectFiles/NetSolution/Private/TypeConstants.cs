@@ -11,9 +11,9 @@ namespace HCC2_SCB_2
     {
         private static readonly int namespaceIndex = NamespaceMapProvider.GetNamespaceIndex("HCC2_SCB_2");
         public static readonly NodeId AlarmsDatabasePanel = new NodeId(namespaceIndex, new Guid("93af8ea2e56e336c1f06b318aea6cad1"));
-        public static readonly NodeId Trends = new NodeId(namespaceIndex, new Guid("e39db2ea49e26541762c18c6b006d12d"));
         public static readonly NodeId Logout = new NodeId(namespaceIndex, new Guid("2eebfd3def044e747aa57952fc13c70d"));
         public static readonly NodeId LoginChangePasswordForm = new NodeId(namespaceIndex, new Guid("fc0d46c3cf6fc6f7faace8fa13bde2b5"));
+        public static readonly NodeId Trends = new NodeId(namespaceIndex, new Guid("e39db2ea49e26541762c18c6b006d12d"));
         public static readonly NodeId SetDateDialog = new NodeId(namespaceIndex, new Guid("7551a426e4563338f7085d5382147786"));
         public static readonly NodeId RealtimeGaugeType = new NodeId(namespaceIndex, new Guid("98a6901f1794d7dd755df3f0f5116432"));
         public static readonly NodeId MainWindow = new NodeId(namespaceIndex, new Guid("96cd9ff8977b298a8e789a84da14c56f"));
@@ -44,10 +44,10 @@ namespace HCC2_SCB_2
         public static readonly NodeId ExpertFaultsPanel = new NodeId(namespaceIndex, new Guid("94940ffee4e0f90b3983d982ad8526ee"));
         public static readonly NodeId AlarmGridPanel = new NodeId(namespaceIndex, new Guid("498fcab27b69ad9c4c4c570c85a19190"));
         public static readonly NodeId EventsGridPanel = new NodeId(namespaceIndex, new Guid("d8325990a16944d9439c45ccd57e9fb1"));
-        public static readonly NodeId LoginForm = new NodeId(namespaceIndex, new Guid("d0fba00ff93f064d6e1cb546eea27209"));
-        public static readonly NodeId LoginPasswordExpiredDialog = new NodeId(namespaceIndex, new Guid("53b1bd1b17b4de66926108a7dfdf143e"));
         public static readonly NodeId LoginDailog = new NodeId(namespaceIndex, new Guid("939564b8c61badca082d25bfa993e71d"));
         public static readonly NodeId Popup1 = new NodeId(namespaceIndex, new Guid("eb01f70d1d347b51c13f95f9a99ad60d"));
+        public static readonly NodeId LoginForm = new NodeId(namespaceIndex, new Guid("d0fba00ff93f064d6e1cb546eea27209"));
+        public static readonly NodeId LoginPasswordExpiredDialog = new NodeId(namespaceIndex, new Guid("53b1bd1b17b4de66926108a7dfdf143e"));
     }
 
     public static class VariableTypes

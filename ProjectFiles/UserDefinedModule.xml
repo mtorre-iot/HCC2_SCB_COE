@@ -24,17 +24,17 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="e39db2ea49e26541762c18c6b006d12d" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
                 <NodeId namespaceUri="HCC2_SCB_2" guid="2eebfd3def044e747aa57952fc13c70d" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
             <TargetType>
                 <NodeId namespaceUri="HCC2_SCB_2" guid="fc0d46c3cf6fc6f7faace8fa13bde2b5" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HCC2_SCB_2" guid="e39db2ea49e26541762c18c6b006d12d" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
@@ -189,22 +189,22 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="d0fba00ff93f064d6e1cb546eea27209" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="53b1bd1b17b4de66926108a7dfdf143e" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
                 <NodeId namespaceUri="HCC2_SCB_2" guid="939564b8c61badca082d25bfa993e71d" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
             <TargetType>
                 <NodeId namespaceUri="HCC2_SCB_2" guid="eb01f70d1d347b51c13f95f9a99ad60d" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HCC2_SCB_2" guid="d0fba00ff93f064d6e1cb546eea27209" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="HCC2_SCB_2" guid="53b1bd1b17b4de66926108a7dfdf143e" />
             </TargetType>
         </TypeMapping>
     </TypeMappings>
