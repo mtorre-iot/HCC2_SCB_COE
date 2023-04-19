@@ -12138,7 +12138,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Password
                 Description: {"NamespaceIndex":1,"TextId":"LoginPasswordDescription"}
-                SecretValue: iJBMFo2szVzgBefiYdOobMLza4a+BhBC71CZag==
+                Value: ""
                 Children:
                 - Name: DynamicLink
                   Id: g=fd4ebe839ca52c78286f4db12128fd8f
