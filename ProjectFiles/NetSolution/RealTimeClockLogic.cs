@@ -29,7 +29,7 @@ public class RealTimeClockLogic : BaseNetLogic
     //private string dateFormat = "yyyy-MM-dd HH:mm:ss";
     public override void Start()
     {
-        funcs = new OptixMiscFunctions();
+        funcs = new OptixMiscFunctions(Project.Current);
         // Get the label object
         lblRealTimeClock = funcs.GetLblObjectFromName(Project.Current, Constants.lblRealTimeClockStr);
         lblRealTimeDate=funcs.GetLblObjectFromName(Project.Current,Constants.lblRealTimeDateStr);

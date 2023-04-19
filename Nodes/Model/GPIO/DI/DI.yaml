@@ -1,0 +1,44 @@
+Name: DI
+Id: g=2ceb58a677373906a928af0e4f3aa346
+Type: FolderType
+Children:
+- Name: DI00
+  Id: g=d6d5e02f06ee3998c64d97e037dc5fe1
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: DI01
+  Id: g=5f9a4168a103c6c6733da8d8021ffd1e
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: DI02
+  Id: g=85eb989d42fa7a06fd963bb4d00507cc
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: DI03
+  Id: g=285d533059567c237da4b1bf9b1408a1
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: DI04
+  Id: g=3231d0974f336827da6f0ceac45924d4
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: DI05
+  Id: g=9dd2e4eb2ebd5c6b5782f28b1cb0cfca
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: DI06
+  Id: g=0b887a0fff5e8fe2d42fbd29b31deb94
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: DI07
+  Id: g=2360b5c329ac372bf3d7a694716ad3c7
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

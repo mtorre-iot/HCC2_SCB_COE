@@ -1,0 +1,6 @@
+Name: GPIO
+Id: g=ae4ee89b7edf8254a55e646ebcf3bb32
+Type: FolderType
+Children:
+- File: DI/DI.yaml
+- File: DO/DO.yaml

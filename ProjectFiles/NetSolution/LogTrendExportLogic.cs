@@ -44,7 +44,7 @@ public class LogTrendExportLogic : BaseNetLogic
         sep = ",";
         usbPaths = new string[] {"D:\\", "E:\\", "F:\\"};
         delay = 5000;
-        funcs = new OptixMiscFunctions();
+        funcs = new OptixMiscFunctions(Project.Current);
         //
         // Get from/to data as selected by customer
         //

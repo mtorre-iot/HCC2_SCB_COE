@@ -107,3 +107,5 @@ Children:
   Type: BaseDataVariableType
   DataType: Int16
   Value: 0
+- File: GPIO/GPIO.yaml
+- File: MEAS/MEAS.yaml

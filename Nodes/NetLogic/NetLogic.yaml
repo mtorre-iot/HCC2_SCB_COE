@@ -64,3 +64,32 @@ Children:
 - Name: RuntimeNetLogic1
   Id: g=ea339a9e740fc5f88e0c0b8369f0b2ef
   Type: NetLogic
+- Name: AdvantechIOLogic
+  Id: g=3dd10c63221eaf194477687a522e7337
+  Type: NetLogic
+  Children:
+  - Name: ScanPeriod
+    Id: g=b41895d1bf30affc3de52003d0bffff2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
+  - Name: ReportPeriod
+    Id: g=8b04b337d64ffb23029f7ed273727fe4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
+  - Class: Method
+    Name: Scan
+    Id: g=97ce765e6b69487aa438962cd5a62fd3
+  - Class: Method
+    Name: SwitchChanged
+    Id: g=771b051feeaced70aca65ec0ae49306a
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=ba455bea2128526c5b97ac32a4ccef98
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"swNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"modNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
