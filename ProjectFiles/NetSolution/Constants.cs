@@ -26,7 +26,8 @@ namespace HCC2_SCB_2
 		public static string btnAlarmFunctionButtonStr = "AlarmFunctionButton";
 		public static string alarmInformationStr = "AlarmInformation";
 		public static string lblExportMessageStr = "LblExportMessage";
-		public static string lblLastExportDateStr = "UI/Screens/LogExportPanel/LogExportTrendInfoPanel/LblLastExportDate";
+		public static string lblLastExportDateStr = "UI/Screens/LogExportPanel/LogExportTrendInfoPanel/";
+		public static string lblLastExportDate = "LblLastExportDate";
 		public static string lblFromDateStr = "SetDialogUnitPanelFrom/LblDate";
 		public static string lblToDateStr = "SetDialogUnitPanelTo/LblDate";
 		public static string dialogContextBaseStr = "UI/Screens/LogExportPanel/LogTrendDatedExport1/SetDialogUnitPanelFrom/";

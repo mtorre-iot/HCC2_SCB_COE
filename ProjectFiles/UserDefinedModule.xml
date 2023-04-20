@@ -19,12 +19,7 @@
     <TypeMappings>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="2eebfd3def044e747aa57952fc13c70d" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="fc0d46c3cf6fc6f7faace8fa13bde2b5" />
+                <NodeId namespaceUri="HCC2_SCB_2" guid="93af8ea2e56e336c1f06b318aea6cad1" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
@@ -59,11 +54,6 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="ea9b61ae519fb0bb047433e9f3ee5504" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
                 <NodeId namespaceUri="HCC2_SCB_2" guid="fcea63c4c212ec86187048b00706a47c" />
             </TargetType>
         </TypeMapping>
@@ -90,11 +80,6 @@
         <TypeMapping>
             <TargetType>
                 <NodeId namespaceUri="HCC2_SCB_2" guid="28ae898a63369cb343c7e8642dffe89d" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="93af8ea2e56e336c1f06b318aea6cad1" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
@@ -164,11 +149,6 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="ce814fddddd607c776a3b9a6e0b90c27" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
                 <NodeId namespaceUri="HCC2_SCB_2" guid="d861f5cf25078cc999c306f660f97085" />
             </TargetType>
         </TypeMapping>
@@ -210,16 +190,6 @@
         <TypeMapping>
             <TargetType>
                 <NodeId namespaceUri="HCC2_SCB_2" guid="dc242bb297be44da35499d8e61b4aa19" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="d0fba00ff93f064d6e1cb546eea27209" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="HCC2_SCB_2" guid="53b1bd1b17b4de66926108a7dfdf143e" />
             </TargetType>
         </TypeMapping>
     </TypeMappings>

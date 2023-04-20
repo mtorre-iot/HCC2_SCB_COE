@@ -10,22 +10,19 @@ namespace HCC2_SCB_2
     public static class ObjectTypes
     {
         private static readonly int namespaceIndex = NamespaceMapProvider.GetNamespaceIndex("HCC2_SCB_2");
-        public static readonly NodeId Logout = new NodeId(namespaceIndex, new Guid("2eebfd3def044e747aa57952fc13c70d"));
-        public static readonly NodeId LoginChangePasswordForm = new NodeId(namespaceIndex, new Guid("fc0d46c3cf6fc6f7faace8fa13bde2b5"));
+        public static readonly NodeId AlarmsDatabasePanel = new NodeId(namespaceIndex, new Guid("93af8ea2e56e336c1f06b318aea6cad1"));
         public static readonly NodeId SetDateDialog = new NodeId(namespaceIndex, new Guid("7551a426e4563338f7085d5382147786"));
         public static readonly NodeId RealtimeGaugeType = new NodeId(namespaceIndex, new Guid("98a6901f1794d7dd755df3f0f5116432"));
         public static readonly NodeId MainWindow = new NodeId(namespaceIndex, new Guid("96cd9ff8977b298a8e789a84da14c56f"));
         public static readonly NodeId AlarmActionContextType = new NodeId(namespaceIndex, new Guid("7f3d540f6f6b851037cdee82c8e59311"));
         public static readonly NodeId GroupBoxPanel = new NodeId(namespaceIndex, new Guid("1ca1754cb9ec1fe835ff7e2a952c05d4"));
         public static readonly NodeId AlarmManagementPanel = new NodeId(namespaceIndex, new Guid("5fcc5850a2633aaf8c42f22aa1e93367"));
-        public static readonly NodeId Window1 = new NodeId(namespaceIndex, new Guid("ea9b61ae519fb0bb047433e9f3ee5504"));
         public static readonly NodeId LogTrendDatedExport = new NodeId(namespaceIndex, new Guid("fcea63c4c212ec86187048b00706a47c"));
         public static readonly NodeId AlarmInformationType = new NodeId(namespaceIndex, new Guid("64d3ac9520bd32511b9ec06ee747fc78"));
         public static readonly NodeId AlarmGridPanel1 = new NodeId(namespaceIndex, new Guid("13ae5c7b6cc9c54f98bb6602888fe3ec"));
         public static readonly NodeId SummaryPanel = new NodeId(namespaceIndex, new Guid("c4ebaa6f7659924ab087dec41061693e"));
         public static readonly NodeId SetDateDialogContextType = new NodeId(namespaceIndex, new Guid("3d0f8362fced1c68a4c1b6871cf17b18"));
         public static readonly NodeId DownloadLogsPanel = new NodeId(namespaceIndex, new Guid("28ae898a63369cb343c7e8642dffe89d"));
-        public static readonly NodeId AlarmsDatabasePanel = new NodeId(namespaceIndex, new Guid("93af8ea2e56e336c1f06b318aea6cad1"));
         public static readonly NodeId LogExportPanel = new NodeId(namespaceIndex, new Guid("f70c867fc140251285a99d3fecddc376"));
         public static readonly NodeId ExpertPanel = new NodeId(namespaceIndex, new Guid("e9a6e0aabf48a2330ca2c8ba7a4108c2"));
         public static readonly NodeId EventsGridPanel1 = new NodeId(namespaceIndex, new Guid("2b580e9d81c1659468897a2caf3e0d98"));
@@ -39,7 +36,6 @@ namespace HCC2_SCB_2
         public static readonly NodeId AlarmActionDialog = new NodeId(namespaceIndex, new Guid("cccdbf8a7cffa347295977c3606e0ff6"));
         public static readonly NodeId BtnNavigation = new NodeId(namespaceIndex, new Guid("ea9733c3153f8721ec0d31e52bbaa098"));
         public static readonly NodeId LogExportTrendInfoPanel = new NodeId(namespaceIndex, new Guid("ac19e83f593660d91e990c7a0849286f"));
-        public static readonly NodeId Login = new NodeId(namespaceIndex, new Guid("ce814fddddd607c776a3b9a6e0b90c27"));
         public static readonly NodeId SetDialogUnitPanel = new NodeId(namespaceIndex, new Guid("d861f5cf25078cc999c306f660f97085"));
         public static readonly NodeId AlarmBits = new NodeId(namespaceIndex, new Guid("8cb3c6726246e37e2d50d95463edfb70"));
         public static readonly NodeId ExpertFaultsPanel = new NodeId(namespaceIndex, new Guid("94940ffee4e0f90b3983d982ad8526ee"));
@@ -49,8 +45,6 @@ namespace HCC2_SCB_2
         public static readonly NodeId ChangePassword = new NodeId(namespaceIndex, new Guid("eb01f70d1d347b51c13f95f9a99ad60d"));
         public static readonly NodeId Rectangle = new NodeId(namespaceIndex, new Guid("c2344c60421a7528bda9994ee5ccc730"));
         public static readonly NodeId LogoutDialogBox = new NodeId(namespaceIndex, new Guid("dc242bb297be44da35499d8e61b4aa19"));
-        public static readonly NodeId LoginForm = new NodeId(namespaceIndex, new Guid("d0fba00ff93f064d6e1cb546eea27209"));
-        public static readonly NodeId LoginPasswordExpiredDialog = new NodeId(namespaceIndex, new Guid("53b1bd1b17b4de66926108a7dfdf143e"));
     }
 
     public static class VariableTypes

@@ -25,7 +25,7 @@ public class LogTrendExportLogic : BaseNetLogic
 {
     private string sep;
     private string[] usbPaths;
-    private  Label lblExportMessage, lblFromDate, lblToDate, lblEstimatedExportTime, lblExportProgress, lblLastExportDateStr;
+    private Label lblExportMessage, lblFromDate, lblToDate, lblEstimatedExportTime, lblExportProgress, lblLastExportDate;
     private DelayedTask GenerateDelayedTask;
     private int delay;
     //private string lblExportMessageStr = "LblExportMessage";
@@ -53,7 +53,7 @@ public class LogTrendExportLogic : BaseNetLogic
         lblExportMessage = funcs.GetLblObjectFromName(Owner, Constants.lblExportMessageStr);
         lblEstimatedExportTime = funcs.GetLblObjectFromName(Owner, Constants.lblEstimatedExportTimeStr);
         lblExportProgress = funcs.GetLblObjectFromName(Owner, Constants.lblExportProgressStr);
-		lblLastExportDateStr = funcs.GetLblObjectFromName(Project.Current, Constants.lblLastExportDateStr);
+		//lblLastExportDate = funcs.GetLblObjectFromName(Project.Current, Constants.lblLastExportDate);
 
 		GenerateDelayedTask = new DelayedTask(CleanMessage, delay, LogicObject);
         //
@@ -73,7 +73,7 @@ public class LogTrendExportLogic : BaseNetLogic
     {
         string selectedUsbPath = "";
 
-		lblLastExportDateStr.Text = ConcatenateDateToString(DateTime.Now);
+		
 		bool found = false;
         foreach (string usbPath in usbPaths)
         {
@@ -84,7 +84,9 @@ public class LogTrendExportLogic : BaseNetLogic
                 break;
             }
         }
-        if (found == false)
+		//found = true;
+		//selectedUsbPath = "C:\\FTlogs";
+		if (found == false)
         {
             lblExportMessage.Text = "USB Device is not Mounted. Please verify.";
             // fire delayed task to clean the message label
@@ -134,9 +136,17 @@ public class LogTrendExportLogic : BaseNetLogic
         {
             string filePath = ExportCSV (selectedUsbPath, header, resultSet, lblEstimatedExportTime, lblExportProgress);   
             lblExportMessage.Text = "DataLog succesfully saved in file " +  filePath +". Total: " + resultSet.GetLength(0).ToString() + " rows.";
-            // fire delayed task to clean the message label
-            GenerateDelayedTask.Start();
-        }
+            //Added by Krishna
+			//lblLastExportDateStr.Text = ConcatenateDateToString(DateTime.Now);
+			//DateTime dateTime= DateTime.Now;
+			//lblFromDate.Text= dateTime.ToString();
+			//lblLastExportDate.Text= dateTime.ToString();
+			// fire delayed task to clean the message label
+			//LogTrendInfoPanel test= new LogTrendInfoPanel();
+			//         test.Start();
+			//         test.lblLastExportDate.Text = dateTime.ToString();
+			//GenerateDelayedTask.Start();
+		}
         catch (Exception e)
         {
             lblExportMessage.Text = e.Message;
@@ -295,12 +305,12 @@ public class LogTrendExportLogic : BaseNetLogic
     }
 
         private IUAObject GetContext(string path)
-    {
-        var obj = Project.Current.GetObject(path);
-        if (obj == null) 
         {
+          var obj = Project.Current.GetObject(path);
+          if (obj == null) 
+          {
             throw new Exception("Error trying to calculate the number of days in a month. Check configuration.");
+          }
+          return obj;
         }
-        return obj;
-    }
 }

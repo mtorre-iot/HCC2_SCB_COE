@@ -95,21 +95,6 @@ public class UIUpdate
         }
     }
 
-    public void IODigitalOutputRequest(string IOName, bool val)
-    {
-        // get Model IO Variable from Name
-        IUAVariable outpVar = fn.GetVariableModel(IOName);
-        int num = 0;
-        try
-        {
-            num = Convert.ToInt32(outpVar.BrowseName.Substring(2));
-        }
-        catch (Exception e)
-        {
-            Log.Error("ProcessSwitch() - error trying to extract number on " + outpVar.BrowseName + " Error: " + e.Message);
-        }
-        UpdateIOinDigitalDBList(num, val);
-    }
     public void ProcessSwitch(IUAObject logicObject, NodeId swNodeId, NodeId modelNodeId)
     {
         // Get the switch object
@@ -119,7 +104,7 @@ public class UIUpdate
         // Get the Model data object
         IUAVariable doVar = fn.GetVariableModelFromId (modelNodeId);
         //
-        // set the state into SCANDB
+        // set the state into rgew SCANDB
         //
         int num = 0;
         try
@@ -130,20 +115,6 @@ public class UIUpdate
         {
             Log.Error("ProcessSwitch() - error trying to extract number on " + doVar.BrowseName + " Error: " + e.Message);
         }
-        UpdateIOinDigitalDBList(num, val);   
-    }
-    private void UpdateIOinDigitalDBList(int num, bool val)
-    {   
-        try
-        {
-            mtx.WaitOne(); // lock the DB
-        }
-        catch (Exception e)
-        {
-            Log.Error("UpdateIOinDigitalDBList() - error trying to get hold of mutex. Error: " + e.Message);
-            throw;
-        }
-
         foreach (DiscreteIOInfo dio in eapi.discreteIOsList)
         {
             if ((dio.ioType == IoType.dOutput) && (dio.num == num))
@@ -151,14 +122,6 @@ public class UIUpdate
                 dio.value = Convert.ToUInt32(val);
             }
         }
-        try
-        {
-            mtx.ReleaseMutex();
-        }
-        catch (Exception e)
-        {
-            Log.Error ("UpdateIOinDigitalDBList() - error trying to release mutex. Error: " + e.Message);
-            throw;
-        }
+        
     }
 }

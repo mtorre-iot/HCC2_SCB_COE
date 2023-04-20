@@ -12,7 +12,7 @@ Children:
     Id: g=89acd18e8325635a5201be15004eb9e9
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
+    Value: 2
   - Name: MaximumLength
     Id: g=fde276f31e0d561acc6a3c91aaa362c0
     Type: BaseDataVariableType
@@ -33,7 +33,7 @@ Children:
     Id: g=dd5054195b024f44e7f2920386362c9b
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
+    Value: 2
   - Name: NumRegister
     Id: g=381a57d66ed375518b844ff1acf87b85
     Type: BaseDataVariableType

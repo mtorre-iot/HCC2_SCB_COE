@@ -857,3 +857,144 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: ""
+- Name: BaudRateComboBoxOption
+  Id: g=33915a12f283607fa78b8c91ee9ef902
+  Type: BaseObjectType
+  Children:
+  - Name: 300
+    Id: g=fa4fa09aee0fad06d32ddd4d635d7b8f
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: 1200
+    Id: g=3c0a0e7b8feba1a358baa57d5540dd7e
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 1
+  - Name: 2400
+    Id: g=0a102bf304ab41337e2080698a166133
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 2
+  - Name: 4800
+    Id: g=507128fbb3d16deb3adb63dd8a85a098
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 3
+  - Name: 9600
+    Id: g=b05d46fc32365902d4c91152ce6cf25c
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 4
+  - Name: 19200
+    Id: g=9f00edba6f1de57174902fa5f86cb310
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 5
+  - Name: 38400
+    Id: g=4f5531fc3cf15bf575ad674edc013a65
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 6
+  - Name: 57600
+    Id: g=5504e72d789585ae0797d056dbca63ff
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 7
+  - Name: 115200
+    Id: g=f98d48af199f276b121c2f169bace61b
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 8
+  - Name: 230400
+    Id: g=a9d3274ef483f5c694a16f5f8fe38b63
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 9
+  - Name: 460800
+    Id: g=36d2fecf5a870272ea952d562c08b863
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 10
+  - Name: 921600
+    Id: g=9b46ed84f476534712b930fb5180dc0e
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 11
+- Name: DataBitsComboBoxOption
+  Id: g=9b5d3295020f3a77a1e01ca63d681ada
+  Type: BaseObjectType
+  Children:
+  - Name: 4
+    Id: g=5d4ea8e47f5ffa56963319acf228d5a3
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: 5
+    Id: g=eb511ee6cbd5191b2876ca50e2ca64ca
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: 6
+    Id: g=a59b0a7afe028c11e731eb99616b9a7a
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: 7
+    Id: g=8f7ea27e0be2f23bf0121936597a5d47
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: 8
+    Id: g=0a9af1906d7d3d035898a8a905cf2527
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+- Name: StopBitsComboBoxOption
+  Id: g=f38fcb6a0e65959fac2b46f82aa4eab7
+  Type: BaseObjectType
+  Children:
+  - Name: 1
+    Id: g=ab44fba57a271a1fe6959ed567e327b1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: 1.5
+    Id: g=2ff0a3827acdc655a54c0717e2a24888
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: 2
+    Id: g=c30eb832d4deb4fb0d50a70bd289bc1e
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+- Name: ParityComboBoxOption
+  Id: g=d2f3f039e36b0ed0582a900a2f0bd1ae
+  Type: BaseObjectType
+  Children:
+  - Name: Even
+    Id: g=020e17436b4903a613050a0aa8c03227
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Odd
+    Id: g=c61ff7a7b3b1afb27c82380dec9f109b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: None
+    Id: g=c0c719b1924e082bf37bbbc2c3288fec
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Mark
+    Id: g=ad6893ba1ba0dfed50810bf00541a21b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Space
+    Id: g=3326f4a82d8372dcc68df493b6e135a3
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

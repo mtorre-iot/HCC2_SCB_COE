@@ -5,13 +5,8 @@ using UAManagedCore;
 // WARNING: AUTO-GENERATED CODE, DO NOT EDIT!
 //-------------------------------------------
 
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "2eebfd3def044e747aa57952fc13c70d")]
-public class Logout : FTOptix.UI.Panel
-{
-}
-
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "fc0d46c3cf6fc6f7faace8fa13bde2b5")]
-public class LoginChangePasswordForm : FTOptix.UI.Panel
+[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "93af8ea2e56e336c1f06b318aea6cad1")]
+public class AlarmsDatabasePanel : FTOptix.UI.Panel
 {
 }
 
@@ -40,11 +35,6 @@ public class AlarmManagementPanel : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "ea9b61ae519fb0bb047433e9f3ee5504")]
-public class Window1 : FTOptix.UI.Window
-{
-}
-
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "fcea63c4c212ec86187048b00706a47c")]
 public class LogTrendDatedExport : FTOptix.UI.Panel
 {
@@ -62,11 +52,6 @@ public class SummaryPanel : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "28ae898a63369cb343c7e8642dffe89d")]
 public class DownloadLogsPanel : FTOptix.UI.Panel
-{
-}
-
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "93af8ea2e56e336c1f06b318aea6cad1")]
-public class AlarmsDatabasePanel : FTOptix.UI.Panel
 {
 }
 
@@ -135,11 +120,6 @@ public class LogExportTrendInfoPanel : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "ce814fddddd607c776a3b9a6e0b90c27")]
-public class Login : FTOptix.UI.Panel
-{
-}
-
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "d861f5cf25078cc999c306f660f97085")]
 public class SetDialogUnitPanel : FTOptix.UI.Panel
 {
@@ -182,15 +162,5 @@ public class Rectangle : FTOptix.UI.Rectangle
 
 [MapType(NamespaceUri = "HCC2_SCB_2", Guid = "dc242bb297be44da35499d8e61b4aa19")]
 public class LogoutDialogBox : FTOptix.UI.Dialog
-{
-}
-
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "d0fba00ff93f064d6e1cb546eea27209")]
-public class LoginForm : FTOptix.UI.PanelLoader
-{
-}
-
-[MapType(NamespaceUri = "HCC2_SCB_2", Guid = "53b1bd1b17b4de66926108a7dfdf143e")]
-public class LoginPasswordExpiredDialog : FTOptix.UI.Dialog
 {
 }

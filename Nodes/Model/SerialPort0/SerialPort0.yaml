@@ -1,0 +1,202 @@
+Name: SerialPort0
+Id: g=76602e78dbd3c044184bdc950371cf03
+Type: FolderType
+Children:
+- Name: BaudRate
+  Id: g=383f90798bbdd2278754a8a7d3b7896f
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: KeyValueConverter1
+    Id: g=3c69b5a5ff64e356f5bbf7866f335322
+    Type: ValueMapConverter
+    Children:
+    - Name: Source
+      Id: g=15d9e7dfa120f1e57805dbf601ef4742
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=154c3e6b6217b78276e2bcffa2b940a7
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../BaudRateValue"
+    - Name: Pairs
+      Id: g=abb45bdfe737081d52ae54b82502d80a
+      Type: BaseObjectType
+      Children:
+      - Name: Pair
+        Id: g=5dabe5947e338554cc42ab584fec4656
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=3b990a2159e68e032429f88916dae447
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 300
+        - Name: Value
+          Id: g=ce2fac2779214d4c3a26b24709ec96e3
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 0
+      - Name: Pair1
+        Id: g=f637e045d7c02a1572150238157ead28
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=7521412ac99d3bd43a18769d253a5cbf
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 1200
+        - Name: Value
+          Id: g=b21c896443041f69a38dcbf18aa020c7
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 1
+      - Name: Pair2
+        Id: g=90ad421c539f074c86d7704aaed1db96
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=a688f3af39050cac75973c5d1b1f0ffc
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 2400
+        - Name: Value
+          Id: g=58aed6b49fe92c7e636e360ec0b1f54d
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 2
+      - Name: Pair3
+        Id: g=7d5b020b6ad0418bf00ff6a7404d9c03
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=8a9d2858055df2a20857d4f4f10db70e
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 4800
+        - Name: Value
+          Id: g=3211ae69ffd244e577e4ace7c89d4222
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 3
+      - Name: Pair4
+        Id: g=b1467f3a2d58f79935098369c226c77f
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=6e4ad2e19fffa4a1d8f6dd7b373af091
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 9600
+        - Name: Value
+          Id: g=78ffd7d7c793ff39342dad2997e249c0
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 4
+      - Name: Pair5
+        Id: g=818f04f9a46b3f576873a8fe4101d63c
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=892e1d9b379ee2899494102babccde23
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 19200
+        - Name: Value
+          Id: g=9d824ca07c7c15383e9b0aa083dcdd80
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 5
+      - Name: Pair6
+        Id: g=0c664c383aa5934e62a7e72a7a2eea48
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=13c2d723753023f4153f387707fcb87a
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 38400
+        - Name: Value
+          Id: g=0601dc087a9df5265f8c44c032e6a1c7
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 6
+      - Name: Pair7
+        Id: g=434367ea135bb93b931fad9c29b77c44
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=c215f814cccc8f69a212cd5164bf2267
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 57600
+        - Name: Value
+          Id: g=d987e3da17b698deb6a00d387c021aa1
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 7
+      - Name: Pair8
+        Id: g=e0525abf32db4097108c20b8ccd1ad86
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=a77fecdebf43f3f53193a3c88be11c4c
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 115200
+        - Name: Value
+          Id: g=58e5d12838bd192421f46f2f23f3fdfe
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 8
+      - Name: Pair9
+        Id: g=37d88682d020b19b8633f194eaeb6a80
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=8afce653c666f758b64efeeaf66fd894
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 230400
+        - Name: Value
+          Id: g=e61ba8e7051d5d6df4d781ad57e8fc2f
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 9
+      - Name: Pair10
+        Id: g=5418557a6ab433a9cb3d7d6f28fc8a0b
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=cef2fa635d50c0cc900a4ceabeaccb23
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 460800
+        - Name: Value
+          Id: g=0afccfb93deb0785b1a0ddf7677c9b90
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 10
+      - Name: Pair11
+        Id: g=918797f4185e54208f7b39fa68870647
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Id: g=c3f79a52371c9c01ab98f0b2de639d4a
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 921600
+        - Name: Value
+          Id: g=83f7a36c1f2625baabe1cc03bbb65c79
+          Type: BaseDataVariableType
+          DataType: Int16
+          Value: 11
+- Name: BaudRateValue
+  Id: g=54be8c063d2e0c7db4ff5990206187d6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
